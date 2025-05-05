@@ -109,7 +109,7 @@ def getClosedAt(positions):
 # 저장 폴더는 Data_Files
 # 해당 폴더는 gitignore에 추가되어있으니 올라가지 않을것임
 def toCsvFile(dataFrame, date):
-    dataFrame.to_csv(f"../Data_Files/Crawling_DataFile_MainPage_Csv_{date}", header=False, sep='\t')
+    dataFrame.to_csv(f"../Data_Files/Crawling_DataFile_MainPage_Csv_{date}.txt", header=False, sep='\t')
 
 def toJsonFile(dataFrame, date):
-    dataFrame.to_json(f"../Data_Files/Crawling_DataFile_MainPage_json_{date}",force_ascii=False)
+    dataFrame.to_json(f"../Data_Files/Crawling_DataFile_MainPage_json_{date}.txt",force_ascii=False)
