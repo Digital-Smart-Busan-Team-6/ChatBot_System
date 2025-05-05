@@ -9,53 +9,6 @@ from bs4 import BeautifulSoup
 # 점핏 메인 페이지의 url입니다
 MAIN_URL = "https://jumpit-api.saramin.co.kr/api/positions?sort=rsp_rate&highlight=false&page="
 
-
-'''
-점핏 메인 페이지를 가져오는 함수입니다
-전체 공고의 제목, 회사 이름, 업무 종류, 테크 스택을 리턴 시켜 줍니다
-title, company, jobCategory, techStacks = getJumpitMainPage() 형식
-'''
-
-'''
-def getJumpitMainPage():
-    allTechStacks = []
-    allJobCategory = []
-    allTitle = []
-    allCompanyName = []
-    i = 1
-    isEmpty = False
-    pbar = tqdm()
-    # 빈 페이지까지 반복문 실행
-    while(isEmpty == False):
-        page = requests.get(MAIN_URL + str(i))
-        soup = BeautifulSoup(page.content, "lxml")  # lxml Parser 사용
-        json_text = soup.find('p').text
-        data = json.loads(json_text)  # json 형식으로 변환 
-
-        isEmpty = data['result']['emptyPosition']  # 빈 페이지인지 체크
-
-        result = data['result']  
-        positions = result['positions']  # result 안의 positions 리스트를 데이터 딕셔너리 형태로 모두 가져옴
-        
-        # 내용들 긁어와서 리스트 형태로 변환
-        companyName = [position['companyName'] for position in positions] 
-        techStacks = [position['techStacks'] for position in positions]  
-        job_category = [position['jobCategory'] for position in positions]
-        title = [position['title'] for position in positions] 
-        
-        # 각 공고문마다 긁어온 데이터들을 한 리스트에 넣어줌
-        allTechStacks.extend(techStacks)  # allTechStack에 techStacks들 붙이기
-        allJobCategory.extend(job_category)
-        allTitle.extend(title)
-        allCompanyName.extend(companyName)
-        
-        pbar.update(1)  # 진행 상황 확인 위한 바 업데이트   
-        time.sleep(0.5)  # 크롤링 매크로 탐지 방지 위해 sleep
-        i += 1
-    print('모든 페이지 정보를 가져 왔습니다')
-    return allTitle, allCompanyName, allJobCategory, allTechStacks
-'''
-
 '''
 점핏 메인 페이지를 가져오는 함수입니다
 xml 형식으로 되어있는 페이지의 Positions를 가져옵니다
