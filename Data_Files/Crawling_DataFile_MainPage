@@ -1,0 +1,1503 @@
+0	블록체인 스마트컨트랙트 주니어개발자	['Node.js', 'TypeScript', 'Go', 'rollup', 'Blockchain']	블록체인
+1	Frontend Engineer 시니어(Product 3)	['TypeScript', 'SCSS', 'Angular 2', 'RxJS', 'NGINX', 'Git', 'Docker', 'Kubernetes']	프론트엔드 개발자
+2	Front-End 엔지니어 채용(미들급)	['JavaScript', 'Vue.js', 'React', 'TypeScript', 'Git']	프론트엔드 개발자
+3	솔루션운영 엔지니어 (1년 이상)	['Python', 'Java', 'PostgreSQL', 'NGINX', 'Docker', 'Kubernetes', 'Linux', 'Ubuntu']	서버/백엔드 개발자,SW/솔루션
+4	사내 시스템 담당자, ERP팀(대리-과장급)	['ERP', 'MES', 'React Query', 'Kubernetes', 'MSA', 'Deta Cloud']	정보보안 담당자
+5	[인공지능솔루션] Backend Engineer	['Docker', 'Python', 'FastAPI', 'GitHub', 'Django', 'Jira', 'NoSql', 'Flask', 'Linux']	서버/백엔드 개발자
+6	Data Engineer(Knowledge Engineering)	['Docker', 'Hadoop', 'Kubeflow', 'Git', 'MongoDB', 'Kubernetes', 'Jenkins', 'Argo', 'PyTorch', 'Kafka']	빅데이터 엔지니어
+7	AI Engineer - 전문연구요원 가능	['TypeScript', 'Python', 'C++', 'CMake']	인공지능/머신러닝,SW/솔루션
+8	[삼성계열사]백엔드 서버/보안 솔루션개발자	['Java', 'Spring', 'Spring Boot', 'C', 'C++', 'TCP/IP', 'MQTT', 'VPN', 'Backendless']	서버/백엔드 개발자,정보보안 담당자
+9	신입 개발자 채용	['Spring Boot', 'Kotlin', 'PostgreSQL', 'Git', 'TypeScript', 'Node.js']	서버/백엔드 개발자,웹 풀스택 개발자
+10	Data Engineer (비웹수집 파이프라인)	['Python', 'Java', 'REST API', 'Git', 'Argo', 'Docker', 'Kubernetes', 'Kafka', 'RabbitMQ', 'RDB']	빅데이터 엔지니어
+11	솔루션운영 엔지니어 (5년 이상)	['Python', 'Java', 'PostgreSQL', 'NGINX', 'Docker', 'Kubernetes', 'Linux', 'Ubuntu']	서버/백엔드 개발자,개발 PM
+12	AI 백엔드 시스템 엔지니어 채용	['SQL', 'PostgreSQL', 'Python', 'Azure DevOps', 'REST API', 'gRPC', 'AI/인공지능', 'Kubernetes', 'GCP', 'AZURE']	서버/백엔드 개발자,인공지능/머신러닝
+13	프론트엔드 개발자	['React', 'TypeScript', 'GraphQL', 'Electron', 'AWS', 'MSA', 'C++', 'C']	프론트엔드 개발자
+14	MES개발/운영 경력 채용	['MES', 'Spring Boot', 'Vue.js', 'Java', 'ERP', 'DB', 'PLC', 'Oracle', 'MSSQL']	개발 PM,SW/솔루션
+15	안드로이드 개발자 (Android Developer)	['Kotlin', 'Java']	안드로이드 개발자
+16	AI 백엔드 시스템 엔지니어	['Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'Kubernetes', 'Istio', 'Helm', 'Git']	서버/백엔드 개발자,devops/시스템 엔지니어
+17	[Catalyst] 퍼블리셔	['JavaScript', 'jQuery', 'jQuery UI']	웹퍼블리셔
+18	Software QA Engineer	['QA']	QA 엔지니어
+19	BE Engineer	['TypeScript', 'NestJS', 'MongoDB', 'NoSql', 'AZURE', 'AWS', 'Rust']	서버/백엔드 개발자
+20	Data Engineer (상주 인턴)	['Docker', 'Hadoop', 'Kubeflow', 'Git', 'MongoDB', 'Kubernetes', 'Jenkins', 'Argo', 'PyTorch', 'Kafka']	빅데이터 엔지니어
+21	AI연구팀장 경력10년이상	['MySQL', 'PostgreSQL', 'REST API', 'Prisma', 'Python', 'AWS', 'React', 'AI/인공지능', 'Flow', 'Node.js']	인공지능/머신러닝
+22	자연어처리 엔지니어 채용	['SQL', 'PostgreSQL', 'Python', 'Azure DevOps', 'Git', 'Linux', 'AI/인공지능', 'Docker', 'Kubernetes', 'REST API']	기술지원
+23	컴퓨터비전 엔지니어 채용	['Docker', 'Linux', 'Git', 'gRPC', 'SQL', 'Kubernetes', 'TensorFlow', 'PostgreSQL', 'Python', 'Azure DevOps']	기술지원,인공지능/머신러닝
+24	Front-end Web Developer	['ES6', 'React', 'Next.js', 'TypeScript']	프론트엔드 개발자
+25	[Catalyst]글로벌앱 Tagging개발/운영	['Google Tag Manager', 'HTML5', 'JavaScript', 'Flutter', 'BI', 'Google Ads', 'Google Analytics', 'Android OS', 'iOS']	iOS 개발자,안드로이드 개발자
+26	모햇 서비스 프론트엔드 개발	['JavaScript', 'CSS 3', 'HTML5', 'MySQL', 'Vue.js', 'Linux', 'Python']	서버/백엔드 개발자,프론트엔드 개발자
+27	자율주행 임베디드 SW 엔지니어(전문연 지원 가능)	['C', 'Python', 'Embedded', 'FW', 'ethernet', 'RTOS', 'MCU']	HW/임베디드
+28	스트리밍기반 콘텐츠서비스 프론트엔드	['JavaScript', 'React', 'Next.js', 'CSS 3', 'HTML5', 'TypeScript']	프론트엔드 개발자
+29	토큰증권 서비스 프론트엔드 개발(미들급)	['JavaScript', 'Vue.js', 'React', 'TypeScript', 'Git']	프론트엔드 개발자
+30	데이터 분석 플랫폼 개발자(경력 6~10년)	['Java', 'Spring Framework', 'JavaScript', 'Python']	웹 풀스택 개발자,SW/솔루션
+31	[코스닥상장사] iOS 앱 개발자 채용	['iOS', 'Swift', 'Objective-C', 'REST API', 'SQLite', 'Git']	iOS 개발자
+32	백엔드 개발자 채용 (5년 이상)	['Spring Boot', 'Kubernetes', 'MySQL', 'Kafka', 'Elasticsearch', 'REST API', 'MSA', 'AWS', 'Java']	서버/백엔드 개발자
+33	Back-End Engineer	['Kotlin', 'Spring Boot', 'Go', 'Python', 'Java', 'MySQL', 'Apache RocketMQ', 'Kubernetes', 'Rust', 'Kafka']	서버/백엔드 개발자
+34	[IT Infra]IT Administrative Engineer	['Shell', 'Docker', 'Kubernetes', 'Jenkins', 'Ansible', 'Git', 'Grafana', 'Prometheus']	기술지원,정보보안 담당자
+35	[JTBC] 서비스개발팀 경력채용 (백엔드 개발)	['JavaScript', 'MSSQL', 'MariaDB', 'Redis']	서버/백엔드 개발자
+36	데이터 엔지니어 채용	['SQL', 'PostgreSQL', 'Python', 'Azure DevOps', 'Git', 'Docker', 'REST API', 'gRPC', 'AWS', 'AZURE']	서버/백엔드 개발자,빅데이터 엔지니어
+37	웹 프론트엔드 개발자 (3년 이상)	['React', 'Next.js', 'Vue.js']	프론트엔드 개발자
+38	서버개발팀  웹클라이언트 개발자(경력)	['JavaScript', 'CSS 3', 'HTML5']	프론트엔드 개발자
+39	임베디드 소프트웨어 개발자(신입~4년차)	['C', 'C++', 'SW', 'Embedded']	SW/솔루션
+40	프론트엔드 개발자	['React', 'GitHub', 'Jira', 'Confluence', 'Python']	프론트엔드 개발자
+41	웹 개발자 책임급	['React', 'Next.js', 'Vue.js', 'Python', 'Java', 'TypeScript', 'GraphQL']	웹 풀스택 개발자
+42	보안 네트워크 개발자 (경력)	['Firewall', 'C++', 'Linux', 'TCP/IP', 'Python', 'Shell', 'C', 'Network']	devops/시스템 엔지니어,정보보안 담당자
+43	SW 개발 PM(Project Manager) 주임급	['Python', 'AWS', 'Git', 'iOS', 'Linux', 'Android OS', 'C++', 'C']	개발 PM,SW/솔루션
+44	Front-End 엔지니어(9년 이상)	['JavaScript', 'Vue.js', 'React', 'TypeScript', 'Git']	프론트엔드 개발자
+45	센서 칼리브레이션 엔지니어 채용	['C++', 'ROS', 'Python', 'OpenCV']	HW/임베디드,SW/솔루션
+46	서버개발팀 모바일 개발자(경력)	['Android Studio', 'Node.js', 'Webpack', 'Redux', 'React Native', 'Recoil', 'Xcode']	iOS 개발자,안드로이드 개발자
+47	Tech - Backend Engineer	['Python', 'Django', 'FastAPI', 'Flask', 'Celery', 'AI/인공지능', 'Git', 'Docker', 'Pandas']	서버/백엔드 개발자
+48	Sr. Researcher (LLM)	['MachineLearning', 'AI/인공지능', 'NLP']	인공지능/머신러닝
+49	전력변환 시뮬레이션 엔지니어 (전문연 지원 가능)	['MATLAB']	HW/임베디드,SW/솔루션
+50	로봇 개발  및 운영(7~10년)	['C++', 'JSP', '.NET', 'MSSQL', 'MySQL', 'Python', 'SQL']	기술지원,인공지능/머신러닝
+51	CAD Engineer - 전문연구요원 가능	['TypeScript', 'C++', 'CMake', 'OpenGL']	SW/솔루션
+52	[NPU] Linux Device Driver Engineer	['Linux', 'C', 'C++', 'TensorFlow', 'PyTorch']	VR/AR/3D,HW/임베디드
+53	판교연구소 SW개발 (경력 10~12년)	['C', 'C++', 'Embedded Linux', 'JsonAPI']	HW/임베디드,SW/솔루션
+54	PROJECT관리 PM/PL(4~6년)	['C++', 'MSSQL', 'MySQL', 'Python', 'JSP', 'SQL', 'Java']	개발 PM,SW/솔루션
+55	보안 솔루션 엔지니어 (경력)	['Python']	정보보안 담당자
+56	Robotics/SW Engineer:제어알고리즘(1)	['C++', 'Python', 'Git', 'Notion', 'Jira', 'C', 'MATLAB', 'SW']	SW/솔루션
+57	[인공지능솔루션] ML Engineer	['Docker', 'PyTorch', 'Kubernetes']	서버/백엔드 개발자,인공지능/머신러닝
+58	[Catalyst]소셜리스닝 전문가-컨설턴트	['Google Analytics', 'EDA', 'Sprout Social', 'Sprinklr', 'Brandwatch', 'Talkwalker']	빅데이터 엔지니어,DBA
+59	[Catalyst]CDP솔루션 컨설턴트	['ERP', 'Python', 'Dataform']	DBA,SW/솔루션
+60	Data Engineer (포트 스캐너 개발)	['Git', 'MongoDB', 'Python', 'Docker', 'Kubernetes', 'RabbitMQ', 'Go', 'C', 'Linux']	빅데이터 엔지니어
+61	[인공지능솔루션] Search Engineer	['Elasticsearch', 'Docker', 'Python', 'Kubernetes']	서버/백엔드 개발자,SW/솔루션
+62	임베디드 소프트웨어 개발자(9~12년차)	['C', 'C++', 'SW', 'Embedded']	SW/솔루션
+63	[Catalyst]비즈니스 컨설턴트-Data분석	['Google Analytics', 'SocialTracker', 'Qrvey Analytics', 'Pirsch Analytics']	빅데이터 엔지니어,DBA
+64	Platform MLOps Engineer	['Go', 'MachineLearning', 'Airflow', 'Kubernetes', 'Python']	SW/솔루션
+65	PHP 웹개발자 채용 (경력 3~5년)	['PHP', 'MySQL', 'Apache Tomcat', 'Linux', 'Laravel', 'XML', 'CSS 3', 'JavaScript', 'jQuery']	웹 풀스택 개발자
+66	토큰증권서비스 프론트엔드(9년~11년)	['JavaScript', 'Vue.js', 'React', 'TypeScript', 'Git']	프론트엔드 개발자
+67	모터제어 엔지니어(6~10년차)	['C', 'C++', 'SW', 'Embedded']	SW/솔루션
+68	Senior Threat Analyst	['Git', 'MongoDB', 'Python', 'Docker', 'Kubernetes', 'NoSql', 'C#', 'Golang', 'macOS', 'Linux']	정보보안 담당자
+69	로봇제어Engineer:Senior(과장-부장)[박사급]	['C++', 'Python', 'Git', 'Notion', 'Jira', 'C', 'MATLAB', 'SW']	SW/솔루션
+70	[DRAM PHY]SiliconValidation Engineer	['C', 'Python']	HW/임베디드
+71	[대구] RTL 설계엔지니어(경력 4~16년)	['Verilog', 'C', 'C++', 'Python', 'Linux', 'HW', 'FPGA', 'VHDL']	HW/임베디드
+72	Verification 담당자 (3년 이상)	['Python', 'Playwright', 'Cypress', 'GUI', 'JavaScript']	SW/솔루션
+73	[Network-on-Chip]RTL Design Engineer	['Verilog', 'C', 'Python']	프론트엔드 개발자,HW/임베디드
+74	DevOps 엔지니어 채용 (4년 이상)	['Kubernetes', 'Kafka', 'Redis', 'Elasticsearch', 'MSA', 'ISMS', 'Java', 'AWS']	devops/시스템 엔지니어
+75	토큰증권서비스 프론트엔드개발(6년~8년)	['JavaScript', 'Vue.js', 'React', 'TypeScript', 'Git']	프론트엔드 개발자
+76	[Catalyst] GA/AA 분석	['Google Analytics', 'Segment', 'SQL', 'Google BigQuery Data Transfer Service']	빅데이터 엔지니어,DBA
+77	백엔드개발자 시니어채용(11~13년)	['Spring Boot', 'Flask', 'FastAPI', 'Elasticsearch', 'Spring', 'PostgreSQL', 'Python']	서버/백엔드 개발자
+78	애플리케이션 및 클라우드 개발 (전문연구요원)	['AngularJS', 'Linux', 'Java', 'JavaScript', 'SQL', 'jQuery', 'Python', 'C', 'REST API', 'C++']	서버/백엔드 개발자,빅데이터 엔지니어
+79	판교연구소 SW개발 (경력 7~9년)	['C', 'C++', 'Embedded Linux', 'JsonAPI']	HW/임베디드,SW/솔루션
+80	Front-End 엔지니어 (6년~8년)	['JavaScript', 'Vue.js', 'React', 'TypeScript', 'Git']	프론트엔드 개발자
+81	환경 에너지 플랫폼 개발 PL	['Java', 'JavaScript', 'DB', 'SQL', 'Spring Framework', 'Spring Boot', 'Docker', 'BigData', 'Jenkins', 'Linux']	빅데이터 엔지니어,개발 PM
+82	SW Engineer:어플리케이션	['SW', 'C', 'C++', 'Qt', 'GUI', 'Embedded Linux', 'Linux']	프론트엔드 개발자
+83	[Network-on-Chip] Software Engineer	['C', 'C++', 'Python', 'JavaScript', 'ES6', 'EDA']	SW/솔루션
+84	자율주행 차량제어 엔지니어 (전문연 지원 가능)	['C++', 'Python']	SW/솔루션
+85	SQA실 테스트 담당자 (0~3년이하)	['QA', 'AWS', 'SW', 'vmware', 'Ccna']	QA 엔지니어,SW/솔루션
+86	매쓰플랫 백엔드 개발자 채용(6년 이상)	['TypeScript', 'AWS', 'Spring', 'RDB', 'Kotlin']	서버/백엔드 개발자
+87	AI연구팀장 경력7~9년	['MySQL', 'PostgreSQL', 'REST API', 'Prisma', 'Python', 'AWS', 'React', 'AI/인공지능', 'Flow', 'Node.js']	인공지능/머신러닝
+88	[Catalyst]플랫폼 마젠토/백엔드기획자	['Magento', 'ERP']	서버/백엔드 개발자
+89	Solution Developer	['Figma', 'Confluence', 'Jira']	SW/솔루션
+90	Node.js  백엔드 개발자 (4년 이상)	['Node.js', 'JavaScript', 'TypeScript', 'MySQL', 'Linux']	서버/백엔드 개발자
+91	환경 에너지 플랫폼 AI 엔지니어	['BigData', 'AI/인공지능', 'Docker', 'Hadoop', 'Pandas', 'Python', 'PyTorch', 'R', 'TensorFlow']	빅데이터 엔지니어,인공지능/머신러닝
+92	S/W Engineer-SLAM [전문연구요원가능]	['C++', 'ROS', 'Linux', 'Docker', 'Git']	SW/솔루션
+93	백엔드 개발자	['Node.js', 'ExpressJS', 'JavaScript', 'TypeScript', 'REST API', 'MySQL', 'MongoDB', 'Docker', 'Kubernetes']	서버/백엔드 개발자
+94	FW 엔지니어 (경력)	['C++', 'C', 'HW', 'FW']	HW/임베디드
+95	SW 엔지니어 채용	['Sass', 'AWS', 'TypeScript', 'Python', 'Docker', 'REST API', 'WebSocket']	SW/솔루션
+96	[Catalyst] SAP CC 기반 BA	['SAP', 'ERP', 'hybris-commerce', 'REST API', 'GraphQL', 'Adobe Experience Manager', 'AWS', 'AZURE', 'GCP', 'Java']	빅데이터 엔지니어,DBA
+97	백엔드개발자 시니어채용(8~10년)	['Spring Boot', 'Flask', 'FastAPI', 'Elasticsearch', 'Spring', 'PostgreSQL', 'Python']	서버/백엔드 개발자
+98	Tech Innovation 워킹그룹 풀스택 개발	['TypeScript', 'AWS', 'Spring', 'RDB', 'Kotlin']	서버/백엔드 개발자
+99	AI 플랫폼 백엔드 개발자	['Python', 'FastAPI', 'Docker', 'GitLab', 'Linux', 'MySQL', 'Vue.js', 'AWS', 'Jira']	서버/백엔드 개발자,웹 풀스택 개발자
+100	윈도우 어플리케이션 개발자	['Visual Studio', 'Mfc', 'C', 'C++', 'Windows']	SW/솔루션
+101	AI기반 바이오마커 예측 (병역특례)	['AI/인공지능', 'Linux', 'Python', 'GitHub', 'PyTorch']	인공지능/머신러닝
+102	AI기반 단백질 디자인 (병역특례)	['AI/인공지능', 'Linux', 'Python', 'GitHub', 'PyTorch']	인공지능/머신러닝
+103	안드로이드 개발자	['Kotlin', 'Coroutine', 'Flow']	안드로이드 개발자
+104	React/React Native 프론트엔드 개발자	['HTML5', 'CSS 3', 'JavaScript', 'React', 'React Native', 'redux-saga', 'TypeScript', 'Node.js', 'MySQL']	프론트엔드 개발자,크로스플랫폼 앱개발자
+105	Backend Developer(백엔드 개발자)	['Golang', 'Linux']	서버/백엔드 개발자
+106	Frontend Engineer(Lead)	['React', 'Next.js', 'TypeScript', 'Storybook', 'Emotion', 'JavaScript', 'jQuery', 'HTML5', 'Slack', 'Git']	프론트엔드 개발자
+107	[전문연구요원]AI엔지니어-DocumentAI	['Python', 'Java', 'AI/인공지능', 'Ubuntu', 'Windows']	서버/백엔드 개발자,기술지원,인공지능/머신러닝
+108	오프라인 결제 개발자(3~5년)	['Java', 'JavaScript', 'Spring Framework', 'Spring Boot', 'JSP', 'Linux', 'C#']	서버/백엔드 개발자
+109	Site Reliability Engineer	['AWS', 'Amazon EC2 Container Service', 'Amazon RDS', 'K8S', 'Terraform', 'GitHub Actions', 'Java', 'Spring Boot', 'Kubernetes', 'Docker']	서버/백엔드 개발자,웹 풀스택 개발자
+110	AI 개발자(전문연구요원 가능)	['Python', 'AI/인공지능', 'MachineLearning', 'AZURE', 'Google AI Platform', 'Cloud AI Platform Pipelines', 'R', 'Swift AI', 'Octane AI', 'Java']	인공지능/머신러닝,빅데이터 엔지니어
+111	쇼핑몰서비스 PHP 개발자 10년↑ 모집	['PHP', 'MySQL', 'MongoDB', 'Laravel', 'GitLab', 'JavaScript', 'jQuery']	서버/백엔드 개발자
+112	Front-End Engineer	['JavaScript', 'TypeScript', 'Vue.js', 'React', 'Flutter', 'Next.js', 'React.js Boilerplate', 'GitHub Actions']	프론트엔드 개발자
+113	Web Frontend Developer	['aws', 'react', 'TypeScript', 'JavaScript']	프론트엔드 개발자
+114	빅데이터 시스템 구축 및 운영 담당자	['Java', 'Docker', 'Kubernetes', 'Etl', 'Hadoop']	빅데이터 엔지니어
+115	[긴급] 웹개발자 모집 (jsp,java)	['JSP', 'Java', 'JavaScript', 'React', 'Spring Boot', 'TypeScript', 'ExpressJS']	웹 풀스택 개발자
+116	쇼핑몰서비스 PHP 개발자 3년이상 모집	['PHP', 'MySQL', 'MongoDB', 'Laravel', 'GitLab', 'JavaScript', 'jQuery']	서버/백엔드 개발자
+117	Backend Engineer (경력 8~12년)	['MySQL', 'Spring Boot', 'Java', 'QueryDSL', 'MariaDB']	서버/백엔드 개발자
+118	Frontend Engineer(React)(경력 8~12년)	['JavaScript', 'Git', 'TypeScript', 'React', 'Semantic UI', 'Semantic UI React', 'Java', 'HTML5', 'Vue.js', 'CSS 3']	프론트엔드 개발자
+119	웹 백엔드 개발자 (3년 이상)	['Python', 'Java']	서버/백엔드 개발자
+120	AI 개발자 (LLM)	['MachineLearning', 'Python', 'PyTorch', 'TensorFlow', 'OpenCV', 'MATLAB', 'Kubeflow', 'REST API', 'Embedded']	인공지능/머신러닝,SW/솔루션
+121	Backend Junior Engineer(PHP/Python)	['Linux', 'Python', 'AWS', 'SQL', 'Laravel', 'PHP', 'PySpark']	서버/백엔드 개발자
+122	임베디드 S/W 개발자	['Embedded', 'Linux', 'Network', 'Python', 'C++']	devops/시스템 엔지니어,HW/임베디드
+123	백엔드 개발자(PHP) 팀원	['PHP', 'JavaScript', 'HTML5', 'CSS 3', 'NGINX', 'MySQL', 'Git', 'MSSQL', '.NET', 'Linux']	서버/백엔드 개발자
+124	서버개발팀 백엔드 개발자(경력)	['Java', 'JSP', 'Spring Framework', 'RDB']	서버/백엔드 개발자
+125	AI서비스개발자(경력7~9년)	['Node.js', 'MySQL', 'PostgreSQL', 'REST API', 'Prisma', 'Python', 'AWS', 'React', 'AI/인공지능']	프론트엔드 개발자,인공지능/머신러닝
+126	[외국계 게임사] 인큐베이션 개발자(신입)	['Unity', 'Unreal Engine']	프론트엔드 개발자,게임 서버 개발자
+127	[경력] React Native 개발자 팀원 모집	['React', 'React Native', 'HTML5', 'CSS 3', 'JavaScript', 'TypeScript', 'GitHub', 'Git', 'REST API', 'Next.js']	프론트엔드 개발자
+128	인프라서비스팀_백엔드개발(주임)	['Java', 'Spring Framework', 'Spring Boot', 'QueryDSL', 'JUnit', 'Amazon Aurora']	서버/백엔드 개발자
+129	인증보안 백엔드 개발자	['Spring Boot', 'Java', 'MariaDB', 'Mybatis']	서버/백엔드 개발자
+130	전장설계 엔지니어 (신입)	['Autocad', 'Solidworks']	HW/임베디드
+131	백앤드 개발(2-15년)	['MySQL', 'Spring Boot', 'Java', 'Spring Data', 'Spring']	서버/백엔드 개발자
+132	Flutter 앱 개발자	['Flutter', 'Swift', 'Kotlin', 'Git', 'REST API', 'iOS', 'Android OS', 'Dart', 'GitLab', 'GitUI']	크로스플랫폼 앱개발자
+133	Java(Back-End)개발자 [경력 1~8년]	['Spring', 'Java', 'Linux', 'Blockchain', 'Spring Framework', 'MySQL', 'PostgreSQL', 'Oracle', 'REST API', 'Solidity']	서버/백엔드 개발자,블록체인
+134	[외국계 게임사] 인큐베이션 개발자(경력)	['Unity', 'Unreal Engine']	프론트엔드 개발자,게임 서버 개발자
+135	메세징 서비스 개발자 채용	['Java', 'REST API', 'AWS', 'Spring Boot', 'Python', 'MySQL', 'NoSql', 'Django', 'Flask']	서버/백엔드 개발자
+136	QA	['QA', 'Postman', 'Jira', 'Confluence', 'Slack']	QA 엔지니어
+137	소프트웨어 엔지니어 (신입)	['C#', 'C++', 'Python', 'SW', 'C', 'labview']	SW/솔루션
+138	보안 솔루션 엔지니어 (신입)	['Python']	정보보안 담당자
+139	백엔드 리드 개발자 (5~10년차)	['REST API']	서버/백엔드 개발자
+140	python 에이전트 개발자	['Python', 'FastAPI']	서버/백엔드 개발자,인공지능/머신러닝
+141	백엔드 서버 개발자	['Python', 'Kubernetes', 'Docker', 'Spring Boot', 'NGINX']	서버/백엔드 개발자
+142	2D/3D PERCEPTION MODEL 엔지니어	['Python', 'GitLab', 'PyTorch', 'OpenCV', 'notion.so', 'Docker', 'WSL']	인공지능/머신러닝,SW/솔루션
+143	비행선 제어 SW/HW 개발	['C++']	HW/임베디드,SW/솔루션
+144	기구개발 경력 채용(3년~5년)	['HW', '3D Rendering', 'SW', '2D Rendering', 'Autocad']	HW/임베디드,SW/솔루션
+145	C/C++ 이동통신 코어 백엔드 개발자	['C', 'C++', 'Network', 'Linux', 'Ubuntu', 'CentOS']	SW/솔루션
+146	NPU Verification Engineer	['C', 'C++', 'Linux', 'DeepLearning', 'MachineLearning', 'Embedded']	HW/임베디드
+147	GUI S/W 설계,개발 채용(10년↑)	['Visual C++', 'C#', 'JavaScript', 'Linux', 'REST API']	SW/솔루션
+148	선행개발 경력 (6~10년)	['HW', 'FW', 'MCU', 'FPGA', 'Linux', 'C', 'C++', 'C#', 'Orcad', 'Pads']	HW/임베디드
+149	에듀테크(EduTech) 웹 서비스 풀스택 개발자	['JavaScript', 'TypeScript', 'Node.js', 'NestJS', 'React']	웹 풀스택 개발자
+150	F/W개발(MCU) (경력 8~10년)	['C', 'FW', 'MCU']	HW/임베디드
+151	금융/NL2SQL 데이터 사이언티스트	['PyTorch', 'Transformers', 'TensorFlow']	빅데이터 엔지니어
+152	제어개발 경력 채용	['C++', 'C#']	SW/솔루션
+153	Java 백엔드 개발자(8~10년)	['Spring', 'JavaScript', 'jQuery', 'Java']	서버/백엔드 개발자
+154	F/W개발(MCU) (경력 5~7년)	['C', 'FW', 'MCU']	HW/임베디드
+155	System Engineer	['C', 'C++', 'Python', 'REST API', 'Linux']	SW/솔루션
+156	회로개발 (경력 11~15년)	['HW', 'SW', 'Embedded', 'FW']	HW/임베디드
+157	MS엔지니어 채용(경력5~10년)	['Microsoft Office 365', 'Windows Server', 'Active Directory', 'Network', 'AZURE', 'MSSQL', 'Microsoft Teams', 'Microsoft SharePoint']	기술지원
+158	Registration 연구 개발	['C++', 'Python', 'Swift']	인공지능/머신러닝,VR/AR/3D
+159	개발본부C/C++ 엔지니어(Middleware)	['C++', 'ROS', 'C', 'GUI']	SW/솔루션
+160	아틀라시안 개발	['Java', 'Confluence', 'Jira', 'Trello', 'Bitbucket', 'C#', 'Node.js', 'Oracle', 'MySQL', 'CSS 3', 'HTML5']	웹 풀스택 개발자
+161	SAS사업부 글로벌프로젝트 PM채용	['Google Analytics', 'SQL', 'Microsoft Excel']	개발 PM
+162	AMS사업부 ACS 개발자 채용	['C#', 'Java', 'JavaScript', 'PLC', 'Git', 'MES', 'TypeScript', 'MySQL', 'WebSocket', 'PostgreSQL']	SW/솔루션
+163	자동화 시스템 상용화 개발자	['C#', 'C++', 'SW', 'OpenCV']	프론트엔드 개발자,SW/솔루션
+164	데이터 사이언티스트(5년 이상)	['MachineLearning', 'DeepLearning', 'BigData', 'Python', 'R', 'SQL', 'Tableau']	빅데이터 엔지니어
+165	백엔드(Back-end)개발자(경력 7년이상)	['JavaScript', 'Network', 'RDB', 'NoSql', 'Node.js', 'Linux']	서버/백엔드 개발자
+166	SAP 운영/개발(MM 및 SD모듈)	['SAP', 'ABAP']	서버/백엔드 개발자
+167	프론트엔드 개발자_8년 이상	['React', 'REST API', 'HTML5', 'React Native', 'Vue.js', 'axios', 'CSS 3']	서버/백엔드 개발자
+168	Tech - Software Engineer	['Python', 'Redis', 'PyTorch', 'TensorFlow', 'AI/인공지능', 'OpenAPI']	서버/백엔드 개발자
+169	쇼핑몰서비스 PHP 개발자 6년이상 모집	['PHP', 'MySQL', 'MongoDB', 'Laravel', 'GitLab', 'JavaScript', 'jQuery']	서버/백엔드 개발자
+170	Tech - Frontend Engineer	['JavaScript', 'TypeScript', 'Emotion', 'Next.js', 'Recoil', 'Storybook', 'React Query', 'Zustand', 'React', 'React Native']	프론트엔드 개발자
+171	C++, C# 개발자 (경력)	['C#', 'C++', 'Autocad', 'Npl', 'WPF', 'Visual Studio', 'Git']	SW/솔루션
+172	인프라서비스팀_백엔드개발(과장)	['Java', 'Spring Framework', 'Spring Boot', 'QueryDSL', 'JUnit', 'Amazon Aurora']	서버/백엔드 개발자
+173	WEBFRONT-K 웹보안기능 / 시그니처개발	['C', 'C++', 'Python', 'Linux', 'Java']	서버/백엔드 개발자,SW/솔루션
+174	솔루션 QA담당(경력 6~10년)	['QA']	QA 엔지니어
+175	전장설계 엔지니어 (경력)	['Autocad', 'Solidworks']	HW/임베디드
+176	[인공지능솔루션] AI Engineer	['PyTorch', 'TensorFlow', 'Python', 'Kubernetes']	인공지능/머신러닝,SW/솔루션
+177	어플리케이션 및 클라우드 개발	['Java', 'Spring', 'Linux', 'Django', 'Python', 'REST API']	서버/백엔드 개발자,SW/솔루션
+178	안드로이드 개발 (3년 이상)	['Android OS', 'Java', 'Kotlin', 'Realm', 'Flutter']	안드로이드 개발자
+179	AI 시니어 개발자	['Python', 'PyTorch']	인공지능/머신러닝
+180	Java(Back-End)개발자 [리더급 9~20년]	['Spring', 'Java', 'Linux', 'Blockchain', 'MySQL', 'Oracle', 'REST API', 'Solidity', 'Spring Framework', 'PostgreSQL']	서버/백엔드 개발자
+181	임베디드 무선 펌웨어 개발자 모집	['Embedded', 'C', 'C++', 'Python', 'Socket.IO', 'Yocto', 'Embedded Linux', 'Git', 'Jira']	HW/임베디드
+182	PROJECT관리 PM/PL(7~10년)	['C++', 'MSSQL', 'MySQL', 'Python', 'JSP', 'SQL', 'Java']	개발 PM,SW/솔루션
+183	Solution Engineer	['Git', 'Linux', 'Python', 'Docker Compose', 'Jira']	SW/솔루션
+184	MES 솔루션 개발 R&D 리더	['MES', 'Spring Boot', 'Vue.js', 'Java', 'ERP', 'DB', 'PLC', 'Oracle', 'MSSQL']	개발 PM,SW/솔루션
+185	인프라서비스팀_백엔드개발(대리)	['Java', 'Spring Framework', 'Spring Boot', 'QueryDSL', 'JUnit', 'Amazon Aurora']	서버/백엔드 개발자
+186	머신러닝 엔지니어 - 시니어	['Python', 'PyTorch', 'TensorFlow', 'DVC', 'Docker', 'Helm', 'Spark', 'AI/인공지능', 'Linux', 'Kubernetes']	인공지능/머신러닝
+187	네트워크 엔지니어 정규직 채용	['Network', 'L2', 'L3', 'L4', 'L7', 'Router', 'Switch', 'Cisco']	기술지원,devops/시스템 엔지니어
+188	QA Engineer (3년 이상)	['QA', 'Python', 'SW']	QA 엔지니어
+189	SAP 운영/개발(CO모듈)	['SAP', 'ABAP']	서버/백엔드 개발자
+190	.Net, C# Application Developer (Junior 가능)	['C++', 'Windows', 'Delphi', 'SQL', 'C#', '.NET']	SW/솔루션
+191	백엔드 개발자	['GitHub', 'Java', 'AWS', 'NGINX', 'MySQL', 'Spring Boot', 'Spring Data JPA']	서버/백엔드 개발자
+192	브랜다즈 백엔드개발자(자바/코틀린)	['Java', 'Kotlin', 'Spring Boot', 'Mybatis', 'MariaDB', 'MySQL', 'DataGrip', 'GitHub', 'Slack', 'Notion', 'Jenkins']	서버/백엔드 개발자
+193	[인공지능솔루션] Data Scientist	['PyTorch', 'TensorFlow', 'Python', 'Kubernetes', 'MachineLearning']	인공지능/머신러닝
+194	[플레이오] Python 백엔드	['Python', 'REST API', 'AWS', 'MySQL', 'GitHub', 'Docker Swarm', 'FastAPI']	서버/백엔드 개발자
+195	아키텍처 PM (15년차 이상)	['K8S', 'Airflow', 'Kubeflow', 'Python', 'Jenkins', 'Rancher', 'Grafana', 'Kubernetes']	개발 PM
+196	비전기반 AI 엔지니어 경력	['Python', 'PyTorch', 'OpenCV', 'Linux', 'ROS', 'AI/인공지능']	인공지능/머신러닝
+197	결제/인증 솔루션 개발 및 운영	['JavaScript', 'Java']	서버/백엔드 개발자
+198	FPGA 개발자 채용	['FPGA', 'Verilog', 'Git', 'AI/인공지능']	HW/임베디드
+199	웹 프론트엔드 개발자(React 4년 이상)	['React Native', 'JavaScript', 'TypeScript', 'Next.js', 'React Query', 'Zustand', 'AWS', 'Yarn', 'pnpm', 'React']	프론트엔드 개발자
+200	AI Research Engineer - LLM	['AI/인공지능', 'TensorFlow', 'PyTorch', 'NLP']	서버/백엔드 개발자,인공지능/머신러닝
+201	클라우드 솔루션 아키텍트 - GenAI(글로벌)	['AI/인공지능', 'AWS', 'GCP', 'AZURE', 'PyTorch']	인공지능/머신러닝
+202	써머스플랫폼 서비스기획자 (신입)	['Microsoft Excel']	서버/백엔드 개발자,개발 PM
+203	서버 개발자	['Java', 'Spring Boot', 'JSP', 'Linux', 'Mybatis', 'Oracle', 'MySQL', 'Bootstrap', 'REST API']	서버/백엔드 개발자
+204	제어개발 신입 채용	['C++', 'C#']	SW/솔루션
+205	Deep Learning Engineer	['C', 'C++', 'Python']	빅데이터 엔지니어,인공지능/머신러닝,SW/솔루션
+206	모바일 앱 프론트엔드 (React Native)	['React Native', 'JavaScript', 'TypeScript', 'React Query', 'Zustand', 'AWS', 'redux-thunk', 'fastlane', 'GitHub Actions', 'AWS Amplify']	iOS 개발자,프론트엔드 개발자,안드로이드 개발자
+207	백엔드(서버) 개발자 채용	['AWS', 'GitLab', 'Jenkins', 'Groovy', 'Git', 'WebRTC', 'Rust', 'K8S', 'Docker']	서버/백엔드 개발자
+208	Perception Engineer(자율주행 인지)	['C', 'C++', 'Python', 'DeepLearning']	인공지능/머신러닝,SW/솔루션
+209	Backend Engineer(5년 이상)	['Java', 'Gradle', 'Kotlin', 'Spring Boot', 'Spring Batch', 'MySQL', 'Spring Data JPA', 'Mybatis', 'QueryDSL', 'Amazon RDS', 'Git']	서버/백엔드 개발자
+210	이머커스/백오피스 시스템개발(11~15년)	['SQL', 'NoSql', 'MSA', 'AWS', 'Azure DevOps']	서버/백엔드 개발자
+211	[전문연구요원]AI연구엔지니어-LLM	['AI/인공지능', 'TensorFlow', 'PyTorch', 'NLP']	서버/백엔드 개발자,인공지능/머신러닝
+212	ERP 개발자 및 시스템 관리자	['ERP', 'SAP', 'Oracle', 'SQL', 'Java', 'Python', 'JavaScript', 'REST API', 'AWS', 'AZURE']	SW/솔루션
+213	Django 백엔드 개발자	['Django', 'Django REST framework', 'Celery', 'WebSocket', 'Next.js', 'React', 'Redis', 'PostgreSQL']	서버/백엔드 개발자
+214	블록체인 기술 개발 (주니어)	['Blockchain', 'Java', 'Jira', 'Confluence', 'Git']	서버/백엔드 개발자,블록체인
+215	스테이킹 서비스 개발 (주니어)	['Blockchain', 'Java', 'Jira', 'Confluence', 'Git']	서버/백엔드 개발자,블록체인
+216	Deep Learning Optimization Engineer	['Python', 'PyTorch', 'TensorFlow', 'DeepLearning', 'C', 'C++']	인공지능/머신러닝
+217	딥러닝 추론 최적화 개발자	['C', 'C++', 'Python', 'PyTorch', 'TensorFlow']	인공지능/머신러닝,SW/솔루션
+218	블록체인 클라우드 엔지니어 (주니어)	['AWS', 'Docker', 'Kubernetes', 'Terraform', 'Python', 'AWS Lambda', 'Ansible']	devops/시스템 엔지니어
+219	블록체인 서비스 개발 (주니어)	['Blockchain', 'Java', 'Spring', 'MySQL', 'Kafka', 'Redis', 'AWS']	서버/백엔드 개발자,블록체인
+220	Java 백엔드 개발자(11~15년)모집	['Java', 'Spring Framework', 'JSP', 'AWS', 'REST API', 'Linux', 'Python']	서버/백엔드 개발자
+221	프론트엔드 개발 경력 정규직 채용	['JavaScript', 'HTML5', 'CSS 3', 'AngularJS', 'AWS', 'Git', 'TypeScript']	프론트엔드 개발자
+222	IoT시스템 개발 기획(PM) 경력자 모집	['Azure IoT Hub', 'Google Cloud IoT Core', 'AWS IoT Device Management']	개발 PM
+223	DSP서비스 구축 엔지니어	['K8S', 'SQL', 'Helm']	서버/백엔드 개발자
+224	K8S 구축 백엔드 빅데이터 개발자	['K8S', 'Airflow', 'Kubeflow', 'Hadoop', 'Java', 'Python', 'Spark', 'Grafana', 'Kubernetes', 'Docker']	빅데이터 엔지니어
+225	빅데이터 엔지니어(5년이상)	['Hadoop', 'Kubernetes', 'BigData', 'Spark', 'Apache Flink']	서버/백엔드 개발자,빅데이터 엔지니어
+226	Motion Planning/Control Engineer	['C', 'C++', 'Python', 'MATLAB', 'Docker', 'ROS', 'SummitDB']	인공지능/머신러닝
+227	C++ 개발자 (수습평가 따라 재택 가능)	['C', 'C++', 'Jenkins', 'Git', 'Linux', 'C#', 'Qt']	SW/솔루션
+228	[Spring] Backend Engineer (5년차 이상)	['Spring Boot', 'PostgreSQL', 'AWS', 'Docker', 'Kubernetes', 'Redis', 'Swagger Codegen', 'Kotlin']	서버/백엔드 개발자
+229	Data Analyst 책임급 채용 [떠리몰]	['AWS', 'GCP', 'Looker', 'Jupyter', 'Python', 'MySQL', 'SQL', 'R', 'Tableau', 'Redash']	빅데이터 엔지니어,DBA
+230	프론트엔드 개발자 (경력 5~10년)	['Java', 'JavaScript', 'Spring Framework', 'React', 'SQL']	프론트엔드 개발자
+231	의료SW그룹 알고리즘 경력직 채용	['Python', 'MachineLearning', 'DeepLearning']	인공지능/머신러닝
+232	[커머스프로덕션] Jr. QA 엔지니어 채용	['Slack', 'Redmine', 'QA', 'Confluence', 'Jira', 'GitHub']	QA 엔지니어
+233	리눅스 C / C++ 서버 개발자	['C', 'C++', 'Linux', 'TCP/IP', 'Shell']	서버/백엔드 개발자
+234	PS부(솔루션컨설팅/기술지원)_부서장급	['Docker', 'Python', 'Network', 'Java', 'Windows', 'Linux']	기술지원,devops/시스템 엔지니어
+235	응용 소프트웨어 개발	['C', 'C++']	SW/솔루션
+236	의료기기 소프트웨어(SW) 개발자 모집	['DICOM', 'Qt', 'C++']	SW/솔루션
+237	Windows개발자 (경력 11년↑)	['WPF', 'C#', 'Visual Studio', 'C++', '.NET', 'Git', 'Slack', 'Windows']	SW/솔루션
+238	Global 서비스 Back-end개발	['Node.js', 'JavaScript', 'TypeScript', 'NestJS', 'ExpressJS', 'REST API']	서버/백엔드 개발자
+239	Product Engineer	['React', 'Next.js', 'TypeScript', 'REST API', 'Bitbucket', 'AWS', 'GitHub', 'Slack', 'Notion', 'Jira']	서버/백엔드 개발자,프론트엔드 개발자
+240	프론트엔드 개발자_5년 이상	['React', 'REST API', 'HTML5', 'React Native', 'Vue.js', 'axios', 'CSS 3']	서버/백엔드 개발자
+241	[코스닥 상장사] SRE 포지션 채용	['AWS', 'Linux', 'Docker', 'Kubernetes', 'Redis', 'Kafka', 'Windows']	devops/시스템 엔지니어
+242	Frontend Engineer(React)(경력 5~7년)	['JavaScript', 'Git', 'TypeScript', 'React', 'Semantic UI', 'Semantic UI React', 'Java', 'HTML5', 'Vue.js', 'CSS 3']	프론트엔드 개발자
+243	프론트엔드 (React, React Native)	['React', 'React Native', 'JavaScript', 'ES6', 'TypeScript', 'Redux', 'mobX', 'Recoil', 'D3.js', 'Chart.js']	프론트엔드 개발자
+244	Windows개발자 (신입~5년↓)	['WPF', 'C#', 'Visual Studio', 'C++', '.NET', 'Git', 'Slack', 'Windows']	SW/솔루션
+245	소프트웨어 엔지니어(경력)	['C#', 'labview', 'sw', 'C', 'C++']	SW/솔루션
+246	Sr. Backend Engineer	['Spring Batch', 'Spring', 'Spring Framework', 'MySQL', 'Java']	서버/백엔드 개발자
+247	서버/백엔드 개발자	['Java', 'Kotlin']	서버/백엔드 개발자
+248	솔루션 백엔드(Backend) 개발자	['Java', 'Shell', 'Spring', 'Spring Boot', 'Spring Security', 'Linux', 'Swagger UI']	서버/백엔드 개발자
+249	Node.js 백엔드 개발자 (경력직)	['Node.js', 'JavaScript', 'TypeScript', 'NestJS']	서버/백엔드 개발자,SW/솔루션
+250	솔루션 프론트엔드(Frontend) 개발자	['GUI', 'REST API', 'JavaScript', 'React', 'TypeScript', 'IntelliJ IDEA', 'Visual Studio Code', 'ApexCharts']	프론트엔드 개발자,웹퍼블리셔
+251	IT/AI부문(전문연구요원 포함)신입	['AI/인공지능', 'TypeScript', 'Next.js', 'Python', 'Chart.js', 'NLP']	프론트엔드 개발자,인공지능/머신러닝
+252	서비스플랫폼팀 리드 (개발 팀장)	['Python', 'Java', 'Node.js', 'NestJS']	웹 풀스택 개발자,개발 PM
+253	front End 개발자(threejs)	['TypeScript', 'three.js', 'Next.js', 'React', 'FastAPI', 'Python', 'JavaScript']	VR/AR/3D,프론트엔드 개발자
+254	React Native 앱 개발자	['Expo', 'React Native', 'TypeScript', 'Shell', 'Ruby', 'React Query', 'fastlane', 'TailwindCSS']	iOS 개발자,안드로이드 개발자
+255	AI Model Production - LLM	['AI/인공지능']	서버/백엔드 개발자,인공지능/머신러닝
+256	AI Research Engineer - Document AI	['AI/인공지능', 'TensorFlow', 'PyTorch', 'NLP']	서버/백엔드 개발자,인공지능/머신러닝
+257	백엔드 개발자 (16년 ~ 20년)	['Django', 'Django REST framework', 'MySQL', 'Rails', 'REST API', 'Node.js', 'Spring', 'Python', 'Oracle', 'PostgreSQL']	서버/백엔드 개발자
+258	Software Engineer - Backend	['SW', 'Backendless', 'Python', 'Golang']	서버/백엔드 개발자,SW/솔루션
+259	AI DevOps	['AI/인공지능', 'Oracle', 'MariaDB', 'PostgreSQL', 'Cassandra', 'NoSql', 'XML', 'JSON', 'Python', 'AWS']	서버/백엔드 개발자,인공지능/머신러닝
+260	Quality Engineer(VueTwo)	['Selenium', 'Python', 'QA', 'Appium']	인공지능/머신러닝,QA 엔지니어,SW/솔루션
+261	backend (python) 개발자	['Python', 'JavaScript', 'MariaDB', 'C++']	서버/백엔드 개발자
+262	전장개발 경력 채용	['Autocad']	HW/임베디드
+263	[CC CTO] Dev&AI Ops	['Kubernetes', 'Docker', 'Kafka', 'Hadoop', 'Spark', 'Python']	devops/시스템 엔지니어
+264	회로개발 (경력 3~7년)	['HW', 'SW', 'Embedded', 'FW']	HW/임베디드
+265	자연어처리/ Python 엔진 개발	['NoSql', 'Python', 'Django', 'Flask', 'FastAPI', 'Docker', 'SQL', 'Elasticsearch', 'RabbitMQ', 'Git', 'Linux']	인공지능/머신러닝,서버/백엔드 개발자
+266	[다나와개발본부] Search Engineer	['Python', 'Django', 'FastAPI', 'Java', 'Kotlin', 'Spring', 'NoSql', 'Docker', 'Kubernetes', 'SQL']	서버/백엔드 개발자
+267	완성차 검차라인 SW 개발(10년↑)	['C#', 'C', 'C++', 'Mfc', 'SW']	SW/솔루션
+268	블록체인 서비스 개발 (시니어)	['Blockchain', 'Java', 'Spring', 'MySQL', 'Kafka', 'Redis', 'AWS']	서버/백엔드 개발자,블록체인
+269	IMS & ECS 개발 (경력 10~12년)	['C#', 'WPF']	HW/임베디드,SW/솔루션
+270	GUI S/W 설계,개발 채용(15년↑)	['Visual C++', 'C#', 'JavaScript', 'Linux', 'REST API']	SW/솔루션
+271	NPU Core Engineer (RTL)	['C', 'C++', 'Linux', 'DeepLearning', 'MachineLearning', 'Embedded']	HW/임베디드
+272	System Software Engineer	['Linux', 'C++', 'Embedded', 'sw', 'C']	SW/솔루션
+273	IP Verification Engineer	['Verilog', 'C', 'C++', 'Python', 'Perl']	HW/임베디드
+274	DevOps/MLOps Engineer (3~6년)	['AWS', 'Linux', 'Docker', 'Kubernetes', 'Kubeflow']	devops/시스템 엔지니어
+275	ML Engineer (Embedded, 5~7년)	['CUDA', 'C', 'C++', 'Embedded Linux', 'PyTorch']	인공지능/머신러닝,HW/임베디드
+276	ML Engineer (Embedded,8~10년)	['CUDA', 'C', 'C++', 'Embedded Linux', 'PyTorch']	인공지능/머신러닝,HW/임베디드
+277	DevOps/MLOps Engineer (7~10년)	['AWS', 'Linux', 'Docker', 'Kubernetes', 'Kubeflow']	devops/시스템 엔지니어
+278	[Riiid] MLOps Engineer (2년 이상)	['Airflow', 'Databricks', 'PyTorch', 'TensorFlow', 'Git', 'Kubernetes']	인공지능/머신러닝,devops/시스템 엔지니어
+279	LLM Research Engineer (경력)	['PyTorch', 'Docker', 'Kubernetes', 'Transformers', 'AWS Transfer for SFTP', 'NLP', 'DeepLearning', 'AWS', 'GCP']	인공지능/머신러닝
+280	판교연구소 SW개발 (경력 13~15년)	['C', 'C++', 'Embedded Linux', 'JsonAPI']	HW/임베디드,SW/솔루션
+281	솔루션 엔지니어(시스템 엔지니어/SE)	['Docker', 'Python', 'Network', 'Java', 'Windows', 'Linux']	devops/시스템 엔지니어,기술지원
+282	언리얼 엔진 프로그래머	['C++', 'Unreal Engine']	게임 클라이언트 개발자,게임 서버 개발자
+283	클라이언트 프로그래머	['C++', 'Unreal Engine']	게임 클라이언트 개발자,게임 서버 개발자
+284	자율주행 경로생성 SW 엔지니어(전문연 지원 가능)	['C++', 'Python']	devops/시스템 엔지니어,SW/솔루션
+285	DBA	['AWS', 'NoSql', 'MySQL']	DBA
+286	Unreal 클라이언트 개발자 채용(경력)	['C++', 'Unreal Engine']	게임 클라이언트 개발자,SW/솔루션
+287	QA 엔지니어 (2년 이상)	['Android OS', 'iOS', 'QA', 'Postman', 'MySQL']	QA 엔지니어
+288	클라우드 기술지원 엔지니어	['Linux', 'Kubernetes', 'L3', 'Network', 'L2', 'OpenStack']	devops/시스템 엔지니어
+289	SW 개발 PM(Project Manager) 대리급	['Python', 'AWS', 'Git', 'iOS', 'Linux', 'Android OS', 'C++', 'C']	개발 PM,SW/솔루션
+290	[공비서] 자바/코틀린 백엔드 개발자	['Java', 'Kotlin', 'Spring Boot', 'Mybatis', 'MariaDB', 'MySQL', 'DataGrip', 'GitHub', 'Slack', 'Notion', 'Jenkins']	서버/백엔드 개발자
+291	[TADA] Infra/DevOps engineer 채용	['AWS', 'Kubernetes', 'Infra']	devops/시스템 엔지니어
+292	AI솔루션 개발자(경력 5~10년)	['Java', 'JavaScript', 'Spring Framework']	웹 풀스택 개발자,SW/솔루션
+293	[안양 상주] 네트워크 엔지니어 정규직	['Network', 'L2', 'L3', 'L4', 'L7', 'Router', 'Switch', 'Cisco']	기술지원,devops/시스템 엔지니어
+294	IT/AI부문(전문연구요원 포함)경력(4↑)	['AI/인공지능', 'TypeScript', 'Next.js', 'Python', 'Chart.js', 'NLP']	프론트엔드 개발자,인공지능/머신러닝
+295	윈도우 응용 프로그래머(C++)	['C', 'C++', 'C#', 'TCP/IP', 'GUI', 'Mfc', 'Linux']	SW/솔루션
+296	PHP 웹개발자 채용 (경력 6~8년)	['PHP', 'MySQL', 'Apache Tomcat', 'Linux', 'Laravel', 'XML', 'CSS 3', 'JavaScript', 'jQuery']	웹 풀스택 개발자
+297	서버 개발 (5년 이상)	['Spring', 'Kotlin', 'Java', 'AWS', 'MySQL', 'Redis', 'Git', 'Dynamo', 'Druid']	서버/백엔드 개발자
+298	블록체인 엔지니어 채용	['Blockchain', 'Solidity', 'Rust', 'Python', 'JavaScript']	블록체인
+299	Sr. Backend Engineer	['MongoDB', 'Golang', 'MySQL', 'Python']	서버/백엔드 개발자
+300	MVL [TADA] Backend Engineer 채용	['TypeScript', 'NestJS', 'Node.js', 'SQL', 'Kotlin', 'Spring Framework', 'gRPC', 'Docker', 'K8S']	서버/백엔드 개발자
+301	서버/백엔드 개발자	['Kotlin', 'Spring Boot', 'AWS', 'GitHub', 'Linux', 'MySQL', 'Spring Data JPA', 'MongoDB']	서버/백엔드 개발자
+302	React-Native 스태프 엔지니어 채용	['JavaScript', 'Kotlin', 'TypeScript', 'iOS', 'Swift', 'Java', 'React Native', 'Objective-C']	프론트엔드 개발자,크로스플랫폼 앱개발자
+303	프론트엔드 엔지니어 (3년~7년)	['JavaScript', 'TypeScript', 'React', 'Redux', 'redux-saga', 'Zustand', 'OpenCV', 'Jest', 'Storybook', 'Git']	프론트엔드 개발자
+304	iOS 개발자 채용	['iOS', 'Swift', 'JavaScript', 'Git', 'Firebase', 'REST API', 'GitHub', 'Git Flow', 'Jenkins', 'Asana']	iOS 개발자
+305	Android 개발자 채용	['Android OS', 'Kotlin', 'Git', 'Firebase', 'REST API', 'Git Flow', 'GitHub', 'Asana', 'Confluence']	안드로이드 개발자
+306	플러터 개발자 (Flutter, 3년 이상)	['Flutter', 'Kotlin', 'JavaScript', 'Dart', 'Figma']	안드로이드 개발자
+307	비젼개발팀 알고리즘 파트 경력 채용	['SW', 'C#', 'WPF', 'PCB', 'OpenCV', 'MachineLearning', 'HALCON']	인공지능/머신러닝,SW/솔루션
+308	Machine Vision 영상 처리 개발자	['MachineLearning', 'DeepLearning', 'C++', 'SW', 'C#', 'WPF', 'HALCON']	인공지능/머신러닝
+309	Machine Vision 제어 SW 개발자	['MachineLearning', 'DeepLearning', 'C++', 'SW', 'C#', 'MES', 'PLC', 'TCP/IP']	인공지능/머신러닝
+310	가상화 솔루션 개발자(경력6~8)	['C', 'Rust', 'Python', 'Shell', 'NoSql', 'Network', 'C++', 'Embedded Linux']	SW/솔루션
+311	가상화 솔루션 개발자(경력3~5)	['C', 'Rust', 'Python', 'Shell', 'NoSql', 'Network', 'C++', 'Embedded Linux']	SW/솔루션
+312	스마트팩토리 구축(MES 개발) 채용	['MES', 'C#', 'MSSQL', 'MariaDB', 'Java', 'ERP']	기술지원,SW/솔루션
+313	Cloud & 솔루션 엔지니어	['Linux', 'Azure CDN', 'CloudFlare', 'Network']	SW/솔루션
+314	백엔드 엔지니어 (1년 이상)	['Node.js', 'ExpressJS', 'TypeScript', 'MySQL', 'PostgreSQL', 'Docker', 'Kubernetes', 'Google Cloud Platform', 'Travis CI', 'GitHub']	서버/백엔드 개발자
+315	오프라인 결제 개발자(6~8년)	['Java', 'JavaScript', 'Spring Framework', 'Spring Boot', 'JSP', 'Linux', 'C#']	서버/백엔드 개발자
+316	네트워크/서버 엔지니어 (신입~7년)	['Cisco', 'Network', 'Ccna', 'Ccnp']	기술지원
+317	Agent AI 연구 개발자 채용	['Python', 'SQL', 'TensorFlow', 'PyTorch', 'scikit-learn', 'Neo4j']	인공지능/머신러닝
+318	Frontend Engineer	['TypeScript', 'Next.js', 'Zustand', 'React Hook Form', 'React Query', 'TailwindCSS', 'SCSS', 'Emotion', 'pnpm']	프론트엔드 개발자
+319	[신입] Python 개발자	['AI/인공지능', 'Python', 'Django', 'PostgreSQL', 'Linux', 'Docker', 'Git', 'JavaScript', 'MySQL']	서버/백엔드 개발자
+320	Back-end Developer (5년 이상)	['MSA', 'Node.js', 'AWS', 'TypeScript', 'ExpressJS', 'Koa', 'Serverless']	서버/백엔드 개발자
+321	프론트엔드 개발자 (신입/경력)	['Angular 2', 'Ionic', 'TypeScript', 'RxJS', 'TailwindCSS', 'Firebase']	프론트엔드 개발자
+322	SI 개발	['Java', 'Spring Boot', 'Vue.js', 'Oracle', 'Python', 'Elasticsearch', 'AWS']	서버/백엔드 개발자,웹 풀스택 개발자
+323	Frontend Developer(프론트엔드 개발자)	['JavaScript', 'TypeScript', 'Vue.js']	프론트엔드 개발자
+324	DB 엔지니어	['SQL', 'Oracle', 'AWS']	DBA,devops/시스템 엔지니어
+325	프론트엔드 개발자(시니어_7년 이상)	['TypeScript', 'Next.js', 'React', 'Recoil', 'React Query', 'TailwindCSS', 'Git', 'GitHub', 'AWS', 'Jest']	프론트엔드 개발자
+326	AI/ML 엔지니어	['Kubernetes', 'Python', 'Java', 'JavaScript']	인공지능/머신러닝
+327	Deep Learning Research Engineer	['Python', 'PyTorch', 'TensorFlow', 'DeepLearning', 'C', 'C++']	인공지능/머신러닝
+328	[강남/선릉] 소프트웨어 개발 경력	['C', 'C++', 'C#', 'Linux', 'Windows', 'Python']	웹 풀스택 개발자,안드로이드 개발자
+329	Java 백엔드 개발자(5~10년) 모집	['Java', 'Spring Framework', 'JSP', 'AWS', 'REST API', 'Linux', 'Python']	서버/백엔드 개발자
+330	규제대응(AML, FDS 등)시스템 B/E 개발	['Java', 'Spring Boot', 'Spring Security', 'Spring Batch', 'Kafka', 'Redis', 'Oracle', 'MySQL', 'QueryDSL', 'Gradle', 'ELK']	서버/백엔드 개발자
+331	[다나와개발본부] Backend Engineer	['Python', 'Django', 'Flask', 'FastAPI', 'Java', 'Kotlin', 'Spring', 'Git', 'NoSql', 'Kafka']	서버/백엔드 개발자
+332	F/W 펌웨어 개발	['ARM', 'C', 'C++', 'Embedded Linux', 'FW', 'FPGA', 'Embedded']	HW/임베디드,SW/솔루션
+333	DEVOPS 엔지니어	['JavaScript', 'Python', 'Jenkins', 'GitHub', 'GitHub Actions', 'Yocto', 'Next.js']	devops/시스템 엔지니어
+334	HW/임베디드 개발자 모집	['HW', 'FW', 'Embedded', 'SW', 'C', 'C++', 'PCB']	HW/임베디드
+335	AI개발자 (3D 피부분석)	['Python', 'PyTorch']	인공지능/머신러닝
+336	IoT Specialist (경력 5~8년)	['PLC', 'Analog', 'Linux', 'C', 'C++', 'Embedded', 'TCP/IP']	SW/솔루션
+337	AI 플랫폼 및 서비스 개발자 구인	['Python', 'Docker', 'JavaScript', 'HTML5', 'Kubernetes', 'Java']	SW/솔루션,서버/백엔드 개발자
+338	웹어플리케이션 백엔드 경력 (2년↑)	['Spring Framework', 'MySQL', 'REST API', 'Spring Boot', 'Java', 'Spring Data JPA', 'Docker', 'MariaDB']	서버/백엔드 개발자
+339	iOS 엔지니어 (주니어)	['Swift', 'SwiftUI', 'GitHub']	iOS 개발자
+340	Backend Engineer (경력 5~7년)	['MySQL', 'Spring Boot', 'Java', 'QueryDSL', 'MariaDB']	서버/백엔드 개발자
+341	[일레븐플러스] Flutter 개발자 채용	['flutter', 'ios', 'android os', 'dart', 'firebase']	크로스플랫폼 앱개발자
+342	Web 개발자 채용	['TypeScript', 'Java', 'Git', 'Confluence', 'Spring Framework', 'React', 'Confluent', 'Jira']	서버/백엔드 개발자,웹 풀스택 개발자
+343	APLUS AI_Knoi_백엔드 엔지니어	['Python', 'FastAPI', 'Kafka', 'pytest', 'WebRTC', 'WebSocket', 'Redis', 'PostgreSQL', 'Docker', 'AWS']	서버/백엔드 개발자
+344	APLUS AI_숏폼_백엔드 엔지니어	['Python', 'AWS', 'Amazon EKS', 'Kubernetes', 'Sentry', 'Prometheus', 'Grafana', 'Redis', 'MongoDB']	서버/백엔드 개발자
+345	AI 엔지니어(이미지 생성 AI 서비스)	['PyTorch', 'TensorFlow', 'AWS', 'GCP', 'AI/인공지능', 'MachineLearning', 'Flux']	인공지능/머신러닝
+346	IT/AI부문(전문연구요원 포함)경력(1~3)	['AI/인공지능', 'TypeScript', 'Next.js', 'Python', 'Chart.js', 'NLP']	프론트엔드 개발자,인공지능/머신러닝
+347	네트워크 정보보호 개발자 (경력)	['Java', 'Spring Boot', 'React', 'TypeScript', 'MySQL', 'MongoDB', 'Git', 'Jenkins', 'Jira']	서버/백엔드 개발자
+348	[8년 이상] Web Full Stack개발 경력	['Spring Boot', 'Java', 'AWS', 'Spring', 'SQL', 'PostgreSQL', 'Kotlin', 'React', 'Docker', 'Kubernetes']	웹 풀스택 개발자
+349	Frontend developer(lead, senior)	['React', 'TypeScript', 'JavaScript', 'React Native', 'Java', 'Spring Boot', 'MySQL', 'PostgreSQL', 'MongoDB']	프론트엔드 개발자
+350	생성형 AI/LLM 엔지니어	['PyTorch', 'TensorFlow', 'AWS', 'GCP', 'AI/인공지능', 'MachineLearning', 'Flux']	인공지능/머신러닝
+351	풀스택 웹 개발자/이커머스 자동화 대시보드 개발	['React', 'Node.js', 'AWS', 'Amazon EC2', 'Python']	서버/백엔드 개발자,프론트엔드 개발자,웹 풀스택 개발자
+352	크로스플랫폼 개발자	['Flutter', 'Dart', 'React Native', 'Zustand', 'AWS', 'Node.js', 'Firebase', 'Socket.IO']	크로스플랫폼 앱개발자
+353	웹 프론트엔드 개발자 추가 모집	['React', 'TypeScript', 'Recoil', 'React Query', 'styled-components', 'Docker', 'AWS', 'Git', 'TailwindCSS']	프론트엔드 개발자
+354	Spring 백엔드 개발자 추가 모집	['Spring', 'MySQL', 'Spring Data JPA', 'QueryDSL', 'Grafana', 'Docker', 'AWS', 'Git']	서버/백엔드 개발자
+355	Field Engineer	['Python', 'MATLAB']	SW/솔루션
+356	[로봇] 강화학습 엔지니어 채용	['C', 'C++', 'Python', 'MachineLearning', 'TensorFlow', 'PyTorch', 'Linux']	인공지능/머신러닝
+357	NPU Field Application Engineer	['C++', 'TensorFlow', 'Python', 'PyTorch']	기술지원,인공지능/머신러닝
+358	[CC CTO] AI Engineer	['Python', 'Django', 'FastAPI', 'Java', 'Kotlin', 'Spring', 'NoSql', 'Docker', 'Kubernetes', 'SQL']	서버/백엔드 개발자
+359	CERT 경력 채용	['AWS']	정보보안 담당자
+360	AI Product Owner	['AI/인공지능', 'Python', 'C++', 'Linux', 'Shell']	인공지능/머신러닝
+361	DBA 담당(3~5년)	['MySQL', 'Java', 'Slack', 'Linux', 'AWS', 'CentOS', 'DB', 'Oracle', 'Jira']	DBA
+362	이머커스/백오피스 시스템개발(7~10년)	['SQL', 'NoSql', 'MSA', 'AWS', 'Azure DevOps']	서버/백엔드 개발자
+363	완성차 검차라인 SW 개발(5년↑)	['C#', 'C', 'C++', 'Mfc', 'SW']	SW/솔루션
+364	써머스플랫폼 서비스기획자 (경력3~10)	['Microsoft Excel']	서버/백엔드 개발자,개발 PM
+365	[강남/선릉] 펌웨어 개발 경력직 채용	['FPGA', 'PCB']	HW/임베디드
+366	머신 비전 SW개발자 (C#, C++) 신입	['C#', 'C++', 'SW', 'MachineLearning']	SW/솔루션
+367	3D SLAM & Matching Engineer	['C++', 'Git', 'Python', 'C', 'Docker']	인공지능/머신러닝,SW/솔루션
+368	헬스케어 서비스 웹 개발 /운영 경력직	['Java', 'Spring Boot', 'Node.js', 'AWS']	서버/백엔드 개발자,프론트엔드 개발자
+369	[강남/선릉] DX 하드웨어 개발 경력	['MCU']	HW/임베디드
+370	웹 개발자(WEB Developer Front/Back)	['WebGL', 'Node.js', 'TypeScript', 'Vue.js']	서버/백엔드 개발자,프론트엔드 개발자
+371	풀스택 Typescript 개발자 채용	['TypeScript', 'TCP/IP', 'PLC', 'MQTT', 'MES', 'ES6', 'Node.js', 'Sequel', 'NestJS', 'Electron']	웹 풀스택 개발자
+372	시스템 엔지니어(SE) 경력직 모집	['Docker', 'vmware', 'Jenkins', 'GitLab', 'Zabbix', 'K8S', 'GNU Bash', 'Python', 'Jira', 'Linux']	devops/시스템 엔지니어
+373	인프라 개발 경력직 채용	['Java', 'Spring Framework', 'Spring Boot', 'MySQL', 'Angular 2', 'React', 'Vue.js', 'NoSql', 'DB', 'AWS']	서버/백엔드 개발자,웹 풀스택 개발자
+374	iOS 개발자 (경력)	['SwiftUI', 'Android OS', 'iOS', 'AR', 'Swift', 'Lottie', 'OAuth2']	iOS 개발자
+375	전기차 충전 백엔드 개발자 채용	['AWS', 'Docker', 'MSA', 'Node.js', 'TypeScript', 'NoSql', 'DB']	서버/백엔드 개발자
+376	Sr. Developer (경력 5~10년)	['React', 'Vue.js', 'Spring Boot', 'Kotlin', 'TypeScript', 'Docker', 'JUnit', 'Amazon CloudFront', 'Amazon S3', 'Amazon RDS']	웹 풀스택 개발자
+377	Tech Innovation 워킹그룹 백엔드 개발	['TypeScript', 'AWS', 'Spring', 'Kotlin']	서버/백엔드 개발자
+378	DevOps 엔지니어 [전문연구요원가능]	['C', 'C++', 'CUDA', 'Kubernetes']	devops/시스템 엔지니어,SW/솔루션
+379	[면접과제포함]신입 자바스크립트 개발자 채용	['HTML5', 'CSS 3', 'Svelte', 'React', 'Vue.js', 'Node.js']	프론트엔드 개발자
+380	FMS 설계,개발 S/W 엔지니어 [전문연구요원가능]	['C', 'C++', 'CUDA', 'React', 'Kubernetes', 'gRPC', 'Golang', 'MQTT', 'WebRTC']	devops/시스템 엔지니어,SW/솔루션
+381	자율주행 개발자(3~6년차)	['MATLAB', 'C', 'C++', 'SW', 'Python']	SW/솔루션
+382	소프트웨어 엔지니어 (경력 / 대구 근무)	['labview', 'C++', 'C#', 'Python', 'C']	SW/솔루션
+383	Data Analyst (과장 이상) [떠리몰]	['AWS', 'GCP', 'Looker', 'Jupyter', 'Python', 'MySQL', 'SQL', 'R', 'Tableau', 'Redash']	빅데이터 엔지니어,DBA
+384	Windows개발자 (경력 6~10년↓)	['WPF', 'C#', 'Visual Studio', 'C++', '.NET', 'Git', 'Slack', 'Windows']	SW/솔루션
+385	Python 백엔드 개발자_6년~8년	['MySQL', 'PHP', 'Python', 'Selenium', 'CodeIgniter', 'AWS']	서버/백엔드 개발자
+386	웹 개발자 경력직 채용(3년 이상)	['React', 'NestJS', 'SQL', 'REST API', 'Git', 'Kubernetes']	웹 풀스택 개발자
+387	이커머스 풀스템 팀장 앱웹	['React Native', 'Next.js', 'TypeScript', 'Kotlin', 'Java', 'Amazon CloudFront', 'PostgreSQL', 'Firebase']	프론트엔드 개발자,웹 풀스택 개발자
+388	[PJ_Youkai] 네트워크 엔지니어 채용	['SQL', 'Redis', 'C++', 'NoSql', 'AZURE', 'Unity', 'AI/인공지능', 'Docker', 'Linux', 'Network']	서버/백엔드 개발자
+389	플랫폼 및 운영 엔지니어(DevOps/SRE)	['MySQL', 'Spring Boot', 'Java', 'QueryDSL', 'MariaDB']	devops/시스템 엔지니어
+390	B2B 시스템엔지니어(경력) 채용_경남권 사업 장기출장가능자	['Linux']	기술지원,SW/솔루션
+391	APLUS AI_검색&추천_백엔드 엔지니어	['Python', 'AWS', 'Amazon EKS', 'Kubernetes', 'Sentry', 'Prometheus', 'Grafana', 'Redis', 'MongoDB']	서버/백엔드 개발자
+392	Business Data Analyst(데이터 분석가)	['Insight', 'DB', 'DataTables', 'Dw', 'SQL', 'Tableau', 'BI', 'Python', 'Snowflake', 'AWS']	빅데이터 엔지니어,DBA
+393	Front-end 개발자 채용	['JavaScript', 'TypeScript', 'React']	프론트엔드 개발자
+394	Back-end 개발자 채용	['Java', 'Spring', 'Spring Boot', 'Gradle', 'Python', 'Docker', 'MySQL', 'REST API', 'AWS']	서버/백엔드 개발자
+395	Flutter 개발자	['Flutter', 'Android OS', 'iOS', 'Dart', 'Git', 'React', 'Vue.js', 'Jira']	크로스플랫폼 앱개발자
+396	C# 개발자	['C#', 'WPF', 'Git', '.NET', 'SW']	SW/솔루션
+397	[신제품개발] 금융 관련 솔루션 개발자	['Java', 'Spring Boot', 'JavaScript', 'Node.js', 'TypeScript', 'React', 'MySQL', 'PostgreSQL']	서버/백엔드 개발자,프론트엔드 개발자
+398	SI 개발 PM	['Java', 'Node.js', 'Vue.js', 'Oracle', 'MySQL', 'Docker', 'Kubernetes', 'AWS', 'Python']	서버/백엔드 개발자,개발 PM
+399	Data Scientist in Financial (7~10년)	['Python', 'R', 'BigData', 'MachineLearning']	빅데이터 엔지니어
+400	비젼개발팀 Vision SW Part 경력 채용	['SW', 'C#', 'WPF', 'PCB']	SW/솔루션
+401	펌웨어 개발자 모집	['C', 'C++', 'Android OS', 'iOS', 'Java', 'Embedded Linux']	안드로이드 개발자
+402	이미지 프로세싱 알고리즘 개발 신입	['C', 'C++', 'CUDA', 'DeepLearning', 'MachineLearning', 'AI/인공지능']	인공지능/머신러닝
+403	비전 AI 연구개발 채용	['AI/인공지능', 'Python', 'PyTorch', 'Pandas', 'Docker']	인공지능/머신러닝
+404	HW개발자(5년이상) 채용	['Orcad', 'Pads', 'MCU', 'HW', 'Embedded Linux', 'Network']	HW/임베디드
+405	데브옵스 엔지니어	['AWS', 'AZURE', 'GCP', 'Java', 'Python', 'GitHub', 'GitLab', 'Shell']	devops/시스템 엔지니어
+406	AI/LLM Curriculum Developer	['AI/인공지능', 'PyTorch']	인공지능/머신러닝
+407	Medical AI Research Engineer(Senior)	['Python', 'TensorFlow', 'PyTorch', 'Caffe2', 'DeepLearning', 'MachineLearning']	빅데이터 엔지니어,인공지능/머신러닝
+408	Back-End 개발자(3년 이상 필수)	['MongoDB', 'TypeScript', 'MySQL', 'Node.js', 'ExpressJS', 'Sequelize', 'AWS']	서버/백엔드 개발자
+409	컴플라이언스 시스템 개발(3년↑)	['Java', 'Spring Boot', 'Spring Security', 'Spring Batch', 'Kafka', 'Redis', 'Oracle', 'MySQL', 'QueryDSL', 'Gradle', 'ELK']	서버/백엔드 개발자
+410	정보보안(운영)	['ISMS', 'CPPG']	정보보안 담당자
+411	임베디드(펌웨어) 개발자	['HW', 'Linux', 'SW', 'MCU']	HW/임베디드
+412	의료 데이터 베이스 구축 정규직 채용	['MySQL', 'MariaDB', 'MSSQL', 'Linux', 'Windows', 'SQL', 'PostgreSQL', 'Vertica', 'Oracle', 'SAP']	DBA
+413	빅데이터 K8S환경 구축 운영	['Apache Impala', 'Docker', 'K8S', 'Hadoop', 'Airflow', 'Kubeflow', 'Python', 'Jenkins', 'Rancher', 'Helm']	서버/백엔드 개발자,빅데이터 엔지니어
+414	백엔드 개발자(웹,인프라)	['TypeScript', 'NestJS', 'PostgreSQL']	서버/백엔드 개발자
+415	Sr.Backend Engineer (Java / Spring)	['Java', 'Spring', 'Spring Framework', 'MySQL']	서버/백엔드 개발자
+416	Python 백엔드 개발자	['MySQL', 'PHP', 'Python', 'Selenium', 'CodeIgniter', 'AWS']	서버/백엔드 개발자
+417	티켓링크 프론트엔드 개발 (5년이상)	['JavaScript', 'TypeScript', 'HTML5', 'CSS 3', 'React', 'jQuery', 'Jotai', 'pnpm', 'Vite', 'Webpack']	프론트엔드 개발자
+418	AI Model Production - Document AI	['Python', 'Java', 'AI/인공지능', 'Ubuntu', 'Windows']	서버/백엔드 개발자,기술지원,인공지능/머신러닝
+419	Infra Technical Architect	['Linux', 'AI/인공지능', 'AWS', 'AZURE', 'Kubernetes', 'Docker']	서버/백엔드 개발자,인공지능/머신러닝
+420	NPU Compiler Engineer	['Python', 'C++', 'Linux', 'DeepLearning', 'c']	인공지능/머신러닝
+421	AI Robotics (Embodied AI) Engineer	['C++', 'Python', 'Git', 'gRPC', 'ZeroMQ', 'ROS', 'PyTorch']	인공지능/머신러닝,SW/솔루션
+422	Gen AI 백엔드 개발자 (5년차 이상)	['Docker', 'AWS', 'GitHub', 'Spring Framework', 'MachineLearning', 'AI/인공지능', 'Spring Boot', 'MariaDB', 'Jenkins', 'Java']	웹 풀스택 개발자,서버/백엔드 개발자
+423	AI모델 개발 전략매니저	['AI/인공지능']	서버/백엔드 개발자,인공지능/머신러닝
+424	웹 그래픽(F/E) 개발자 (5년 ~ 10년)	['JavaScript', 'Babel', 'React', 'REST API', 'Nuxt.js', 'Webpack', 'HTML5', 'Vue.js', 'CSS 3', 'AngularJS']	프론트엔드 개발자
+425	전장개발팀장	['HW']	HW/임베디드
+426	AI Application Engineer	['AI/인공지능', 'PyTorch', 'NLP']	iOS 개발자,안드로이드 개발자,인공지능/머신러닝
+427	Back-End 개발자(9년 이상 필수)	['MongoDB', 'TypeScript', 'MySQL', 'Node.js', 'ExpressJS', 'Sequelize', 'AWS']	서버/백엔드 개발자
+428	빅데이터 학습 솔루션 백엔드 개발자	['JavaScript', 'SQL', 'BigData', 'Node.js', 'AWS', 'NestJS']	서버/백엔드 개발자
+429	정보보안(관리)	['ISMS', 'CPPG']	정보보안 담당자
+430	Java/Spring Boot 개발자 (2~3년)	['Hibernate', 'Mybatis', 'Docker', 'Kubernetes', 'Kafka', 'RabbitMQ', 'Spring Security', 'Stack', 'JSON', 'Spring Framework']	빅데이터 엔지니어,웹 풀스택 개발자
+431	[5년 이상] 백엔드 개발자	['Spring Boot', 'NoSql', 'Java', 'AWS', 'Spring Data JPA', 'QueryDSL', 'Spring Cloud']	서버/백엔드 개발자
+432	웹서버 개발자 모집	['C++', 'Java', 'Spring', 'React']	서버/백엔드 개발자
+433	DBA [경력 5~10년]	['Oracle', 'Linux', 'vmware']	DBA
+434	DBA [경력 11~15년]	['Oracle', 'Linux', 'vmware']	DBA
+435	SAS사업부 SW(PLC) 채용	['PLC', 'SW']	SW/솔루션
+436	프론트엔드 개발자 (3년 이상)	['React', 'Next.js', 'TypeScript', 'React Query', 'Redux', 'AWS']	프론트엔드 개발자
+437	AI (LLM RAG) 개발자	['Python', 'PyTorch', 'Amazon SageMaker', 'TensorFlow', 'NLP']	인공지능/머신러닝
+438	HW 개발자 모집 (경력 8~10년)	['Orcad', 'Pads']	안드로이드 개발자,HW/임베디드
+439	서울시청 상주/운영 네트워크 엔지니어	['Cisco', 'ISMS']	기술지원,devops/시스템 엔지니어
+440	HW 개발자 모집 (경력 2~4년)	['Orcad', 'Pads']	안드로이드 개발자,HW/임베디드
+441	HW 개발자 모집 (경력 5~7년)	['Orcad', 'Pads']	안드로이드 개발자,HW/임베디드
+442	3차원 카메라 하드웨어 개발자(8~10)	['PCB', 'Orcad']	HW/임베디드
+443	얼굴인식 서버 풀스택 소프트웨어 개발자	['C++', 'Go']	서버/백엔드 개발자,프론트엔드 개발자
+444	AI 소프트웨어 엔지니어 (경력1~3년)	['C', 'C++']	안드로이드 개발자
+445	RF ICs  Design 신입채용	['RF', 'PCB', 'HW', 'Switch']	HW/임베디드
+446	Frontend 개발자	['Next.js', 'React Query', 'Jotai', 'TailwindCSS', 'TypeScript', 'pnpm', 'Webpack']	프론트엔드 개발자
+447	SoC Design Engineer	['Verilog', 'EDA', 'ASIC', 'FPGA', 'Python', 'c++', 'c', 'Java']	HW/임베디드
+448	Software Developer	['C', 'C++', 'Python', 'Blender', 'Solidworks']	VR/AR/3D,SW/솔루션
+449	인사시스템 분석/설계 담당자 모집	['Java', 'Oracle', 'MariaDB']	개발 PM
+450	[DOF] HW Linux App 엔지니어 채용	['Linux']	HW/임베디드
+451	정보보안 담당자 (5년 이상)	['AWS', 'Amazon EKS', 'ESET Endpoint Security', 'macOS', 'CISSP', 'CISA', 'ISMS']	정보보안 담당자
+452	Backend 개발자	['Java', 'Kotlin', 'Spring', 'QueryDSL', 'AWS', 'Git', 'Jira', 'Confluence']	서버/백엔드 개발자
+453	3차원 머신비전 알고리즘 개발자(2~4)	['Python', 'C', 'C++', 'PyTorch', 'CUDA', 'OpenCV', 'OpenGL', 'TensorFlow']	인공지능/머신러닝
+454	Java Backend 서비스 개발자 모집	['Elasticsearch', 'MariaDB', 'Docker', 'REST API', 'Backendless', 'Java', 'JavaScript', 'Spring Boot', 'MySQL']	서버/백엔드 개발자
+455	필드 엔지니어	['Autocad', 'Fusion 360', 'HW']	기술지원,HW/임베디드
+456	프론트엔드 개발자	['React', 'Next.js', 'TypeScript', 'WebRTC', 'React Native']	프론트엔드 개발자
+457	병원용 모바일 서비스 개발자(풀스택)	['Python', 'Spring Framework', 'AWS', 'Git', 'iOS', 'HTML5', 'CSS 3', 'JavaScript']	iOS 개발자,웹 풀스택 개발자
+458	백엔드 개발자 경력 정규직 채용	['JavaScript', 'Spring MVC', 'MySQL', 'RDB', 'Node.js', 'REST API', 'AWS', 'AngularJS', 'MariaDB']	서버/백엔드 개발자
+459	플러터 프론트 APP 개발[경력]	['Flutter', 'iOS', 'Android OS', 'GitHub', 'Git', 'Figma']	크로스플랫폼 앱개발자
+460	AI 개발자(3년 이상)	['Python', 'Linux', 'TensorFlow', 'PyTorch', 'AI/인공지능', 'DeepLearning']	인공지능/머신러닝
+461	백엔드 개발자 경력 채용	['Git', 'GitHub', 'AWS', 'Spring Framework', 'Spring Boot', 'Spring MVC', 'Spring Security', 'REST API', 'MySQL', 'PostgreSQL']	서버/백엔드 개발자
+462	소프트웨어 테스트 엔지니어 채용	['SW', 'C', 'C++']	QA 엔지니어,SW/솔루션
+463	AI Enterprise Manager	['AI/인공지능']	인공지능/머신러닝,devops/시스템 엔지니어
+464	AI Site Reliability Engineer	['Oracle', 'MariaDB', 'PostgreSQL', 'Redis', 'Cassandra', 'NoSql', 'XML', 'JSON', 'Python', 'AWS']	빅데이터 엔지니어,인공지능/머신러닝
+465	SAP Project Manager 모집	['SAP', 'ERP']	개발 PM
+466	[스윗트래커]프론트엔드개발(5년 이상)	['JavaScript', 'jQuery', 'Vue.js', 'React', 'Django REST framework', 'Spring Boot', 'MSSQL', 'DB']	프론트엔드 개발자
+467	인프라 경력사원 채용 (9년↑)	['Infra', 'Linux', 'HW', 'SW', 'DB', 'Azure DevOps', 'Python', 'Oracle', 'PHP', 'PostgreSQL']	빅데이터 엔지니어,devops/시스템 엔지니어,정보보안 담당자,SW/솔루션
+468	데스크탑 앱 개발자	['Python', 'C++', '.NET', 'OpenGL', 'C#', 'Qt', 'SW', 'Windows', 'Linux', 'macOS']	SW/솔루션
+469	On-Device AI Engineer (C++)	['MachineLearning', 'DeepLearning', 'FPGA', 'SW', 'C++', 'RTOS']	인공지능/머신러닝
+470	Data Scientist in Financial (1~3년)	['Python', 'R', 'BigData', 'MachineLearning']	빅데이터 엔지니어
+471	LLM Research Engineer	['MachineLearning', 'DeepLearning', 'FPGA', 'SW', 'C++', 'RTOS', 'Python']	인공지능/머신러닝
+472	[Lead, CTO] 웹개발 리드, 풀스텍 경력	['JavaScript', 'Python', 'PHP', 'Kotlin', 'Spring', 'HTML5']	웹 풀스택 개발자
+473	ADAS NPU AI SW Engineer	['PyTorch', 'TensorFlow', 'DeepLearning']	인공지능/머신러닝
+474	[개발] Backend Developer	['Node.js', 'Next.js', 'GitHub Actions', 'Pulumi', 'AWS']	서버/백엔드 개발자,웹 풀스택 개발자
+475	웹 풀스택 개발자 (7~9년)	['JavaScript', 'AWS', 'MySQL', 'PostgreSQL', 'GitLab', 'Jenkins', 'Vue.js', 'TypeScript', 'Java', 'Spring Boot', 'Spring Framework']	웹 풀스택 개발자
+476	경영정보시스템 개발/운영 담당자	['React', 'Vue.js']	프론트엔드 개발자
+477	3차원 머신비전 알고리즘 개발자8~10	['Python', 'C', 'C++', 'PyTorch', 'CUDA', 'OpenCV', 'OpenGL', 'TensorFlow']	인공지능/머신러닝
+478	플러터 프론트엔드개발자(주35시간, 4.5일)	['Flutter']	프론트엔드 개발자
+479	웹 프로그래머/경력직/JAVA JSP	['JSP', 'Java', 'SW', 'JavaScript', 'Spring Boot', 'Spring Framework', 'Spring Cloud', 'REST API', 'PostgreSQL', 'MariaDB', 'MySQL']	SW/솔루션,웹 풀스택 개발자
+480	백엔드 개발자(주35시간, 4.5일)	['Spring Boot', 'AWS', 'Git', 'Redis']	서버/백엔드 개발자
+481	SOC TOP Design Enginer	['ARM', 'Verilog', 'Python', 'C++', 'OpenCV', 'FPGA', 'TypeScript', 'Linux', 'React', 'Redux']	프론트엔드 개발자
+482	QA/테스트 엔지니어(경력 3년 이상)	['QA', 'Jira', 'Mantis', 'Redmine']	QA 엔지니어
+483	백오피스 기획자	['Jira', 'Confluence', 'RPA']	기술지원,개발 PM
+484	AI 기반 업무 자동화 엔지니어 (1~3년)	['RPA', 'Zapier']	인공지능/머신러닝
+485	DBA / DE (5년↑)	['DB', 'SQL', 'Python', 'PostgreSQL', 'Oracle', 'Kafka', 'RDB', 'Spark', 'Hadoop', 'AWS']	서버/백엔드 개발자,빅데이터 엔지니어,DBA
+486	AWS 인프라 관련 설계/구축 경력직	['AWS', 'Network']	devops/시스템 엔지니어
+487	프로젝트 매니저 (3년 이상)	['Jira', 'Notion', 'Slack', 'Figma', 'DataGrip', 'Network', 'Insight', 'ISMS', 'C', 'Infra']	개발 PM
+488	React 프론트엔드 개발자 (5년 이상)	['TypeScript', 'GraphQL', 'React', 'Apollo', 'Next.js', 'Storybook']	프론트엔드 개발자
+489	하이브리드 앱 개발자	['React Native']	iOS 개발자,크로스플랫폼 앱개발자
+490	Hardware Board Design Engineer	['PCB']	HW/임베디드
+491	전장설계엔지니어 채용	['HW', 'PCB']	HW/임베디드
+492	Full Stack Developer	['Java', 'Spring Boot', 'RDB', 'REST API', 'MSA', 'Vue.js', 'Nuxt.js', 'TypeScript', 'MSSQL', 'Git']	iOS 개발자,웹 풀스택 개발자,안드로이드 개발자
+493	Devops (5년 이상)	['AWS', 'Kubernetes', 'Terraform', 'Datadog', 'Grafana', 'Prometheus', 'Argo', 'GitHub', 'Python', 'Helm']	devops/시스템 엔지니어
+494	리액트 프론트엔드 (주 35시간/4.5일)	['React']	프론트엔드 개발자
+495	SoC Design Verification	['C', 'C++', 'Java', 'PM2', 'Verilog']	QA 엔지니어
+496	백엔드 개발자 (5년 이상)	['NestJS', 'TypeScript', 'Node.js', 'Kotlin', 'Spring', 'GraphQL', 'Kubernetes', 'MySQL', 'Kafka', 'AWS']	서버/백엔드 개발자
+497	스포츠중계 언리얼엔진&OpenGL 개발자	['OpenGL', 'C++', 'Unreal Engine', 'C', 'AR', 'CUDA', 'Unity', '3D Rendering']	VR/AR/3D
+498	IMS & ECS 개발 (경력 6~9년)	['C#', 'WPF']	HW/임베디드,SW/솔루션
+499	IMS & ECS 개발 (경력 13~15년)	['C#', 'WPF']	HW/임베디드,SW/솔루션
+500	데브옵스 엔지니어	['Docker', 'Kubernetes', 'CDNetworks', 'Hadoop', 'HBase']	devops/시스템 엔지니어
+501	Std Cell & SRAM 디자인 엔지니어	['Perl', 'Python', 'Verilog', 'Circuit design']	HW/임베디드
+502	프론트엔드 주니어 개발자 (2~4년차)	['Vue.js']	프론트엔드 개발자
+503	프론트엔드 개발자	['NestJS', 'React', 'Zustand', 'Recoil']	프론트엔드 개발자
+504	파이썬 백엔드 리드	['Python', 'Django', 'FastAPI', 'AWS', 'AWS Lambda', 'Amazon Route 53', 'NGINX', 'Docker']	웹 풀스택 개발자,서버/백엔드 개발자
+505	[병역특례]프론트엔드 산업기능요원	['JavaScript', 'React', 'Node.js', 'jQuery']	프론트엔드 개발자
+506	Back-end Engineer (Platform Service Team)	['Django', 'FastAPI', 'REST API', 'Python', 'Vue.js', 'Angular 2', 'React']	서버/백엔드 개발자
+507	[AI] AI Researcher/Data Scientist	['PyTorch', 'TensorFlow', 'SQL']	인공지능/머신러닝
+508	쇼핑몰/헬스케어 서비스 개발자	['CSS 3', 'HTML5', 'JavaScript', 'Node.js', 'Flutter', 'PHP']	웹 풀스택 개발자
+509	백엔드 개발자 신입/경력 채용	['TypeScript', 'NestJS', 'PostgreSQL', 'Prisma', 'Docker', 'GitLab', 'AWS']	서버/백엔드 개발자,웹 풀스택 개발자
+510	시스템 엔지니어 채용	['Windows Server', 'Azure Synapse', 'AZURE', 'Windows']	devops/시스템 엔지니어
+511	[RE : IW] 클라이언트 프로그래머	['C++', 'DirectX', 'Redis', 'Unity', 'C#', 'Git']	게임 클라이언트 개발자
+512	Frontend developer	['Java', 'Kotlin', 'Spring Boot', 'CSS 3', 'Vue.js', 'React', 'OpenAPI']	프론트엔드 개발자
+513	백엔드 개발자 경력 (5년이상)	['Spring Framework', 'AI/인공지능', 'REST API', 'Spring Boot', 'Linux', 'Java', 'Python', 'TensorFlow', 'Spring']	서버/백엔드 개발자
+514	백엔드개발자(Node.js)	['Git', 'Node.js', 'REST API', 'AWS']	서버/백엔드 개발자
+515	전자제어 S/W [신입~4년]	['SW', 'C', 'C++', 'FW']	SW/솔루션
+516	플러터 프론트 APP 개발[신입]	['Flutter', 'iOS', 'Android OS', 'GitHub', 'Git', 'Figma']	크로스플랫폼 앱개발자
+517	플랫폼 서비스 개발자 경력 채용	['AWS', 'GCP', 'AZURE', 'Cloud CMS', 'Java', 'Spring Boot', 'TypeScript', 'NestJS']	크로스플랫폼 앱개발자,devops/시스템 엔지니어
+518	AI Engineer	['Python', 'PyTorch', 'OpenCV']	인공지능/머신러닝
+519	[RE : IW] AI 엔지니어	['AI/인공지능', 'C', 'C++', 'Python', 'DeepLearning']	인공지능/머신러닝
+520	프론트엔드 엔지니어 (신입, 전문연 가능)	['JavaScript', 'TypeScript', 'React', 'Redux', 'redux-saga', 'Zustand', 'OpenCV', 'Jest', 'Storybook', 'Git', 'Jira']	프론트엔드 개발자
+521	[IT] 백엔드 SW개발 (전자차트)	['Node.js', 'GraphQL', 'AWS', 'RDB', 'MySQL', 'PostgreSQL', 'NestJS']	서버/백엔드 개발자
+522	[병역특례]백엔드 산업기능요원 모집	['Git', 'REST API', 'Node.js', 'AWS']	서버/백엔드 개발자
+523	React프론트앤드개발자(경력2~4)	['React', 'Next.js', 'TypeScript', 'GCP', 'MySQL', 'React Query', 'Swagger UI']	프론트엔드 개발자
+524	[자율출근] 출퇴근 FREE 백엔드(API) 경력자	['TypeScript', 'Node.js', 'GraphQL', 'MySQL', 'MariaDB', 'Elasticsearch', 'Go']	서버/백엔드 개발자
+525	백엔드 개발자 채용	['Python', 'Django', 'Git', 'AWS', 'PostgreSQL', 'Celery', 'RDB', 'HTML5', 'CSS 3', 'Java']	서버/백엔드 개발자
+526	백엔드 개발자 경력 채용	['AWS', 'GCP', 'AZURE', 'Cloud CMS', 'Java', 'Spring Boot', 'TypeScript', 'NestJS']	서버/백엔드 개발자
+527	기술융합사업부 IT 프로젝트 PM/서브PM	['react-testing-library', 'QA', 'Flow', 'Project Reactor']	기술지원,개발 PM
+528	선행 연구 개발 (SW), 비전 장비 개발	['C++', 'C#', 'SW', 'CUDA']	SW/솔루션
+529	시니어 클라이언트 프로그래머 채용	['C++', 'DirectX', 'Redis', 'Unity', 'C#']	게임 클라이언트 개발자
+530	정보보호 인증 담당 모집	['Linux', 'Network']	정보보안 담당자,QA 엔지니어
+531	Technical Artist 채용	['Unreal Engine', 'Python', 'Unity']	게임 클라이언트 개발자,게임 서버 개발자
+532	영상관제 응용프로그램 개발(3년↑)	['C#', 'WPF', 'SW', 'OpenCV', 'FFMPEG', 'Git', 'AI/인공지능', 'TensorFlow', 'PyTorch', 'Keras']	SW/솔루션
+533	Technical Support 엔지니어 주니어 채용(대전)	['AI/인공지능', 'Python', 'Linux', 'Docker', 'K8S']	기술지원,SW/솔루션
+534	Flutter 프론트엔드 개발자 채용	['Flutter', 'REST API', 'Git', 'MVVM', 'Dart', 'iOS', 'Android OS', 'Create React Native App']	프론트엔드 개발자
+535	Software QA Manager	['Apache JMeter', 'Postman', 'Playwright', 'Selenium', 'Jira']	QA 엔지니어
+536	프론트엔드 개발자 (8년 이상)	['JavaScript', 'TypeScript', 'React', 'vuex', 'AngularJS', 'Next.js', 'CSS 3']	프론트엔드 개발자
+537	SW/솔루션 정규직 채용(경력)	['C', 'C++', 'Embedded', 'MCU', 'FW', 'ethernet', 'Linux', 'RTOS']	SW/솔루션
+538	펌웨어 엔지니어 경력(1~3)	['Git', 'MATLAB', 'Python', 'C++', 'VHDL']	VR/AR/3D,SW/솔루션
+539	전자제어 S/W [경력5~10년]	['SW', 'C', 'C++', 'FW']	SW/솔루션
+540	통신장비 시스템 h/w  개발자	['PCB']	HW/임베디드
+541	React Native 리드 개발자 (5~10년차)	['React']	크로스플랫폼 앱개발자
+542	전자제어 H/W [경력15~20년]	['HW', 'MCU', 'PCB']	HW/임베디드
+543	펌웨어 엔지니어 경력(7~10)	['Git', 'MATLAB', 'Python', 'C++', 'VHDL']	VR/AR/3D,SW/솔루션
+544	FPGA - HW Engineer (과장~차장급)	['FPGA', 'MCU', 'VHDL']	HW/임베디드
+545	제어설계(PC) 분야  [경력5~9년]	['SW', 'C', 'C#', 'C++', 'Mfc', 'MES', 'SQL', 'Windows', 'Linux']	SW/솔루션
+546	[CT] 의료영상처리 알고리즘 SW	['C++', 'OpenCV', 'CUDA', 'SW']	SW/솔루션
+547	[RE : IW] Server 신입 및 경력 채용	['AZURE', 'Unity', 'ASP.NET', 'MySQL', 'NoSql', 'AWS', 'C++', 'C#']	서버/백엔드 개발자
+548	[111퍼센트] 게임 클라이언트 개발자	['Unity', 'Photon', 'TCP/IP', 'Network']	게임 클라이언트 개발자
+549	[PJ_Youkai] 클라이언트 프로그래머	['C++', 'DirectX', 'Redis']	게임 클라이언트 개발자
+550	서버 프로그래머 팀장급 채용	['MySQL', 'AZURE', 'SQL', 'C#', 'C++', 'Unity', 'Redis', 'Unreal Engine', 'NoSql', 'Docker']	게임 클라이언트 개발자,게임 서버 개발자
+551	WEBFRONT-K GUI 개발	['Java', 'C', 'C++', 'Linux', 'Django', 'REST API']	서버/백엔드 개발자,SW/솔루션
+552	제어설계(PC) 분야 [경력10~15년]	['SW', 'C', 'C#', 'C++', 'Mfc', 'MES', 'SQL', 'Windows', 'Linux']	SW/솔루션
+553	[PJ_Youkai] Server 신입 및 경력 채용	['SQL', 'Redis', 'C++', 'NoSql', 'AZURE', 'Unity', 'AI/인공지능', 'Docker', 'Linux']	서버/백엔드 개발자
+554	반도체 검사장비 HW 개발(대리급)	['FPGA', 'VHDL', 'Verilog', 'C', 'C++', 'C#']	HW/임베디드
+555	영상관제 응용프로그램 개발(5년↑)	['C#', 'WPF', 'SW', 'OpenCV', 'FFMPEG', 'Git', 'AI/인공지능', 'TensorFlow', 'PyTorch', 'Keras']	SW/솔루션
+556	[WBCT] 정형외과용 3D뷰어 SW 개발	['c', 'c++', 'c#', 'OpenGL', 'WPF']	SW/솔루션
+557	엔진기술연구팀 AI/ML엔지니어 채용	['Python', 'PyTorch', 'AI/인공지능']	인공지능/머신러닝
+558	[EC솔루션사업본부] 풀스택 개발자	['JavaScript', 'AWS', 'PostgreSQL', 'Oracle', 'MySQL', 'React', 'Next.js', 'Spring', 'TypeScript', 'GitLab', 'Jira']	웹 풀스택 개발자
+559	백엔드 개발자 (5년 이상)	['Java', 'Spring Boot', 'AWS', 'REST API', 'Python', 'PostgreSQL', 'Apache HTTP Server']	서버/백엔드 개발자
+560	Back End - 거래소 서비스 개발(3년↑)	['Java', 'Spring Boot', 'Kafka', 'Redis', 'MongoDB', 'Oracle', 'MySQL', 'Spring Data JPA', 'Gradle', 'Jenkins']	서버/백엔드 개발자
+561	Backend Engineer (5년이상)	['Java', 'Spring Boot', 'Spring Data JPA', 'Mybatis', 'AWS', 'MySQL', 'Elasticsearch', 'REST API']	서버/백엔드 개발자
+562	Back End - 거래소 서비스개발 (7년↑)	['Java', 'Spring Boot', 'Kafka', 'Redis', 'MongoDB', 'Oracle', 'MySQL', 'Gradle', 'Jenkins', 'ELK']	서버/백엔드 개발자
+563	개발 계획 및 개발 진행PM(15~20)	['GitHub', 'Jira', 'Java', 'AWS', 'RDB', 'AWS Cloud Development Kit', 'REST API', 'Spring Framework']	개발 PM
+564	Android Frameworks/Application 개발	['Android OS', 'Java', 'Kotlin', 'C++', 'C']	안드로이드 개발자
+565	[의료R&D본부] 뇌영상연구팀 AI연구원	['Python', 'PyTorch', 'TensorFlow']	인공지능/머신러닝
+566	2차전지 검사기 개발자 (신입 또는 경력2~4년)	['OpenCV', 'C++', 'Mfc']	SW/솔루션
+567	데이터분석가 신입/경력 채용	['Python', 'MachineLearning', 'DeepLearning', 'AI/인공지능', 'BigData']	빅데이터 엔지니어,인공지능/머신러닝
+568	통합보안관리 엔지니어(신입)	['SW', 'Linux', 'Docker', 'Elasticsearch', 'Kafka', 'Python', 'Kibana', 'QueryDSL', 'vmware', 'Shell']	정보보안 담당자
+569	프론트엔드 개발자 (경력 1년 이상)	['JavaScript', 'React', 'React Native', 'Java', 'HTML5', 'CSS 3']	프론트엔드 개발자
+570	[그루비 SaaS 솔루션] 백엔드 개발자 (2~5년)	['Spring Boot', 'MongoDB', 'jQuery', 'JavaScript', 'GitHub', 'AWS', 'Jira', 'MySQL', 'Java', 'Spring']	서버/백엔드 개발자,SW/솔루션
+571	[AI연구소] AI연구-Computer Vision AI	['PyTorch', 'TensorFlow', 'Docker', 'Linux', 'Shell']	인공지능/머신러닝
+572	프론트엔드 개발자	['React']	프론트엔드 개발자
+573	Backend developer	['Java', 'Kotlin', 'Spring Boot', 'CSS 3', 'Kafka', 'Amazon EKS']	서버/백엔드 개발자
+574	영상분야 AI 개발 모집 (가산 근무)	['OpenCV', 'TensorFlow', 'AI/인공지능', 'PyTorch', 'MachineLearning', 'AWS']	인공지능/머신러닝
+575	사내그룹웨어,파트너 B2B 서비스 개발	['Laravel', 'Travis CI', 'PHP', 'Git', 'JavaScript', 'jQuery', 'ES6']	서버/백엔드 개발자
+576	Data 엔지니어 - Junior  (대전 근무)	['Python', 'TensorFlow', 'PyTorch', 'NLP', 'Linux', 'Docker', 'DeepLearning']	빅데이터 엔지니어,인공지능/머신러닝
+577	자율주행 ACS 소프트웨어 개발자(8~15년)	['jQuery', 'JavaScript', 'GitHub', 'Docker Compose', 'Go', 'Google Analytics', 'Golang', 'C++', 'C#', 'Rust']	서버/백엔드 개발자
+578	AI 로보틱스 SW 품질 QA 담당자	['Qt', 'QA', 'SW', 'GitHub', 'Python', 'JavaScript', 'Docker']	QA 엔지니어
+579	빌링시스템 개발자(2-5년차)	['Spring Boot', 'Spring Data JPA', 'React', 'React.js Boilerplate', 'Java']	devops/시스템 엔지니어
+580	서버 개발자	['AWS', 'REST API', 'MySQL', 'AZURE', 'Java', 'Node.js', 'JavaScript']	서버/백엔드 개발자
+581	시뮬레이션 소프트웨어 개발자	['React', 'TypeScript', 'Node.js', 'Git', 'AWS', 'GCP', 'Docker', 'Kubernetes', 'three.js', 'C++']	프론트엔드 개발자,웹 풀스택 개발자
+582	개발 계획 및 개발 진행PM(10~14)	['GitHub', 'Jira', 'Java', 'AWS', 'RDB', 'AWS Cloud Development Kit', 'REST API', 'Spring Framework']	개발 PM
+583	모바일 앱개발자(1~3년)	['React', 'React Native']	크로스플랫폼 앱개발자
+584	로봇 프로덕트/프로젝트 매니저	['Notion', 'Jira']	개발 PM,HW/임베디드
+585	Software Engineer (NPU SDK)	['C', 'C++']	SW/솔루션
+586	웹/앱 개발 PM 경력 채용	['SW', 'Google Analytics', 'Communication', 'Python', 'MySQL']	개발 PM
+587	로봇 시스템 엔지니어	['PLC']	HW/임베디드,SW/솔루션
+588	개발 계획 및 개발 진행 PM(5~9년)	['GitHub', 'Jira', 'Java', 'AWS', 'RDB', 'AWS Cloud Development Kit', 'REST API', 'Spring Framework']	개발 PM
+589	기술개발 총괄 및 리딩(12~15년)	['RDB', 'REST API', 'C++', 'Java', 'AWS', 'React', 'SQL']	개발 PM,SW/솔루션
+590	Robot Control Engineer (전문연 가능)	['AI/인공지능', 'C', 'C++', 'Python', 'MachineLearning', 'ROS']	인공지능/머신러닝
+591	통합보안관리 엔지니어(경력)	['SW', 'Linux', 'Docker', 'Elasticsearch', 'Kafka', 'Python', 'Kibana', 'QueryDSL', 'vmware', 'Shell']	정보보안 담당자
+592	Embedded SW 10년↑ 경력 연구원 모집	['FW', 'RTOS', 'Embedded']	SW/솔루션
+593	Embedded SW 7년↑ 경력 연구원 모집	['FW', 'RTOS', 'Embedded', 'Linux', 'Embedded Linux', 'SW']	SW/솔루션
+594	Linux System Engineer	['C', 'C++', 'Linux', 'DeepLearning', 'MachineLearning', 'Embedded', 'Git']	HW/임베디드,SW/솔루션
+595	2차전지 검사기 개발자 (경력8~10년)	['OpenCV', 'C++', 'Mfc']	SW/솔루션
+596	언리얼 게임개발 과정 교강사(경력)	['C++', 'Unreal Engine']	게임 클라이언트 개발자
+597	블록체인 클라우드 엔지니어 (시니어)	['AWS', 'Docker', 'Kubernetes', 'Terraform', 'Python', 'AWS Lambda', 'Ansible']	devops/시스템 엔지니어
+598	반도체 테스트 자동화 장비 SW 개발자	['SW', 'Linux', 'C', 'C#']	SW/솔루션
+599	[Nightly] 백엔드 엔지니어	['Apollo', 'GraphQL', 'Node.js', 'Google Cloud Platform', 'Terraform', 'PostgreSQL']	서버/백엔드 개발자
+600	유니티 게임개발 과정 교강사(경력)	['Unity']	게임 클라이언트 개발자
+601	스테이킹 서비스 개발 (시니어)	['Blockchain', 'Java', 'Jira', 'Confluence', 'Git']	서버/백엔드 개발자,블록체인
+602	DBA 담당(6~8년)	['MySQL', 'Java', 'Slack', 'Linux', 'AWS', 'CentOS', 'DB', 'Oracle', 'Jira']	DBA
+603	IOS 개발 엔지니어 구인	['iOS', 'SwiftUI', 'Swift', 'Git', 'MVVM', 'Rxswift']	iOS 개발자
+604	[강남/선릉] FPGA설계 경력직 채용	['FPGA', 'Verilog', 'VHDL']	HW/임베디드
+605	Technical AI 프로덕트 오너 (PO)	['Jira', 'Kanban Tool', 'JavaScript', 'Python']	개발 PM
+606	Robotics S/W Engineer [전문연구요원가능]	['C', 'C++', 'CUDA']	인공지능/머신러닝,devops/시스템 엔지니어
+607	[격주 4.5일 근무] 린컴퍼니 전산실 ERP, 쇼핑몰 개발 및 운영	['Java', 'Spring', 'Miplatform', 'ERP', 'Oracle']	서버/백엔드 개발자
+608	백엔드 & 블록체인 개발자	['Firebase', 'Node.js', 'Nft', 'Kubernetes', 'Helm', 'CloudFlare', 'GitHub', 'Blockchain', 'Cloud Firestore', 'Cloudflare CDN']	서버/백엔드 개발자,블록체인
+609	Android Developer	['Android OS', 'Kotlin', 'XML', 'JUnit', 'Dagger Hilt', 'C++']	안드로이드 개발자
+610	Embeded System SW 엔지니어	['ARM', 'Verilog', 'Python', 'C++', 'SW', 'WPF', 'AWS', 'PyTorch', 'Spring Boot', 'MySQL']	HW/임베디드
+611	[분당] 병원정보시스템 진료파트개발자	['WPF', '.NET', 'JavaScript', 'Oracle']	서버/백엔드 개발자,웹 풀스택 개발자
+612	풀스택 고급 개발자	['Android OS', 'iOS', 'Java', 'Kotlin', 'Swift', 'Objective-C', 'Flutter', 'AWS', 'Amazon EC2', 'Amazon RDS']	웹 풀스택 개발자
+613	CA/RA 개발자 신입 모집	['Linux', 'C++', 'C', 'Java', 'AWS', 'Eclipse', 'Python', 'AWS Certificate Manager']	devops/시스템 엔지니어
+614	QA Engineer	['Jira', 'Redmine', 'HW', 'SW', 'QA']	QA 엔지니어
+615	[원주] 병원정보시스템 S/W 개발자(SI)	['JavaScript', 'Oracle', 'WPF', '.NET', 'MySQL']	서버/백엔드 개발자,SW/솔루션
+616	병원정보시스템 클라우드(EMR) 개발자	['C#', 'WPF', '.NET', 'Oracle', 'JavaScript']	서버/백엔드 개발자,SW/솔루션
+617	풀스택 중급 개발자	['Android OS', 'iOS', 'Java', 'Kotlin', 'Swift', 'Objective-C', 'Flutter', 'AWS', 'Amazon EC2', 'Amazon RDS']	웹 풀스택 개발자
+618	LIS System 개발 및 운영	['.NET', 'C#', 'Java', 'Nexacro', 'REST API', 'Oracle', 'MariaDB', 'Git', 'AWS', 'AZURE', 'Kubernetes']	devops/시스템 엔지니어
+619	모바일 앱 개발 경력 채용(3~5년)	['Flutter', 'GraphQL', 'iOS', 'Android OS']	iOS 개발자,안드로이드 개발자
+620	모바일파트- Android Native 개발	['Kotlin', 'Jetpack', 'XML', 'Coroutine', 'Flow', 'MVVM']	안드로이드 개발자
+621	시스템관리자(병원Network/PC유지보수)	['Windows', 'HW', 'Network']	기술지원
+622	[DX사업본부] 서비스 기획자	['Figma', 'Microsoft Office 365', 'MySQL']	인공지능/머신러닝,개발 PM
+623	모바일 앱 개발 경력 채용(9~11년)	['Flutter', 'GraphQL', 'iOS', 'Android OS']	iOS 개발자,안드로이드 개발자
+624	EV charger server 개발자	['Node.js', 'TypeScript', 'NestJS', 'MySQL', 'Kafka', 'Redis', 'Elasticsearch', 'Docker', 'WebSocket']	서버/백엔드 개발자
+625	딥러닝 개발자 채용 (경력)	['3D Rendering', 'AI/인공지능', 'Python', 'PyTorch', 'OpenCV']	VR/AR/3D,인공지능/머신러닝
+626	프론트엔드 개발자 채용	['Vue.js', 'Java', 'JavaScript', 'HTML5', 'jQuery', 'JSP', 'PHP', 'MySQL', 'AWS']	프론트엔드 개발자
+627	[SimpleSeed] 프론트엔드 개발자 채용	['TypeScript', 'React', 'Next.js', 'Flutter', 'REST API', 'Git', 'React Native']	프론트엔드 개발자
+628	서버 파트 부문(경력)	['Python', 'FastAPI', 'Django', 'Celery', 'MySQL', 'MongoDB', 'AWS', 'Docker', 'Git']	서버/백엔드 개발자
+629	백엔드 시니어 개발자	['MySQL', 'AWS', 'Spring Boot', 'PostgreSQL', 'Oracle']	서버/백엔드 개발자
+630	AI 기술 개발자	['Python', 'TensorFlow', 'PyTorch', 'scikit-learn', 'SQL', 'AWS', 'Docker', 'Kubernetes', 'Terraform', 'Git']	인공지능/머신러닝
+631	[삼보컴퓨터 계열사] MES/ERP 개발자	['C#', 'ASP.NET', 'MSSQL']	웹 풀스택 개발자,SW/솔루션
+632	Senior Backend Engineer 채용	['TypeScript', 'NestJS', 'Yarn', 'GitHub Actions', 'Kubernetes', 'Docker Compose', 'Minio', 'MariaDB', 'Helm', 'Argo']	서버/백엔드 개발자
+633	WiFi Router개발 경력 1~5년	['C', 'Linux', 'C++', 'Embedded', 'Router', 'Network', 'Embedded Linux']	SW/솔루션
+634	GPON 개발자 경력 채용(11~20년)	['C', 'Linux', 'C++', 'Embedded Linux', 'SW', 'TCP/IP', 'Network']	SW/솔루션
+635	임베디드 소프트웨어 개발(7~9년)	['Embedded', 'Embedded Linux', 'ARM', 'C', 'C++']	HW/임베디드,SW/솔루션
+636	임베디드 소프트웨어 개발(10~13년)	['Embedded', 'Embedded Linux', 'ARM', 'C', 'C++']	HW/임베디드,SW/솔루션
+637	SoC RTL Design Engineer	['C', 'C++', 'Python', 'Verilog']	SW/솔루션
+638	로봇 소프트웨어 엔지니어(6~8년)	['Python', 'C++', 'Linux', 'ethernet', 'TCP/IP']	devops/시스템 엔지니어,SW/솔루션
+639	IoT Specialist (경력 9~12년)	['PLC', 'Analog', 'Linux', 'C', 'C++', 'Embedded', 'TCP/IP']	SW/솔루션
+640	Physical Design Engineer	['ASIC']	HW/임베디드
+641	모바일파트- IOS 개발	['Swift']	iOS 개발자
+642	H/W 개발자 모집	['Orcad', 'FPGA', 'Verilog', 'VHDL', 'Circuit design']	HW/임베디드
+643	어플리케이션 S/W 개발자	['Embedded', 'C', 'C++', 'Linux', 'Qt', 'SW', 'Mfc', 'Network']	SW/솔루션
+644	프로젝트/금융권 솔루션 개발[경력]	['Java', 'JavaScript', 'JSP', 'MySQL', 'Oracle', 'Spring Framework', 'Spring Boot', 'Ajax']	웹 풀스택 개발자,개발 PM
+645	로봇 소프트웨어 엔지니어(3~5년)	['Python', 'C++', 'Linux', 'ethernet', 'TCP/IP']	devops/시스템 엔지니어,SW/솔루션
+646	CTO	['AWS', 'NestJS', 'Node.js', 'React', 'REST API']	서버/백엔드 개발자,프론트엔드 개발자
+647	병원정보시스템 S/W 경력 개발자	['C#', 'WPF', '.NET', 'Oracle', 'JavaScript', 'MySQL']	서버/백엔드 개발자,SW/솔루션
+648	SoC RTL DFT Design Engineer	['PCB', 'HW', 'Embedded']	HW/임베디드
+649	android/IOS 앱 개발자	['Flutter', 'Dart', 'AWS', 'MySQL', 'Git', 'Firebase', 'React Native', 'React']	안드로이드 개발자,iOS 개발자
+650	AI로보틱스 어플리케이션 소프트웨어	['C++', 'C', 'Qt', 'JavaScript', 'Python', 'GitHub']	SW/솔루션
+651	기술개발 총괄 및 리딩(16~20년)	['RDB', 'REST API', 'C++', 'Java', 'AWS', 'React', 'SQL']	개발 PM,SW/솔루션
+652	[DX사업본부] DevOps Engineer	['Java', 'Kotlin', 'Spring Boot', 'Kafka', 'NoSql', 'K8S']	devops/시스템 엔지니어
+653	2차전지 검사장비 개발/유지보수 채용	['C#', 'MSSQL', 'SW', 'MySQL', 'C++', 'WPF']	SW/솔루션
+654	검사장비 HW/FW 개발 경력 채용	['HW', 'FW', 'ARM', 'PCB']	HW/임베디드
+655	풀스택(Java) 개발자(전문연구요원가능)	['Spring Framework', 'Spring Boot', 'JavaScript', 'MySQL', 'NoSql', 'MariaDB', 'Java']	웹 풀스택 개발자
+656	프론트엔드 개발자 주니어 채용 [본사]	['Yarn', 'React', 'Next.js', 'TypeScript', 'React Query', 'Zustand', 'REST API', 'JSON', 'GCP', 'AWS']	프론트엔드 개발자
+657	Vision System SW Junior 개발자	['SW', 'C++', 'C', 'JavaScript', 'Python']	SW/솔루션
+658	Frontend Engineer	['React', 'Next.js', 'TypeScript', 'JavaScript', 'CSS 3', 'HTML5', 'REST API', 'Git']	프론트엔드 개발자
+659	Web Developer (웹 개발자 경력 채용)	['SAP', 'ABAP', 'SQL', 'Oracle', 'MySQL', 'ASP.NET', 'C#', 'Java']	웹 풀스택 개발자
+660	반도체 회로 설계 개발자 (신입)	['Git', 'GitHub', 'iOS', 'Python', 'AWS', 'Spring Framework']	HW/임베디드
+661	생성형 AI 데이터사이언티스트	['Python', 'TensorFlow', 'DeepLearning']	인공지능/머신러닝
+662	안드로이드 러닝 앱 개발자 채용	['Figma', 'iOS', 'Android OS', 'Kotlin', 'Git', 'Firebase']	안드로이드 개발자
+663	프론트엔드 개발자 시니어 채용 [본사]	['Yarn', 'React', 'Next.js', 'TypeScript', 'React Query', 'Zustand', 'REST API', 'JSON', 'AWS', 'AZURE']	프론트엔드 개발자
+664	SW/솔루션 정규직 채용(신입)	['C', 'C++', 'Embedded', 'MCU', 'FW', 'ethernet', 'Linux', 'RTOS']	SW/솔루션
+665	반도체 검사장비 HW 개발(과장급)	['FPGA', 'VHDL', 'Verilog', 'C', 'C++', 'C#']	HW/임베디드
+666	백엔드 개발자 시니어 채용 [본사]	['REST API', 'DB', 'NestJS', 'Node.js', 'PostgreSQL', 'RDB', 'SQL', 'NoSql', 'Redis', 'Amazon SQS']	서버/백엔드 개발자
+667	반도체설비제어 SoftwarePlatform 개발 (분당)	['SW', 'C#']	SW/솔루션
+668	프론트엔드개발자	['React', 'JavaScript']	프론트엔드 개발자
+669	SDV 솔루션 2,3팀	['C', 'SW', 'MATLAB']	SW/솔루션
+670	QA/QC manager	['QA', 'HW', 'SW']	QA 엔지니어
+671	앱개발자 채용	['Java', 'Spring', 'MySQL', 'MariaDB', 'PostgreSQL', 'NoSql', 'Kotlin', 'Android OS', 'React Native', 'Fluentd']	크로스플랫폼 앱개발자
+672	백엔드 개발자 주니어 채용 [본사]	['REST API', 'DB', 'NestJS', 'Node.js', 'PostgreSQL', 'RDB', 'SQL', 'NoSql', 'Redis', 'Amazon SQS']	서버/백엔드 개발자
+673	자율주행 필드엔지니어 (Autonomous Field Engineer)	['Linux']	HW/임베디드,SW/솔루션
+674	Java 개발자 책임급	['Java', 'JavaScript', 'jQuery', 'Oracle', 'MSSQL', 'Spring Framework']	프론트엔드 개발자
+675	모바일 앱개발자(Flutter,ReactNative)	['React Native', 'Flutter', 'Java', 'Kotlin', 'JavaScript', 'Swift']	프론트엔드 개발자
+676	신규서비스 웹 개발 및 운영	['Classic ASP', 'ASP.NET', 'Spring', 'Spring Boot', 'MSSQL', 'MySQL', 'MariaDB', 'SQL']	서버/백엔드 개발자,웹 풀스택 개발자
+677	C#개발자(네트워크 기술팀)	['C', 'C++', 'Visual Studio', 'Embedded', 'SW', 'C#']	SW/솔루션
+678	백엔드 개발 (경력 1~5년)	['GitHub', 'MySQL', 'Node.js', 'Amazon EC2', 'NGINX', 'React.js Boilerplate', 'Angular 2']	서버/백엔드 개발자,크로스플랫폼 앱개발자
+679	방산관련 응용 소프트웨어 개발자	['C#', 'C', 'SW', 'C++']	SW/솔루션
+680	S/W 개발 (신입)	['SW', 'C', 'C++', 'C#', 'Linux', 'Embedded Linux', 'FW']	HW/임베디드,SW/솔루션
+681	ios 러닝 앱 개발자 채용	['iOS', 'Git', 'Swift', 'Socket.IO', 'Firebase']	iOS 개발자
+682	Web Developer(웹 개발자 신입 채용)	['SAP', 'ABAP', 'SQL', 'Oracle', 'MySQL', 'ASP.NET', 'C#', 'Java']	웹 풀스택 개발자
+683	Frontend Developer (프론트엔드 개발자)	['TypeScript', 'Vue.js', 'WebRTC', 'React', 'WebGL', 'three.js', 'Confluence', 'Jira', 'Git']	프론트엔드 개발자
+684	실내 내비게이션 연구/개발(전문연구요원가능)	['Python', 'Spring Framework', 'AWS', 'React', 'Git', 'GitHub', 'Linux', 'PHP', 'Swift', 'React Native']	인공지능/머신러닝,SW/솔루션
+685	제어로직개발팀	['C', 'SW', 'MATLAB', 'C++']	SW/솔루션
+686	백엔드 개발 (경력 6~10년)	['GitHub', 'MySQL', 'Node.js', 'Amazon EC2', 'NGINX', 'React.js Boilerplate', 'Angular 2']	서버/백엔드 개발자,크로스플랫폼 앱개발자
+687	자율주행로봇 백엔드 엔지니어 (포항)	['Java', 'Spring Boot', 'REST API', 'MySQL', 'PostgreSQL', 'React', 'Vue.js', 'AWS', 'Git', 'Linux']	서버/백엔드 개발자
+688	S/W 개발(1~5년)	['SW', 'C', 'C++', 'C#', 'Linux', 'Embedded Linux', 'FW']	HW/임베디드,SW/솔루션
+689	[신입]영상처리/rPPG 연구개발	['OpenCV', 'DeepLearning', 'Python', 'Visual C++']	인공지능/머신러닝
+690	백앤드 개발자 채용	['Node.js', 'ExpressJS', 'React', 'Sequelize', 'React Canvas', 'Swagger UI', 'AWS', 'AZURE']	서버/백엔드 개발자
+691	Spring, jsp, Oracle 개발자(5~7년)	['Python', 'Java', 'REST API', 'Spring', 'JSP', 'Oracle']	서버/백엔드 개발자
+692	[DOF] 회로설계 엔지니어 채용	['FPGA', 'MCU', 'SMPS', 'RF']	HW/임베디드
+693	AI 테스트 엔진 개발	['Python', 'AI/인공지능']	인공지능/머신러닝
+694	MLOps 엔지니어 채용	['Git', 'Jenkins', 'AI/인공지능', 'Argo', 'MachineLearning', 'Kubernetes', 'Kubeflow', 'Python', 'Docker', 'PyTorch']	인공지능/머신러닝,devops/시스템 엔지니어
+695	솔루션개발 및 구축  PL 채용	['Node.js', 'JavaScript', 'ELK', 'React']	인공지능/머신러닝,개발 PM
+696	응용 프로그래머 (경력 15년 이상)	['Java', 'C#', 'Kotlin', 'Python', 'JavaScript', 'TypeScript']	SW/솔루션
+697	SAP MM 운영(ABAP개발)경력	['SAP', 'ABAP', 'ERP', 'Oracle', 'SQL', 'DB2']	SW/솔루션
+698	RADAR RF HW	['HW', 'PCB', 'Verilog', 'C', 'C++', 'FPGA', 'MATLAB', 'RF']	개발 PM,HW/임베디드,SW/솔루션
+699	iOS Developer	['Swift', 'Objective-C', 'iOS']	iOS 개발자
+700	풀스택 앱 개발 (경력 11~15년, 제주)	['Angular 2', 'Node.js', 'React', 'MySQL', 'Linux', 'AWS', 'Git', 'REST API', 'Flutter', 'React Native']	크로스플랫폼 앱개발자,웹 풀스택 개발자
+701	[주4.5일] 네트워크 엔지니어 경력	['Network', 'Cisco', 'TCP/IP', 'VPN', 'AWS', 'AZURE', 'Ccna', 'Ccnp', 'Ccie']	기술지원,devops/시스템 엔지니어
+702	자율주행 연구원(전문연구요원가능)	['Python', 'Spring Framework', 'AWS', 'Git', 'iOS', 'ROS', 'R', 'SQL', 'C++', 'Embedded']	SW/솔루션
+703	자율주행 로봇 개발자	['Python', 'Spring Framework', 'AWS', 'Git', 'iOS', 'ROS', 'R', 'SQL', 'C++', 'Embedded']	SW/솔루션
+704	[제어기개발팀] 임베디드 SW 개발	['C', 'MCU', 'SW', 'Embedded']	SW/솔루션
+705	하드웨어(H/W) 개발자 경력자 채용	['SW', 'HW', 'C', 'Embedded Linux', 'Linux', 'Embedded', 'MCU', 'ARM', 'FPGA']	HW/임베디드
+706	3차원 카메라 하드웨어 개발자(2~4)	['PCB', 'Orcad']	HW/임베디드
+707	전자제어 S/W 경력 개발자 모집	['FW', 'Embedded', 'C']	SW/솔루션
+708	S/W 개발(6~10년)	['SW', 'C', 'C++', 'C#', 'Linux', 'Embedded Linux', 'FW']	HW/임베디드,SW/솔루션
+709	백엔드 개발 (경력 11~년)	['GitHub', 'MySQL', 'Node.js', 'Amazon EC2', 'NGINX', 'React.js Boilerplate', 'Angular 2']	서버/백엔드 개발자,크로스플랫폼 앱개발자
+710	iPaaS 엔지니어	['Microsoft PowerApps', 'Microsoft Power Automate', 'REST API', 'JSON', 'XML', 'SQL', 'Python', 'JavaScript']	SW/솔루션
+711	풀스택 앱 개발 (경력 13~15년)	['Angular 2', 'Node.js', 'React', 'MySQL', 'Linux', 'AWS', 'Git', 'REST API']	크로스플랫폼 앱개발자,웹 풀스택 개발자
+712	풀스택 앱 개발 (경력 5~8년)	['Angular 2', 'Node.js', 'React', 'MySQL', 'Linux', 'AWS', 'Git', 'REST API']	크로스플랫폼 앱개발자,웹 풀스택 개발자
+713	차량 데이터 검증 솔루션 개발	['Java', 'Python', 'SW']	SW/솔루션
+714	[박사]영상처리/rPPG 연구개발	['OpenCV', 'DeepLearning', 'Python', 'Visual C++']	인공지능/머신러닝
+715	풀스택 앱 개발 (경력 9~12년)	['Angular 2', 'Node.js', 'React', 'MySQL', 'Linux', 'AWS', 'Git', 'REST API']	크로스플랫폼 앱개발자,웹 풀스택 개발자
+716	[SDx플랫폼팀]  임베디드 SW 개발	['C', 'MCU', 'RTOS', 'Embedded', 'Linux']	SW/솔루션
+717	Wi-Fi 소프트웨어 개발자 8~10년	['Embedded Linux', 'C', 'L2']	SW/솔루션
+718	Product Manager - Agentic AI 기반 협업툴	['MachineLearning', 'AI/인공지능']	개발 PM
+719	선행연구 S/W 개발자(C언어) / 팀장	['C++', 'C', 'Embedded Linux', 'C#', 'SW']	SW/솔루션
+720	시스템 운용/유지보수	['Ccna', 'Ccnp', 'VPN', 'Router', 'Linux']	기술지원,HW/임베디드,SW/솔루션
+721	스마트팩토리/물류자동화 SW개발자	['MES', 'C++', 'C#', 'SQL', 'Java']	기술지원,SW/솔루션
+722	UI테스팅 자동화 솔루션 개발	['Java', 'Python', 'SW', 'Eclipse']	SW/솔루션
+723	개발자	['Python', 'Spring Boot', 'AWS', 'Git', 'ROS', 'SQL', 'C', 'C++', 'Linux', 'SW']	개발 PM,SW/솔루션
+724	FrontEnd팀 개발자 채용	['Java', 'JavaScript', 'Docker', 'SW', 'React']	프론트엔드 개발자
+725	Spring, jsp, Oracle 개발자(2~4년)	['Python', 'Java', 'REST API', 'Spring', 'JSP', 'Oracle']	서버/백엔드 개발자
+726	AI Engineer (신입)	['C', 'C++', 'Linux']	인공지능/머신러닝
+727	빅데이터 개발자(전문연구요원가능)	['Python', 'Spring Framework', 'AWS', 'React', 'Git', 'GitHub', 'Linux', 'PHP', 'Swift', 'React Native']	빅데이터 엔지니어
+728	[장애인전형] 백엔드 개발자	['Netty', 'Spring Framework', 'Spring Security', 'Spring Data JPA', 'Java']	서버/백엔드 개발자
+729	3D 컴퓨터 비전 연구개발	['DeepLearning', 'AI/인공지능', 'Python', 'PyTorch', 'MachineLearning', 'C++', 'Keras', 'TensorFlow', 'SciPy', 'CUDA']	인공지능/머신러닝
+730	제어SW 엔지니어	['Git', 'C++', 'C', 'PLC', 'MES', 'TCP/IP', 'ethernet']	SW/솔루션
+731	웹/모바일 서비스 기획자	['Android OS', 'iOS', 'Figma']	웹 풀스택 개발자,안드로이드 개발자
+732	iPaaS 프로젝트 매니저 PM	['Microsoft PowerApps', 'Microsoft Power Automate']	개발 PM
+733	기술개발 신입/경력(SolutionEngineer)	['C++', 'C', 'Embedded', 'SW', 'Solidworks', 'HW']	기술지원,SW/솔루션
+734	HW 연구소 시스템개발2팀	['HW', 'PCB', 'Verilog', 'C', 'C++', 'FPGA', 'MATLAB', 'RF']	개발 PM,HW/임베디드,SW/솔루션
+735	백엔드 개발자 (경력 15년 이상)	['Java', 'Kotlin', 'Python', 'Go', 'C#', 'C++', 'REST API', 'Spring Boot', 'MSSQL', 'PostgreSQL']	서버/백엔드 개발자
+736	Document AI Researcher	['Python', 'TensorFlow', 'PyTorch', 'Docker', 'OpenCV', 'Git', 'Linux', 'DeepLearning']	인공지능/머신러닝
+737	반도체 회로 설계 개발자 (경력)	['Git', 'GitHub', 'iOS', 'Python', 'AWS', 'Spring Framework']	HW/임베디드
+738	차량용 RADAR HW	['HW', 'PCB', 'Verilog', 'C', 'C++', 'FPGA', 'MATLAB']	개발 PM,HW/임베디드,SW/솔루션
+739	MES 개발자 (제조 SI  web개발)	['Java', 'JavaScript', 'HTML5', 'Spring Framework', 'MySQL', 'Linux']	웹 풀스택 개발자
+740	영상 처리 연구/개발(전문연구요원가능)	['Python', 'OpenCV', 'Java', 'Spring Boot', 'C', 'C++', 'C#', 'Linux', 'AWS', 'GCP']	인공지능/머신러닝,SW/솔루션
+741	이리온 비전 기반 인지 모델 개발자	['DeepLearning', 'PyTorch', 'TensorFlow']	인공지능/머신러닝
+742	EV charger embedded 개발	['Rust', 'C++']	HW/임베디드
+743	WiFi Router 개발 신입 채용	['C', 'Linux', 'C++', 'Embedded', 'Router', 'Network', 'Embedded Linux']	SW/솔루션
+744	[전기차충전기]안드로이드 개발자	['Kotlin', 'Jetpack', 'Composer', 'SQLite', 'WebSocket']	안드로이드 개발자
+745	MLOps(머신러닝연구개발)Engineer채용	['Kafka', 'Amazon Kinesis', 'TensorFlow', 'PyTorch', 'Terraform', 'AWS', 'GCP', 'GitHub Actions', 'Jenkins']	인공지능/머신러닝
+746	[EvryAI] 백엔드 개발자	['AI/인공지능', 'Node.js', 'Python', 'REST API', 'AWS', 'Git', 'Docker', 'Kubernetes', 'Linux', 'Shell']	서버/백엔드 개발자,SW/솔루션
+747	백엔드 Python 경력직 개발자 모집	['Python', 'Azure DevOps', 'AWS']	서버/백엔드 개발자,devops/시스템 엔지니어
+748	AI 담당자 채용	['Python', 'Snowflake', 'Tableau', 'AI/인공지능']	인공지능/머신러닝,SW/솔루션
+749	서버 개발팀원	['Django']	서버/백엔드 개발자
+750	R&D 부문 신입사원 채용	['DeepLearning', 'C', 'Linux', 'Python', 'AI/인공지능', 'VR', 'AR', 'Embedded', 'SW', 'C++']	VR/AR/3D,SW/솔루션
+751	프론트엔드 개발자 경력직 채용	['HTML5', 'CSS 3', 'JavaScript', 'React Native']	프론트엔드 개발자
+752	flutter 개발자 경력직 채용	['Flutter', 'Linux', 'Git', 'Node.js', 'Firebase Hosting', 'iOS', 'Auth0', 'Firebase', 'Dart']	크로스플랫폼 앱개발자
+753	이미지 생성AI 전문 AI/DL 엔지니어	['Python', 'DeepLearning', 'AI/인공지능', 'OpenCV', 'PyTorch']	인공지능/머신러닝,devops/시스템 엔지니어
+754	WMS Web 개발자 채용	['Linux', 'Oracle', 'Java', 'JSP', 'REST API']	서버/백엔드 개발자,프론트엔드 개발자
+755	IT운영팀 경력직 채용	['Java', 'JSP', 'Mybatis', 'RDB', 'Jenkins']	기술지원
+756	Data Project Manager	['QA', 'Notion', 'Google Workspace', 'Slack', 'Figma', 'Airflow', 'SQL', 'AWS', 'Data Studio', 'Project Reactor']	빅데이터 엔지니어
+757	R&D 부문 PM	['SW', 'HW']	개발 PM
+758	[더휴일] Node.js/React 개발 (팀장급)	['TypeScript', 'Next.js', 'NestJS', 'React Native', 'Flutter', 'Java', 'JSP', 'AWS', 'MySQL', 'TypeORM']	크로스플랫폼 앱개발자,웹 풀스택 개발자
+759	언리얼 엔지니어 채용	['C++', 'VR', 'AR', 'AWS', 'AZURE']	devops/시스템 엔지니어
+760	CRM/AI 고객 분석 담당 채용	['SQL', 'Microsoft Excel', 'Salesforce', 'Tableau', 'Snowflake', 'AI/인공지능', 'Google Analytics']	서버/백엔드 개발자,빅데이터 엔지니어
+761	IT Team Leader 채용	['Oracle', 'Linux', 'Windows', 'Network', 'SAP']	기술지원,개발 PM
+762	프론트엔드 개발자 경력직 채용	['Node.js', 'Java', 'AWS', 'React.js Boilerplate']	서버/백엔드 개발자,프론트엔드 개발자
+763	데이터 사이언티스트 (Data Scientist) 채용	['Python', 'MachineLearning', 'SQL', 'Tableau']	빅데이터 엔지니어,인공지능/머신러닝
+764	소프트웨어 개발자 (SW/솔루션)	['C', 'C++', 'Mfc', 'C#', 'WPF', 'DB']	SW/솔루션
+765	S/W팀(UI업무 경력자 채용)	['Linux', 'C#', 'WPF', 'Java', 'Android OS', 'SW']	프론트엔드 개발자
+766	백엔드 개발자 신입 채용	['PostgreSQL', 'Kafka', 'Spring Boot', 'Git', 'GitHub', 'Docker']	서버/백엔드 개발자
+767	정보보호 담당자 채용	['ISMS', 'Linux', 'Windows', 'Firewall', 'VPN']	정보보안 담당자
+768	전산 담당자 정규직 채용	['ERP', 'SW']	기술지원,정보보안 담당자
+769	웹서버 개발자 신입 채용	['C++', 'Java', 'React', 'Spring']	서버/백엔드 개발자
+770	[더휴일] Node.js/React 개발	['TypeScript', 'Next.js', 'NestJS', 'React Native', 'Flutter', 'Java', 'JSP', 'AWS', 'MySQL', 'TypeORM']	크로스플랫폼 앱개발자,웹 풀스택 개발자
+771	클라우드 사업부 엔지니어	['Azure DevOps', 'Azure DevOps Server', 'Windows', 'Linux', 'Microsoft Office 365', 'Cisco', 'DC/OS', 'vmware', 'Azure Storage', 'LinuxKit']	devops/시스템 엔지니어
+772	백엔드 개발자 경력직 채용	['PostgreSQL', 'Kafka', 'Spring Boot', 'Git', 'GitHub', 'Docker']	서버/백엔드 개발자
+773	DBA 담당자 채용	['Oracle', 'MySQL', 'MariaDB', 'Microsoft SQL Server', 'Amazon RDS']	DBA
+774	IOS 개발자 경력직 채용	['iOS', 'Swift', 'Objective-C']	iOS 개발자
+775	시스템 사업부 신입 엔지니어	['Azure DevOps', 'Azure DevOps Server', 'Windows', 'Linux', 'Microsoft Office 365', 'Cisco', 'DC/OS', 'vmware', 'Azure Storage']	devops/시스템 엔지니어
+776	풀스택 기술 리더 개발 팀장 채용	['Java', 'Spring Boot', 'Gradle', 'Hibernate', 'TypeScript', 'React', 'Next.js', 'HTML5', 'CSS 3', 'React Query']	서버/백엔드 개발자,프론트엔드 개발자,웹 풀스택 개발자
+777	flutter 개발자 신입 채용	['Flutter', 'Linux', 'Git', 'Node.js', 'Firebase Hosting', 'iOS', 'Auth0', 'Firebase', 'Dart']	크로스플랫폼 앱개발자
+778	하루콩 Flutter 개발팀원	['Flutter']	iOS 개발자,안드로이드 개발자
+779	웹퍼블리셔 신입 채용	['Zeplin', 'Vue.js', 'JavaScript', 'jQuery', 'CSS 3', 'HTML5']	웹퍼블리셔
+780	풀스택  개발자 채용 SCM 스타트업	['Spring Boot', 'Spring', 'JavaScript']	웹 풀스택 개발자
+781	웹퍼블리셔 경력직 채용	['Zeplin', 'Vue.js', 'JavaScript', 'jQuery', 'CSS 3', 'HTML5']	웹퍼블리셔
+782	클라우드 엔지니어 신입 채용	['AZURE', 'GCP', 'AWS', 'DB', 'BigData', 'MachineLearning', 'MySQL', 'Redis', 'Elasticsearch', 'Python']	빅데이터 엔지니어
+783	인프라 담당자 채용	['Infra', 'Network', 'Linux', 'Windows', 'AWS', 'ISMS', 'vmware', 'Cisco']	devops/시스템 엔지니어,SW/솔루션
+784	새벽시장 스쿼드 백엔드 개발자 (3년이상)	['Kotlin', 'Spring Boot', 'Spring Data JPA', 'AWS']	서버/백엔드 개발자
+785	백엔드 개발자(전환형 인턴)	['Ruby', 'Python', 'Java', 'AWS']	서버/백엔드 개발자
+786	[SCK 및 관계사] Cloud 엔지니어 경력	['Azure DevOps', 'Azure DevOps Server', 'Azure Application Insights', 'Microsoft Azure', 'AWS', 'AZURE', 'GCP', 'Java', 'Linux', 'Python']	기술지원,devops/시스템 엔지니어
+787	백엔드 개발자 모집	['Golang', 'Redis', 'SQL', 'Git']	서버/백엔드 개발자
+788	CTO: Full-stack 모집	['JavaScript', 'TypeScript', 'Next.js', 'NestJS', 'PostgreSQL']	서버/백엔드 개발자,프론트엔드 개발자
+789	포탈 웹사이트 Back-end 개발자 경력직	['Spring Framework', 'Java', 'Kotlin', 'React', 'NoSql', 'Python', 'C#', 'MySQL', 'Node.js', 'Django']	서버/백엔드 개발자
+790	PIA자격 필수/개인정보보호컨설팅(6~10)	['ISMS', 'CPPG']	정보보안 담당자
+791	앱개발 프로그래머 경력 (2~5년)채용	['OpenCV', 'Flutter', 'React', 'Swift', 'Android Studio', 'Xcode', 'Objective-C']	SW/솔루션
+792	PRM(Web POS)/BI Web개발자 채용	['Linux', 'Oracle', 'Java', 'JSP', 'REST API']	서버/백엔드 개발자,프론트엔드 개발자
+793	풀스택 개발자 PM급 채용	['Java', 'JSP', 'REST API', 'Apache Tomcat', 'Oracle Weblogic Server', 'Git', 'Docker', 'AWS']	웹 풀스택 개발자
+794	임베디드 개발자 신입 채용	['RTOS', 'Python', 'C++', 'C', 'HW', 'FW']	HW/임베디드
+795	시스템 유지보수 (1~3년차)	['Python', 'JavaScript', 'NGINX', 'MariaDB', 'PHP', 'MQTT']	서버/백엔드 개발자,프론트엔드 개발자
+796	R&D 부문 경력사원 채용	['DeepLearning', 'C', 'Linux', 'Python', 'AI/인공지능', 'VR', 'AR', 'Embedded', 'SW', 'C++']	VR/AR/3D,SW/솔루션
+797	E-Commerce 개발 담당자 채용	['Microsoft Excel', 'Google Analytics', 'Tableau']	프론트엔드 개발자,개발 PM
+798	인프라(시스템엔지니어) 개발자_11년↑	['Kubernetes', 'GitHub', 'Jira', 'MongoDB', 'Grafana', 'Amazon EC2', 'Argo', 'Minio']	devops/시스템 엔지니어
+799	R&D 펌웨어 경력자 채용(서초)	['FW']	기술지원,SW/솔루션
+800	R&D UI 경력자 채용	['Java', 'Linux', 'Windows', 'WPF', 'C#']	웹퍼블리셔,SW/솔루션
+801	R&D 인증 경력자 채용	['SW']	기술지원
+802	WMS스쿼드 백엔드(풀스택) 개발자	['Java', 'MySQL', 'React', 'SQL', 'Spring Boot', 'QueryDSL', 'JavaScript', 'Spring Data JPA', 'Debezium', 'AWS', 'Amazon S3']	웹 풀스택 개발자
+803	광통신/정보통신 네트워크 엔지니어 채용	['Ccna', 'Ccnp', 'TCP/IP', 'Linux', 'Windows Server']	devops/시스템 엔지니어
+804	SAP FI 모듈 담당자 채용	['SAP', 'Microsoft Excel']	SW/솔루션
+805	하드웨어 개발자 경력 채용	['HW', 'Embedded', 'PCB', 'ARM', 'Embedded Linux', 'Android OS']	안드로이드 개발자,HW/임베디드
+806	수요예측/데이터 분석 전문가(중/고급)	['Python', 'SQL', 'TensorFlow', 'Keras', 'PyTorch', 'PySpark', 'EDA', 'AI/인공지능', 'MachineLearning']	빅데이터 엔지니어,인공지능/머신러닝
+807	의료영상 3차원 개발자 채용(7~9)	['C', 'C#', 'C++', 'DeepLearning']	인공지능/머신러닝
+808	Linux OS 개발자 경력직 채용	['Linux', 'Embedded', 'SW', 'Docker', 'Yocto', 'Qt']	HW/임베디드
+809	웹 진단 모의해킹 (3~6년)	['Hack', 'Azure Security Center', 'ISMS', 'CISA', 'CISSP']	정보보안 담당자
+810	인프라(시스템엔지니어) 개발자_3~5년	['Kubernetes', 'GitHub', 'Jira', 'MongoDB', 'Grafana', 'Amazon EC2', 'Argo', 'Minio']	devops/시스템 엔지니어
+811	파워빌더/ERP 개발 및 관리 채용	['Power builder', 'DB', 'Oracle', 'MSSQL', 'Spring', 'ERP', 'Network']	서버/백엔드 개발자,개발 PM
+812	Navigation Test Engineer 신입 채용	['SW', 'HW', 'DB']	DBA
+813	앱 개발자 경력 채용 (6~9년)	['Android OS', 'REST API', 'React', 'iOS', 'Flutter']	안드로이드 개발자
+814	임베디드 시스템 개발자 채용	['RTOS', 'C', 'Orcad', 'FPGA', 'Verilog', 'VHDL', 'ARM']	HW/임베디드
+815	회로설계 경력 엔지니어 채용	['Orcad', 'Pads', 'PCB']	HW/임베디드
+816	SAP MM 모듈 담당자 채용	['SAP', 'Microsoft Excel']	SW/솔루션
+817	R&D 펌웨어 경력자 채용(구미)	['FW']	기술지원,SW/솔루션
+818	ERP운영/유지보수 개발자_5년 이상	['Delphi', 'C#', 'Oracle', 'MSSQL', 'MySQL']	SW/솔루션
+819	SAP SD 모듈 담당자 채용	['SAP', 'Microsoft Excel']	SW/솔루션
+820	웹 개발자	['MySQL', 'PHP', 'React', 'Node.js', 'Laravel', 'JavaScript']	웹 풀스택 개발자
+821	정보보안 담당자 신입 채용	['SecureCRT']	정보보안 담당자
+822	JAVA 풀스택 개발자 경력직 채용	['Java', 'JavaScript', 'Spring', 'Mybatis', 'DB', 'JSP']	웹 풀스택 개발자
+823	반도체 자동화시스템개발(RMS/FDC)신입	['C', 'Vb.net', 'Oracle', 'MSSQL', 'C#']	devops/시스템 엔지니어,SW/솔루션
+824	인프라팀 인프라 관리자	['Ansible', 'Linux', 'Windows', 'Zabbix', 'Slack']	devops/시스템 엔지니어,정보보안 담당자
+825	보안 솔루션 엔지니어 신입 채용	['Java', 'Oracle', 'SQL', 'MariaDB', 'C++', 'Linux', 'Windows']	정보보안 담당자
+826	node.js 개발자 경력직 채용	['Node.js', 'AWS', 'REST API']	서버/백엔드 개발자
+827	FPGA개발 신입 채용	['FPGA', 'C', 'C++', 'Cisco ISE', 'Embedded Linux', 'HW', 'Verilog', 'VHDL']	HW/임베디드
+828	PHP 개발자 경력직 채용	['PHP', 'JavaScript', 'Node.js']	웹 풀스택 개발자
+829	연구소 소프트웨어 개발자 채용(3~6년)	['C', 'C++', 'Linux', 'MCU', 'Libraries.io', 'Embedded']	SW/솔루션
+830	ERP운영/유지보수 개발자_2년 이상	['Delphi', 'C#', 'Oracle', 'MSSQL', 'MySQL']	SW/솔루션
+831	안드로이드 앱개발 경력직 채용	['Android OS', 'Java', 'Kotlin']	안드로이드 개발자
+832	NPU 컴파일러 개발 엔지니어	['C', 'C++', 'Python', 'Linux', 'TensorFlow', 'PyTorch']	SW/솔루션,인공지능/머신러닝
+833	인프라 엔지니어 신입 채용	['Docker', 'TypeScript', 'AWS', 'AZURE', 'GCP', 'Solidity', 'Hyperledger Indy', 'Golang']	블록체인,devops/시스템 엔지니어
+834	[경력] 프론트엔드 개발자 채용	['JavaScript', 'HTML5', 'CSS 3', 'Vue.js', 'React Native']	프론트엔드 개발자
+835	클라우드 엔지니어 경력직 채용	['AZURE', 'GCP', 'AWS', 'DB', 'BigData', 'MachineLearning', 'MySQL', 'Redis', 'Elasticsearch', 'Python']	빅데이터 엔지니어
+836	ML Engineer	['Python', 'AWS', 'PostgreSQL', 'PyTorch', 'OpenCV', 'Google Workspace', 'Notion', 'Slack', 'Tesseract OCR', 'NLP']	devops/시스템 엔지니어
+837	웹 풀스택 개발자 경력직 채용	['Java', 'JavaScript', 'Python', 'HTML5', 'CSS 3', 'Docker', 'Kubernetes']	웹 풀스택 개발자
+838	[DBA] 개발자 채용 SCM 스타트업	['Oracle', 'Spring', 'Spring Boot', 'Google Cloud SQL for Postgr...']	DBA
+839	웹서버 개발자 경력 채용	['C++', 'Java', 'React', 'Spring']	서버/백엔드 개발자
+840	하드웨어 개발자 신입 채용	['HW', 'Embedded', 'PCB', 'ARM', 'Embedded Linux', 'Android OS']	안드로이드 개발자,HW/임베디드
+841	MCU 응용개발 및 FAE	['C', 'C++', 'R', 'Android OS', 'MCU']	QA 엔지니어,HW/임베디드
+842	Model Compression Research Engineer	['MachineLearning', 'DeepLearning', 'FPGA']	인공지능/머신러닝
+843	풀스택 앱 개발 (경력 3~6년, 제주)	['Angular 2', 'Node.js', 'React', 'MySQL', 'Linux', 'AWS', 'Git', 'REST API', 'Flutter', 'React Native']	크로스플랫폼 앱개발자,웹 풀스택 개발자
+844	풀스택 앱 개발 (경력 7~10년, 제주)	['Angular 2', 'Node.js', 'React', 'MySQL', 'Linux', 'AWS', 'Git', 'REST API', 'Flutter', 'React Native']	크로스플랫폼 앱개발자,웹 풀스택 개발자
+845	Touch Key/Sensor MCU 응용엔지니어	['C', 'C++', 'R', 'Android OS', 'MCU']	QA 엔지니어,HW/임베디드
+846	하드웨어 개발자(신입)	['HW']	HW/임베디드
+847	수원) SW 테스트 엔지니어(QA) (1~3년)	['QA', 'Python', 'C', 'SW']	QA 엔지니어
+848	하드웨어 개발자(1~9년)	['HW']	HW/임베디드
+849	Data Scientist in Financial (4~6년)	['Python', 'R', 'BigData', 'MachineLearning']	빅데이터 엔지니어
+850	하드웨어 개발자(10년~)	['HW']	HW/임베디드
+851	[SCK 및 관계사] Microsoft 엔지니어	['Microsoft Office 365', 'SW', 'AWS Copilot', 'GitHub Copilot', 'Microsoft SharePoint', 'Microsoft Teams', 'Google Cloud Platform']	SW/솔루션
+852	Software Engineer (Back-End)	['SW', 'ScrapingBot', 'Linux', 'MySQL', 'Python', 'PHP']	서버/백엔드 개발자
+853	로봇 필드 엔지니어	['Linux', 'Python', 'Git']	QA 엔지니어,SW/솔루션
+854	Back-End 서버개발자 경력 (5년이상)	['Java', 'Spring', 'Mybatis', 'Spring Data JPA', 'Oracle', 'MariaDB', 'Git', 'JavaScript', 'Jenkins', 'Cachet']	서버/백엔드 개발자
+855	백엔드 개발자	['Node.js', 'TypeScript', 'MySQL', 'Ubuntu', 'GitHub', 'AWS', 'JavaScript', 'REST API']	서버/백엔드 개발자
+856	카카오/네이버 연계시스템 서버 개발자	['Git', 'Spring Boot', 'REST API', 'Linux', 'AWS']	서버/백엔드 개발자
+857	프론트엔드 개발자 경력 (5년 이상)	['JavaScript', 'TypeScript', 'React', 'HTML5', 'Vue.js', 'AngularJS', 'CSS 3', 'Next.js']	프론트엔드 개발자
+858	QA Engineer (경력 1~5년↓)	['QA', 'Jenkins']	QA 엔지니어
+859	검색엔진 코어개발자 (백엔드)	['Python', 'FastAPI', 'Flask', 'Django', 'REST API']	서버/백엔드 개발자
+860	프로덕트관리 및 개발PM 담당자	['Jira', 'Network', 'Infra', 'Insight', 'ISMS']	개발 PM
+861	고급 백엔드 설계/개발자  정규직 채용	['Java']	서버/백엔드 개발자
+862	[TADA]Android Engineer(Intermediate)	['Kotlin', 'Android OS', 'RxJava', 'Gradle']	안드로이드 개발자
+863	웹 서비스 자바 개발자	['REST API', 'C++', 'Linux', 'Java', 'C', 'AngularJS']	서버/백엔드 개발자
+864	이커머스 프론트엔드 리드 [떠리몰]	['Next.js', 'AWS', 'Flutter', 'JavaScript', 'TypeScript', 'Spring Framework', 'React']	프론트엔드 개발자
+865	JAVA 개발자 채용	['JavaScript', 'Angular 2', 'React', 'Vue.js', 'Java', 'Spring', 'SQL', 'REST API', 'Docker']	웹 풀스택 개발자
+866	솔루션 QA 담당자	['QA']	QA 엔지니어
+867	FinOps Junior 컨설턴트	['Azure DevOps']	개발 PM
+868	프론트엔드 리드 개발자 (5~10년차)	['Vue.js']	프론트엔드 개발자
+869	HW 기구 설계(경력)	['Solidworks', 'Autocad']	HW/임베디드
+870	전기전자 설계 개발(경력)	['Orcad', 'PCB', '2D Rendering', '3D Rendering']	HW/임베디드
+871	이커머스 프론트엔드 경력 (과장 이상)	['Next.js', 'AWS', 'Flutter', 'JavaScript', 'TypeScript', 'Spring Framework', 'React']	프론트엔드 개발자
+872	QA Engineer (경력 6~10년↓)	['QA', 'Jenkins']	QA 엔지니어
+873	React Native 주니어 개발자 (2~4년차)	['React']	크로스플랫폼 앱개발자
+874	AI 개발자 채용	['AI/인공지능', 'DeepLearning', 'MachineLearning', 'MySQL', 'Elasticsearch', 'Python', 'Pandas', 'NumPy', 'PyTorch', 'TensorFlow']	DBA,인공지능/머신러닝
+875	프론트엔드 개발자 신입채용	['JavaScript', 'TypeScript']	프론트엔드 개발자
+876	Software Engineer (Front-End)	['Vue.js', 'jQuery', 'TailwindCSS', 'Bootstrap', 'SW', 'Dashboards by Keen IO']	프론트엔드 개발자
+877	[신입] Flutter 앱 & Node.js 개발자	['TypeScript', 'Node.js', 'PostgreSQL', 'REST API', 'AWS', 'Flutter', 'Dart', 'Linux', 'NoSql']	서버/백엔드 개발자,크로스플랫폼 앱개발자
+878	Mobile(Flutter) developer	['React Native', 'Android OS', 'iOS', 'Flutter']	iOS 개발자,크로스플랫폼 앱개발자,안드로이드 개발자
+879	연구소 풀스텍 개발(java)	['Java', 'MySQL', 'Spring', 'Spring Data JPA', 'JavaScript', 'jQuery', 'HTML5', 'CSS 3', 'IntelliJ IDEA', 'Git', 'JSON-RPC']	웹 풀스택 개발자
+880	Back-End 서버개발자 경력 (10년이상)	['Java', 'Spring', 'Mybatis', 'Spring Data JPA', 'Oracle', 'MariaDB', 'Git', 'JavaScript', 'Jenkins', 'Cachet']	서버/백엔드 개발자
+881	전산팀 앱개발 신입 채용	['Java', 'Linux', 'Oracle']	서버/백엔드 개발자,프론트엔드 개발자
+882	IT운영	['AWS', 'Kafka', 'Amazon EKS', 'DB', 'Oracle', 'MySQL', 'Python', 'C', 'C++', 'Java']	기술지원
+883	QA Engineer (경력 11년↑)	['QA', 'Jenkins']	QA 엔지니어
+884	UI/UX 개발자 경력 정규직 채용	['JavaScript', 'HTML5', 'CSS 3', 'jQuery']	웹퍼블리셔
+885	서비스 및 개발 PM/PO	['MySQL']	개발 PM
+886	임베디드 소프트웨어(펌웨어) 개발자	['C', 'C#', 'Embedded', 'Linux', 'FW', 'C++', 'MCU', 'SW', 'Network']	SW/솔루션
+887	웹 퍼블리셔 경력채용 (2~5년)	['JavaScript', 'HTML5', 'CSS 3', 'jQuery']	웹퍼블리셔
+888	에이전시 PHP 백엔드 채용[대리]	['PHP', 'MySQL', 'Laravel', 'Linux', 'MariaDB', 'REST API']	서버/백엔드 개발자,웹 풀스택 개발자
+889	솔루션 기술지원 및 유지보수(신입-3년)	['Spring', 'Spring Boot', 'Spring MVC', 'Linux', 'LDAP', 'Active Directory', 'Ansible', 'ELK']	기술지원,SW/솔루션
+890	[이즈파크] PLM 개발자	['Java', 'JavaScript', 'JSP']	devops/시스템 엔지니어
+891	앱개발 프로그래머 신입 채용	['OpenCV', 'Flutter', 'React', 'Swift', 'Android Studio', 'Xcode', 'Objective-C']	SW/솔루션
+892	[이즈파크] PLM 프로젝트 PM	['Java', 'MSSQL', 'Oracle']	개발 PM
+893	EMS, BEMS, FEMS 개발자	['REST API', 'Mfc', 'C++', 'Linux', 'JavaScript', 'MySQL', 'Spring Framework', 'AWS', 'React', 'jQuery']	프론트엔드 개발자,SW/솔루션
+894	AI연관 백엔드 개발자 (경력 3년이상)	['Java', 'Spring', 'MySQL', 'MariaDB', 'Hibernate', 'AWS']	서버/백엔드 개발자
+895	플랫폼개발팀 Backend 개발자 경력모집	['PHP', 'MySQL', 'Apache HTTP Server', 'REST API', 'HTML5', 'CSS 3', 'Node.js', 'jQuery', 'JavaScript']	서버/백엔드 개발자,웹 풀스택 개발자
+896	에이전시 PHP 백엔드 채용[과장]	['PHP', 'MySQL', 'Laravel', 'Linux', 'MariaDB', 'REST API']	서버/백엔드 개발자,웹 풀스택 개발자
+897	프론트엔드 개발자	['AWS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'React Query', 'Zustand', 'pnpm', 'Google Workspace', 'Notion']	프론트엔드 개발자
+898	앱 개발자 경력 채용 (2~5년)	['Android OS', 'REST API', 'React', 'iOS', 'Flutter']	안드로이드 개발자
+899	전산 담당자 계약직 채용	['ERP', 'SW']	기술지원,정보보안 담당자
+900	IOS 개발자	['Swift']	iOS 개발자
+901	웹 퍼블리셔 신입 채용공고	['JavaScript', 'HTML5', 'CSS 3', 'jQuery']	웹퍼블리셔
+902	앱 개발자 신입 채용	['Android OS', 'REST API', 'React', 'iOS', 'Flutter']	안드로이드 개발자
+903	프론트엔드 개발자(3년 이상~7년 이하)	['JavaScript', 'TypeScript', 'React', 'Next.js', 'three.js', 'Redux', 'Zustand', 'React Query', 'AWS', 'HTML5']	프론트엔드 개발자
+904	SRE팀 SRE엔지니어(팀장)	['Jira', 'Testrail', 'QA']	devops/시스템 엔지니어
+905	펌웨어 개발자 경력 정규직 채용	['FW', 'MCU', 'C', 'SW']	HW/임베디드,SW/솔루션
+906	GSC EDR IoC 및 악성코드 분석	['PowerShell', 'ScriptRock']	정보보안 담당자
+907	기업부설연구소 전문연구요원(병역특례)	['Python', 'AWS WAF', 'Git', 'Java', 'JavaScript', 'SQL', 'Kotlin', 'Swift', 'C++', 'GitHub']	서버/백엔드 개발자,SW/솔루션
+908	중급 백엔드 개발자 채용	['Java']	서버/백엔드 개발자
+909	기술부서장(기술지원팀 및 QA/QC팀 총괄 관리)	['QA', 'SW', 'CISSP']	기술지원,QA 엔지니어
+910	CloudDev팀 네트워크 보안 개발자	['C#', 'Python', 'Go', 'Linux', 'JavaScript', 'Java']	서버/백엔드 개발자
+911	Server팀 Frontend 개발 및 유지보수	['HTML5', 'CSS 3', 'JavaScript', 'React', 'Next.js', 'AngularJS', 'Spark Framework', 'Git', 'Webpack']	프론트엔드 개발자
+912	iOS Engineer (Intermediate)  채용	['Rxswift', 'Swift', 'iOS', 'MVVM']	iOS 개발자
+913	Service architect(VDMS)	['Figma', 'Microsoft Excel']	개발 PM
+914	Full stack(풀스택) 개발자 모집[9~11년]	['JavaScript', 'Python', 'TypeScript', 'Amazon RDS', 'AWS Lambda', 'Amazon Route 53', 'Amazon S3', 'Docker', 'GitHub', 'Jenkins']	SW/솔루션
+915	알고리즘 개발자 경력 채용(9~11년)	['TensorFlow', 'Keras', 'Slim']	빅데이터 엔지니어,인공지능/머신러닝
+916	Windows 커널 드라이버 개발	['Windows', 'C', 'C++', 'Network', 'Mfc']	SW/솔루션
+917	PEP팀 ZTNA개발자	['C', 'C++', 'Linux', 'VPN', 'Linux Mint']	서버/백엔드 개발자
+918	홈페이지 유지보수 경력채용	['Java', 'JavaScript', 'JSP']	웹 풀스택 개발자
+919	시스템개발/유지보수(3~5년)	['C#', 'MSSQL']	기술지원,SW/솔루션
+920	알고리즘 개발자 신입 채용	['TensorFlow', 'Keras', 'Slim']	빅데이터 엔지니어,인공지능/머신러닝
+921	디지털헬스케어 플랫폼 SW개발자	['Kotlin', 'Android OS', 'SW', 'AWS', 'Firebase']	SW/솔루션
+922	Citrix 가상화 엔지니어 모집	['Citrix Gateway', 'Linux', 'Windows Server']	devops/시스템 엔지니어
+923	Python Back-end Enginner	['Python', 'Backendless']	서버/백엔드 개발자
+924	전산팀 서버 구축 기획 경력 채용[12~15년]	['MSSQL', 'ERP']	서버/백엔드 개발자,SW/솔루션
+925	C/C++개발(7년~10년)	['Linux', 'C', 'C++', 'C#', 'Java']	SW/솔루션
+926	로봇 개발  및 운영(3~6년)	['C++', 'JSP', '.NET', 'MSSQL', 'MySQL', 'Python', 'SQL']	기술지원,인공지능/머신러닝
+927	B2B S/W서비스운영개발	['SW', 'Python', 'Django', 'Java', 'Spring Boot', 'Vue.js', 'JavaScript', 'jQuery', 'PostgreSQL', 'MSSQL']	웹 풀스택 개발자
+928	윈도우 클라이언트 개발 및 유지보수	['C', 'C++', 'Windows']	서버/백엔드 개발자
+929	개발 및 플랫폼 기획	['Network', 'Infra', 'Flow', 'QA', 'TCP/IP', 'ISMS', 'Insight', 'Jira', 'Firewall']	개발 PM
+930	AI 개발(STT/LLM 모델 연구 및 개발)	['Linux', 'DeepLearning', 'NLP', 'Python']	빅데이터 엔지니어,인공지능/머신러닝
+931	네트워크 개발	['C', 'C++', 'TCP/IP', 'Linux', 'VPN', 'FW', 'IPS']	정보보안 담당자
+932	R/F개발 5~7년 채용	['MATLAB', 'Network', 'RF']	서버/백엔드 개발자,개발 PM
+933	시스템유지보수 경력(6~8년)	['C#', 'MSSQL']	기술지원,SW/솔루션
+934	MultiOS팀 Linux보안 소프트웨어 개발	['C', 'C++', 'Linux', 'OpenSSL', 'Kafka', 'GitHub']	서버/백엔드 개발자
+935	SRE팀 SRE엔지니어	['QA', 'Jira', 'Testrail']	devops/시스템 엔지니어
+936	NLP Researcher/Engineer (RAG)	['AI/인공지능', 'NLP', 'DeepLearning', 'Backendless']	서버/백엔드 개발자,인공지능/머신러닝
+937	카카오톡 상담톡/챗봇 서비스 개발자	['C++', 'C']	서버/백엔드 개발자,프론트엔드 개발자
+938	개발팀장	['MachineLearning', 'AI/인공지능']	서버/백엔드 개발자,개발 PM
+939	R/F개발 8~10년 채용	['MATLAB', 'Network', 'RF']	서버/백엔드 개발자,개발 PM
+940	바이오인식 / OCR 알고리즘 개발	['C', 'C++', 'C#', 'Java', 'Python', 'DeepLearning']	인공지능/머신러닝
+941	[계약직] Flutter & node.js 경력 개발자 채용	['Flutter', 'iOS', 'Android OS', 'Visual Studio Code', 'Android Studio', 'Kotlin', 'Swift', 'Git', 'Git Flow', 'Java']	크로스플랫폼 앱개발자
+942	Infra 엔지니어 (9~15년)	['Python', 'MSA', 'Kafka', 'MariaDB']	개발 PM
+943	PNS팀 윈도 개발자	['C', 'C#', 'C++', 'VPN']	서버/백엔드 개발자
+944	http/proxy 개발자	['Android OS', 'Java', 'Kotlin', 'MVVM', 'Git', 'Figma', 'Jira', 'VPN']	안드로이드 개발자
+945	리눅스 개발	['C++', 'Linux', 'Qt', 'VPN', 'C', 'Network', 'MVVM', 'Git', 'Jira', 'Notion', 'GUI']	서버/백엔드 개발자
+946	Windows팀 AV 제품 개발 및 유지보수	['C++', 'Avaya']	서버/백엔드 개발자
+947	웹개발자 경력(4~7년)	['JavaScript', 'Node.js', 'React', 'Vue.js', 'ASP.NET']	서버/백엔드 개발자,프론트엔드 개발자
+948	펌웨어 엔지니어 경력(4~6)	['Git', 'MATLAB', 'Python', 'C++', 'VHDL']	VR/AR/3D,SW/솔루션
+949	시니어 프론트엔드 개발자	['JavaScript', 'Kotlin', 'Node.js', 'REST API', 'Java', 'Python', 'SQL', 'Vue.js']	프론트엔드 개발자
+950	프론트엔드 개발 경력(5~7년)	['JavaScript', 'Next.js', 'TypeScript', 'Git']	프론트엔드 개발자
+951	머신러닝 개발자	['scikit-learn', 'BigData', 'MachineLearning', 'Python', 'Keras', 'NumPy', 'Pandas']	인공지능/머신러닝
+952	Infra 엔지니어 (6~8년)	['Python', 'MSA', 'Kafka', 'MariaDB']	개발 PM
+953	네트워크엔지니어(SDN/ACI)[경력5~10]	['Cisco', 'Network']	기술지원,devops/시스템 엔지니어
+954	TA(Technical Architect)/DBA	['Oracle', 'ERP', 'Tibero']	DBA
+955	악성코드 분석가(대리/과장급) 경력	['Network', 'Linux', 'Ddos', 'IPS', 'Firewall']	정보보안 담당자
+956	C/C++개발(3년~6년)	['Linux', 'C', 'C++', 'C#', 'Java']	SW/솔루션
+957	Infra 엔지니어 (3~5년)	['Python', 'MSA', 'Kafka', 'MariaDB']	개발 PM
+958	시스템 개발/유지보수 신입 채용	['C#', 'MSSQL']	기술지원,SW/솔루션
+959	Infra/시스템 아키텍처 (4~7년)	['Python', 'MSA', 'Kafka', 'MariaDB']	개발 PM
+960	USB Device SDK 개발_7년이상	['Windows', 'Linux', 'C++', 'SW', 'C#', 'Java']	SW/솔루션
+961	Infra/시스템 아키텍처 (11~13년)	['Python', 'MSA', 'Kafka', 'MariaDB']	개발 PM
+962	글로벌프로젝트 Beckaoff(베코프) PLC	['PLC', 'SW']	SW/솔루션
+963	악성코드 분석가(전문연구요원) 신입	['Network', 'Linux', 'Ddos', 'IPS', 'Firewall']	정보보안 담당자
+964	웹개발자 경력(1~3년)	['JavaScript', 'Node.js', 'React', 'Vue.js', 'ASP.NET']	서버/백엔드 개발자,프론트엔드 개발자
+965	웹개발자 경력(8년이상)	['JavaScript', 'Node.js', 'React', 'Vue.js', 'ASP.NET']	서버/백엔드 개발자,프론트엔드 개발자
+966	향수 커머스 웹개발자(시니어급) 채용	['React', 'Node.js', 'HTML5', 'CSS 3', 'JavaScript', 'jQuery', 'TypeScript', 'PHP', 'Shopify', 'Figma']	프론트엔드 개발자
+967	프론트엔드 개발자	['Blockchain', 'React Native', 'Next.js', 'React']	프론트엔드 개발자,블록체인
+968	시니어 백엔드 SW Engineer	['TypeScript', 'MSA', 'MySQL', 'Node.js', 'AWS', 'GitHub Actions', 'JavaScript']	서버/백엔드 개발자
+969	[하나금융그룹 자회사] DBA (3년이상)	['MariaDB', 'MaxScale', 'MySQL']	DBA
+970	전산팀 앱개발 경력 채용(8년 이상)	['Java', 'Spring Boot', 'Linux', 'Oracle', 'Git']	서버/백엔드 개발자,프론트엔드 개발자
+971	전산팀 앱개발 경력 채용(1~3년)	['Java', 'Spring Boot', 'Linux', 'Oracle', 'Git']	서버/백엔드 개발자,프론트엔드 개발자
+972	프론트엔드 개발자 (경력 3년~5년)	['React', 'Node.js', 'HTML5', 'CSS 3', 'JavaScript', 'jQuery', 'TypeScript', 'PHP', 'Shopify', 'Figma']	프론트엔드 개발자
+973	C++/C# 소프트웨어 엔지니어	['C++', 'C#', 'SW', 'Unity', 'Unreal Engine']	게임 클라이언트 개발자,게임 서버 개발자
+974	DBA 관리자	['MySQL', 'MariaDB', 'Python']	DBA
+975	AI 최적화 Researcher 채용	['AI/인공지능', 'TensorFlow', 'Python', 'PyTorch', 'C', 'C++', 'MachineLearning']	인공지능/머신러닝
+976	디지털헬스케어 플랫폼 AI 엔지니어	['AI/인공지능', 'C++', 'MATLAB', 'TensorFlow', 'Python']	인공지능/머신러닝
+977	내부시스템 개발(파워빌더) 경력	['Power builder', 'Backendless', 'MSSQL', 'Oracle']	서버/백엔드 개발자
+978	Full stack(풀스택) 개발자 모집[6~8년]	['JavaScript', 'Python', 'TypeScript', 'Amazon RDS', 'AWS Lambda', 'Amazon Route 53', 'Amazon S3', 'Docker', 'GitHub', 'Jenkins']	SW/솔루션
+979	빅데이터 엔진 개발	['Go', 'Python', 'Java', 'JavaScript', 'TCP/IP', 'Elasticsearch', 'BigData', 'AI/인공지능', 'MachineLearning']	서버/백엔드 개발자
+980	전산팀 앱개발 경력 채용(4~7년)	['Java', 'Spring Boot', 'Linux', 'Oracle', 'Git']	서버/백엔드 개발자,프론트엔드 개발자
+981	컨설팅 팀원 모집	['Network', 'VPN', 'Firewall', 'SW', 'ISMS', 'CISSP', 'CISA']	정보보안 담당자
+982	React프론트앤드개발자(경력5~7)	['React', 'Next.js', 'TypeScript', 'GCP', 'MySQL', 'React Query', 'Swagger UI']	프론트엔드 개발자
+983	QA 엔지니어 개발자	['QA', 'Blockchain', 'Go', 'Python']	블록체인,QA 엔지니어
+984	시니어 풀스택 SW Engineer	['MSA', 'TypeScript', 'JSX', 'Sass', 'GitHub Actions', 'Node.js', 'MySQL', 'AWS', 'React']	웹 풀스택 개발자
+985	웹 개발자(경력) 채용	['Java', 'jQuery', 'JavaScript', 'HTML5', 'TypeScript', 'CSS 3', 'MariaDB', 'PostgreSQL', 'Spring Framework', 'Oracle PL/SQL']	서버/백엔드 개발자,웹 풀스택 개발자
+986	Cybersecurity Policy Manager	['Jira', 'Confluence', 'Slack', 'Google Workspace']	정보보안 담당자
+987	홈페이지 유지보수 경력(1~3년)	['Java', 'JavaScript', 'JSP']	웹 풀스택 개발자
+988	컨트랙트/백엔드 개발(이더리움 기반)	['Solidity', 'Nft', 'Blockchain', 'TypeScript', 'Rust']	서버/백엔드 개발자,블록체인
+989	AMS사업부 PM 채용	['Analog', 'Embedded']	개발 PM
+990	[하나금융그룹 자회사] DBA (7년이상)	['MariaDB', 'MySQL', 'MaxScale']	DBA
+991	모바일 APP(IOS) 개발자 모집	['iOS', 'REST API', 'C++', 'Objective-C', 'Swift']	iOS 개발자
+992	[RE : IW] DBA	['MySQL', 'MariaDB', 'Redis', 'MSSQL', 'MongoDB', 'AWS', 'AZURE', 'SQL']	게임 클라이언트 개발자,게임 서버 개발자
+993	프론트엔드 개발자 경력채용(2~4년)	['JavaScript', 'Next.js', 'TypeScript', 'Git']	프론트엔드 개발자
+994	PNS팀 서버 개발자	['C', 'C++', 'Linux', 'VPN']	서버/백엔드 개발자
+995	JavaScript 프론드엔드 개발자 채용	['Java', 'HTML5', 'CSS 3', 'jQuery', 'Django', 'Python', 'AWS', 'REST API', 'JavaScript']	프론트엔드 개발자
+996	보안관제 개발	['Network', 'Infra', 'Python', 'DB', 'ELK', 'Splunk', 'Docker', 'Redis']	서버/백엔드 개발자,정보보안 담당자
+997	Full stack(풀스택) 개발자 모집[3~5년]	['JavaScript', 'Python', 'TypeScript', 'Amazon RDS', 'AWS Lambda', 'Amazon Route 53', 'Amazon S3', 'Docker', 'GitHub', 'Jenkins']	SW/솔루션
+998	[경력직] Flutter 앱 & Node.js 개발자	['Flutter', 'iOS', 'Android OS', 'Visual Studio Code', 'Android Studio', 'Kotlin', 'Swift', 'Git', 'Git Flow', 'Java']	크로스플랫폼 앱개발자
+999	QA 테스터	['QA', 'Blockchain']	블록체인,QA 엔지니어
+1000	프론트엔드 개발자(울산)	['HTML5', 'CSS 3', 'JavaScript', 'React', 'Next.js', 'ES6', 'TypeScript']	프론트엔드 개발자,기술지원
+1001	네트워크 엔지니어 신입	['Network']	기술지원
+1002	강화학습 기반 AI 엔지니어 채용	['PyTorch', 'DeepLearning', 'Unity', 'Unreal Engine', 'Blender']	인공지능/머신러닝
+1003	웹 퍼블리셔 경력채용 (6~9년)	['JavaScript', 'HTML5', 'CSS 3', 'jQuery']	웹퍼블리셔
+1004	SOC 보안분석 경력 채용 (7~12년)	['Windows', 'Linux', 'Firewall', 'Python', 'PowerShell', 'Shell']	정보보안 담당자
+1005	서버/스토리지 아키텍처 설계 구축	['Ccnp', 'CISSP', 'Ansible', 'Chef']	SW/솔루션
+1006	네트워크 아키텍처 설계	['IPS', 'Network', 'VPN']	SW/솔루션
+1007	네트워크 엔지니어 경력(2~5년)	['Network']	기술지원
+1008	데이터 엔지니어 경력직 채용	['MSSQL', 'DB', 'AWS', 'PHP', 'MySQL', 'JavaScript', 'Node.js']	빅데이터 엔지니어
+1009	의료영상 3차원 개발자 채용(1~3)	['C', 'C#', 'C++', 'DeepLearning']	인공지능/머신러닝
+1010	펌웨어 개발 경력(*CGM, BGM 의료기기)	['C', 'C++', 'MCU', 'Embedded', 'MATLAB', 'Python']	HW/임베디드,SW/솔루션
+1011	알약 xLLM 제품 개발 (경력)	['Go', 'Java', 'Python', 'REST API', 'SQL', 'NoSql', 'Git']	서버/백엔드 개발자
+1012	펌웨어 개발 신입(*CGM, BGM 의료기기)	['C', 'C++', 'MCU', 'Embedded', 'MATLAB', 'Python']	HW/임베디드,SW/솔루션
+1013	앱 개발자 (중급)	['Flutter', 'Android OS', 'iOS', 'REST API', 'React']	iOS 개발자,안드로이드 개발자
+1014	이리온 로봇 자율주행 SW 개발(포항)	['SW', 'C++', 'Linux', 'Git', 'Notion']	SW/솔루션
+1015	제조 자동화 로봇 DevOps 엔지니어	['Flutter']	크로스플랫폼 앱개발자
+1016	인공지능(AI) 엔지니어 초급 채용	['MachineLearning', 'DeepLearning', 'AI/인공지능', 'Python']	인공지능/머신러닝
+1017	이리온 로봇 자율주행 SW 개발(서울)	['SW', 'C++', 'Linux', 'Git', 'Notion']	SW/솔루션
+1018	[Kooky] React 프론트엔드(3~6)	['Next.js', 'React Query', 'TailwindCSS', 'Git', 'JavaScript', 'TypeScript']	프론트엔드 개발자
+1019	백엔드 개발자 (*CGM의료기기)	['JavaScript', 'Golang', 'Linux', 'Docker', 'Containerum']	서버/백엔드 개발자
+1020	[제로아이즈] PM/기획 매니저	['AWS', 'Swagger UI', 'MySQL', 'Node.js', 'Vue.js', 'Google Analytics', 'Figma', 'Slack', 'Asana', 'notion.so']	개발 PM
+1021	프론트엔드 개발자 (*CGM의료기기)	['React', 'Vue.js', 'HTML5', 'CSS 3', 'TypeScript', 'ES6', 'JavaScript']	프론트엔드 개발자
+1022	앱 개발자 (고급)	['Flutter', 'Android OS', 'iOS', 'REST API', 'React']	iOS 개발자,안드로이드 개발자
+1023	앱 개발자 (초급)	['Flutter', 'Android OS', 'iOS', 'REST API', 'React']	iOS 개발자,안드로이드 개발자
+1024	[스튜디오 G] 백엔드 개발자	['Spring Boot', 'MariaDB', 'REST API', 'Linux', 'RDB', 'Python', 'Elasticsearch']	서버/백엔드 개발자
+1025	데이터 분석가(Data Analyst)	['REST API', 'Python', 'SQL', 'Hadoop', 'Spark', 'Tableau']	빅데이터 엔지니어
+1026	[제로아이즈]개발팀 Lead_경력3~9년	['Vue.js', 'TypeScript', 'Node.js', 'ExpressJS', 'MySQL', 'AWS', 'Docker', 'GitHub', 'Slack', 'notion.so']	서버/백엔드 개발자,devops/시스템 엔지니어
+1027	AI 개발자 (AI Developer) 신입	['AI/인공지능', 'SW', 'DeepLearning', 'RTOS', 'Azure DevOps']	인공지능/머신러닝,HW/임베디드
+1028	[Kooky] 백엔드 개발자 (3~6)	['Spring Boot', 'Java', 'Gradle', 'MySQL', 'AWS', 'Kotlin']	서버/백엔드 개발자
+1029	Backend팀 개발자 채용	['Java', 'Docker', 'SW', 'DB']	서버/백엔드 개발자
+1030	[Kooky]Flutter 앱 개발(2~5)	['Flutter', 'Swift', 'Kotlin', 'C', 'C++', 'Objective-C', 'Java', 'WebSocket']	프론트엔드 개발자
+1031	앱 서비스 프론트엔드 개발자	['React', 'React Native', 'Redux', 'Zustand', 'JavaScript', 'TypeScript', 'Kotlin', 'Swift', 'CSS 3', 'Android OS']	프론트엔드 개발자
+1032	시스템 엔지니어 채용_신입	['Windows Server', 'VMware vSphere', 'Linux', 'Microsoft SQL Server', 'Oracle', 'WordPress', 'vmware']	devops/시스템 엔지니어
+1033	서버 엔지니어	['Linux', 'Windows', 'Python', 'Shell']	서버/백엔드 개발자
+1034	PM (Product Manager) (5년 이상)	['Jira', 'Confluence']	개발 PM
+1035	데이터 사이언티스트	['TensorFlow', 'Python', 'AWS', 'PyTorch']	빅데이터 엔지니어
+1036	백엔드 개발자 (5년 이상)	['Java', 'Spring', 'Oracle', 'MariaDB']	서버/백엔드 개발자
+1037	백엔드 엔지니어 채용	['JavaScript', 'Go', 'Python', 'AZURE', 'Azure DevOps', 'Node.js', 'TypeScript', 'NestJS', 'FastAPI', 'PostgreSQL']	서버/백엔드 개발자
+1038	MS기반 기술PM 채용 (경력 10년이상)	['Microsoft Office 365', 'Windows Server', 'Active Directory', 'Network', 'AZURE', 'MSSQL', 'Microsoft Teams', 'Microsoft SharePoint']	기술지원
+1039	모바일 앱개발자(4년 이상)	['React', 'React Native']	크로스플랫폼 앱개발자
+1040	웹프로그램(Node.js) 개발 및 유지보수	['Node.js', 'HTML5', 'CSS 3', 'JavaScript', 'jQuery', 'AWS', 'SQL', 'Git', 'REST API']	서버/백엔드 개발자,프론트엔드 개발자,웹 풀스택 개발자
+1041	Back-End 개발자(6년 이상 필수)	['MongoDB', 'TypeScript', 'MySQL', 'Node.js', 'ExpressJS', 'Sequelize', 'AWS']	서버/백엔드 개발자
+1042	DevOps 엔지니어(계약직/프리랜서)	['GitLab', 'K8S', 'Kubernetes', 'Node.js', 'AWS', 'Grafana', 'Prometheus', 'Helm', 'Docker']	devops/시스템 엔지니어
+1043	[보안AI사업본부] 백엔드 개발자_경력	['Python', 'Kotlin', 'RDB', 'NoSql', 'Docker']	서버/백엔드 개발자
+1044	AI 인프라, AI Ops 환경 구성	['AI/인공지능', 'CUDA', 'DeepLearning', 'Python', 'Infra', 'K8S']	인공지능/머신러닝,devops/시스템 엔지니어
+1045	디멘뷰 Application 신입	['C++', 'Python', 'MATLAB', 'ROS', 'FPGA']	빅데이터 엔지니어,devops/시스템 엔지니어
+1046	DevOps 기술지원 엔지니어	['K8S', 'Kubernetes', 'AWS', 'Git', 'Docker', 'Helm', 'AZURE', 'GCP', 'GitLab']	devops/시스템 엔지니어
+1047	시스템 엔지니어 경력 채용	['Ubuntu', 'Linux', 'Kubernetes', 'Docker', 'Docker Compose']	devops/시스템 엔지니어
+1048	아날로그 칩 설계 엔지니어	['Verilog', 'Orcad', 'FPGA', 'C', 'Analog']	devops/시스템 엔지니어
+1049	인공지능(AI) 엔지니어 중급 채용	['MachineLearning', 'DeepLearning', 'AI/인공지능', 'Python']	인공지능/머신러닝
+1050	웹개발자 (Front End)	['HTML5', 'CSS 3', 'JavaScript', 'Python', 'Node.js', 'AWS', 'ExpressJS', 'Spring', 'iOS', 'Android OS']	프론트엔드 개발자
+1051	펌웨어 개발자	['ARM', 'C', 'C++', 'RTOS', 'FPGA', 'Linux', 'Embedded Linux']	HW/임베디드,SW/솔루션
+1052	웹개발 풀스텍 개발자(경력5~7년)	['PHP', 'Laravel']	웹 풀스택 개발자
+1053	빌링시스템 개발자(6-10년)	['Spring Boot', 'Spring Data JPA', 'React', 'React.js Boilerplate', 'Java']	devops/시스템 엔지니어
+1054	서버개발자 채용	['AZURE', 'C#', 'C++', 'NoSql', 'Node.js', 'Linux', 'SQL', 'MSSQL']	서버/백엔드 개발자
+1055	응용 프로그래머(로봇제어)	['C#', 'Microsoft SQL Server', 'Python']	SW/솔루션
+1056	5G/LTE/IoT 단말검증 및 기술지원 경력	['AI/인공지능', 'BigData', 'SW', 'AWS IoT Device Management', 'Network']	기술지원,SW/솔루션
+1057	SoC 설계/개발 - Design	['C', 'FPGA', 'Verilog', 'Orcad']	HW/임베디드
+1058	수원) SW 테스트 엔지니어(QA) (4~8년)	['QA', 'Python', 'C', 'SW']	QA 엔지니어
+1059	BSP 개발자	['Embedded Linux', 'Linux', 'FPGA', 'RTOS', 'FW']	HW/임베디드
+1060	[제로아이즈]개발팀 Lead_경력10~12년	['Vue.js', 'TypeScript', 'Node.js', 'ExpressJS', 'MySQL', 'AWS', 'Docker', 'GitHub', 'Slack', 'notion.so']	서버/백엔드 개발자,devops/시스템 엔지니어
+1061	5G/LTE/IoT 단말검증 및 기술지원 신입	['AI/인공지능', 'BigData', 'SW', 'AWS IoT Device Management', 'Network']	기술지원,SW/솔루션
+1062	SAP BC 운영 및 개발자 (4년 이상)	['ABAP', 'ERP', 'SAP']	SW/솔루션
+1063	[제로아이즈]개발팀 Lead_경력13~15년	['Vue.js', 'TypeScript', 'Node.js', 'ExpressJS', 'MySQL', 'AWS', 'Docker', 'GitHub', 'Slack', 'notion.so']	서버/백엔드 개발자,devops/시스템 엔지니어
+1064	SAP MM 운영 및 개발자	['ABAP', 'ERP', 'SAP']	SW/솔루션
+1065	AI 개발자 (AI Developer) 5~7년	['AI/인공지능', 'SW', 'DeepLearning', 'RTOS', 'Azure DevOps']	인공지능/머신러닝,HW/임베디드
+1066	H/W개발(4~8년, 생활가전 모터/인버터)	['PCB', 'Orcad', 'Analog', 'Pads', 'PMD', 'SMPS']	HW/임베디드
+1067	시스템 엔지니어 채용_1~3년	['Windows Server', 'VMware vSphere', 'Linux', 'Microsoft SQL Server', 'Oracle', 'WordPress', 'vmware']	devops/시스템 엔지니어
+1068	DR 시스템 구축 총괄	['SQL', 'Python', 'Java', 'AWS']	devops/시스템 엔지니어
+1069	SoC 설계 (RTL)	['FPGA', 'Verilog']	QA 엔지니어
+1070	H/W개발(4~8년, 생활가전용 인버터)	['PCB', 'Orcad', 'Analog', 'Pads', 'PMD', 'SMPS']	HW/임베디드
+1071	보안로직 IP 개발 엔지니어	['C', 'FPGA', 'Verilog', 'Orcad', 'MCU']	devops/시스템 엔지니어
+1072	인공지능(AI) 엔지니어 고급 채용	['MachineLearning', 'DeepLearning', 'AI/인공지능', 'Python']	인공지능/머신러닝
+1073	PLM 시스템 운영/유지보수	['Java', 'Oracle', 'MSSQL', 'Spring Framework']	기술지원,SW/솔루션
+1074	FPGA/ASIC 개발/기능 검증	['FPGA', 'ASIC']	SW/솔루션
+1075	SoC 설계/개발 - Verification	['C', 'FPGA', 'Verilog', 'Orcad']	QA 엔지니어
+1076	AI 개발자 (AI Developer) 8~10년	['AI/인공지능', 'SW', 'DeepLearning', 'RTOS', 'Azure DevOps']	인공지능/머신러닝,HW/임베디드
+1077	[플랫폼개발팀] Java Senior 개발자	['REST API', 'Java', 'Spring Boot', 'Spring', 'Kafka', 'Hibernate', 'Git', 'Jira', 'Notion', 'AWS']	서버/백엔드 개발자
+1078	Java 백엔드 개발자(5~7년)	['Spring', 'JavaScript', 'jQuery', 'Java']	서버/백엔드 개발자
+1079	산업용 모니터 개발	['HW', 'Embedded', 'MCU', 'Circuit design', 'PCB', 'Orcad', 'Pads']	HW/임베디드
+1080	응용 프로그래머	['C#', 'Microsoft SQL Server', 'WPF', 'WCF', 'Blazor']	SW/솔루션
+1081	클라우드 보안 담당자	['AWS']	정보보안 담당자
+1082	어플리케이션 개발 및 유지보수	['C++', 'Qt']	SW/솔루션
+1083	DevOps 엔지니어	['Bitbucket', 'GitLab', 'Bamboo', 'Jenkins', 'Docker', 'Git', 'AWS']	devops/시스템 엔지니어
+1084	웹개발 풀스텍 개발자(경력2~4년)	['PHP', 'Laravel']	웹 풀스택 개발자
+1085	TPM (Technical Program Manager)3년↑	['Jira', 'Confluence']	개발 PM
+1086	AI 플랫폼 개발자	['Python', 'Spark', 'Elasticsearch', 'Airflow', 'Git', 'Linux']	서버/백엔드 개발자,인공지능/머신러닝
+1087	Analog/ RF IC Full Custom layout	['C', 'FPGA', 'Verilog', 'Orcad', 'Analog']	devops/시스템 엔지니어,QA 엔지니어
+1088	쿠버네티스 컨설턴트	['SQL', 'RDB', 'NoSql', 'MSA', 'Java', 'Go', 'Kubernetes']	서버/백엔드 개발자
+1089	[플랫폼개발팀] Java 주니어 개발자	['REST API', 'Git', 'Redis', 'RabbitMQ', 'RDB', 'AWS', 'Spring Boot', 'Spring', 'Kafka', 'Java']	서버/백엔드 개발자
+1090	ML Researcher (머신러닝 연구원)	['MachineLearning', 'AI/인공지능']	인공지능/머신러닝
+1091	윈도우기반 응용프로그래머 개발자 모집	['c#', 'wpf', '.net', 'rpa']	SW/솔루션
+1092	백엔드 개발자	['TypeScript', 'Python', 'NestJS', 'FastAPI', 'AWS', 'DB']	서버/백엔드 개발자,웹 풀스택 개발자
+1093	H/W 개발자	['Orcad', 'Pads']	HW/임베디드
+1094	SM/SI 개발 채용	['Java 8', 'Spring Boot', 'Vue.js', 'React.js Boilerplate', 'Oracle', 'MySQL']	서버/백엔드 개발자,웹 풀스택 개발자
+1095	백엔드 및 서버 개발자 채용	['java', 'Node.js', 'JavaScript', 'REST API', 'AWS', 'MariaDB', 'Flutter', 'Dart', 'Java']	서버/백엔드 개발자
+1096	데이터 엔지니어	['Airflow', 'Notion', 'Slack', 'Python', 'SQL', 'Etl', 'AWS', 'PyTorch', 'TensorFlow', 'OpenCV']	빅데이터 엔지니어
+1097	디멘뷰 Application 경력	['C++', 'Python', 'MATLAB', 'ROS', 'FPGA']	빅데이터 엔지니어,devops/시스템 엔지니어
+1098	응용 프로그래머(인공지능)	['C#', 'Microsoft SQL Server', 'Python', 'WPF', 'WCF']	SW/솔루션
+1099	[빗썸] QA 엔지니어	['Slack', 'Notion', 'Jira', 'QA']	QA 엔지니어
+1100	의료 AI 제품 패키징 파이썬 개발자	['Python', 'Docker', 'Linux', 'Shell', 'Java', 'C++']	서버/백엔드 개발자,인공지능/머신러닝
+1101	[보안AI사업본부] 프론트엔드 개발자	['React', 'TypeScript']	프론트엔드 개발자
+1102	웹개발 풀스텍 개발자(경력8년이상 ~ )	['PHP', 'Laravel']	웹 풀스택 개발자
+1103	[Infra Div.] Publishing Tech PM	['Python', 'PowerShell', 'Go', 'C#']	devops/시스템 엔지니어,개발 PM
+1104	모바일/웹 클라이언트 개발자 채용	['Flutter', 'iOS', 'Android OS', 'Dart', 'Node.js', 'JavaScript']	크로스플랫폼 앱개발자
+1105	이커머스 플랫폼 개발자 (경력직)	['Java', 'JavaScript', 'JSP', 'Oracle', 'MySQL', 'NoSql', 'Vue.js', 'Spring', 'jQuery', 'HTML5']	웹 풀스택 개발자
+1106	Backend Engineer (Backend 엔지니어)	['FastAPI', 'Django', 'PostgreSQL', 'MySQL', 'Kafka', 'Airflow', 'Docker', 'Kubernetes', 'AWS']	서버/백엔드 개발자
+1107	C# 3D 처리 소프트웨어 개발자(1~3년)	['C#', '3D Rendering', 'OpenGL', 'Git']	SW/솔루션
+1108	LG에너지솔루션 개발프로젝트[1~7년]	['C#', 'MSSQL', 'Oracle', 'DB', 'Java']	SW/솔루션
+1109	프론트엔드 웹개발자 채용(경력5~7년)	['Java', 'Linux', 'React', 'Next.js', 'TypeScript', 'JavaScript', 'REST API']	프론트엔드 개발자
+1110	Frontend 개발자 (4~6년)	['React', 'React Native', 'JavaScript']	프론트엔드 개발자
+1111	DBA  경력 직원 채용 (20년 이상)	['SQL', 'Azure SQL Database', 'DB']	DBA
+1112	자율 점검드론/로봇 개발자 모집(1~3)	['C++', 'Visual C++', 'C++ Builder', 'Python', 'ROS', 'Node.js', 'Java', 'Spring']	devops/시스템 엔지니어,SW/솔루션
+1113	ComputerVision/MachineLearning개발자	['C++', 'Python', 'TensorFlow', 'PyTorch', 'OpenCV', 'MachineLearning']	인공지능/머신러닝
+1114	풀스택 중급 개발자	['Linux', 'React Router', 'SW', 'Embedded']	웹 풀스택 개발자
+1115	C# 3D 처리 소프트웨어 개발자(4~6년)	['C#', '3D Rendering', 'OpenGL', 'Git']	SW/솔루션
+1116	프론트엔드 웹개발자 채용(경력8~10년)	['Java', 'Linux', 'React', 'Next.js', 'TypeScript', 'JavaScript', 'REST API']	프론트엔드 개발자
+1117	자율 점검드론/로봇 개발자 모집(7~10)	['C++', 'Visual C++', 'C++ Builder', 'Python', 'ROS', 'Node.js', 'Java', 'Spring']	devops/시스템 엔지니어,SW/솔루션
+1118	자율 점검드론/로봇 개발자 모집(4~6)	['C++', 'Visual C++', 'C++ Builder', 'Python', 'ROS', 'Node.js', 'Java', 'Spring']	devops/시스템 엔지니어,SW/솔루션
+1119	네트워크 엔지니어 경력(6~9년)	['Network']	기술지원
+1120	오픈시프트 기반 PaaS 아키텍처 설계	['Kubernetes', 'Azure DevOps', 'AWS']	SW/솔루션
+1121	iOS Developer	['Swift', 'Objective-C', 'C++', 'iOS']	iOS 개발자
+1122	자율점검 드론/로봇 개발자(석사이상)	['C++', 'Visual C++', 'C++ Builder', 'Python', 'ROS', 'Node.js', 'Java', 'Spring']	devops/시스템 엔지니어,SW/솔루션
+1123	Mobile App 개발자	['Flutter', 'REST API', 'iOS', 'Android OS', 'CrossBrowserTesting']	iOS 개발자,크로스플랫폼 앱개발자,안드로이드 개발자
+1124	3D 모션 생성 AI 엔지니어 채용	['PyTorch', 'DeepLearning', 'Unity', 'Unreal Engine', 'Blender']	인공지능/머신러닝
+1125	디지털헬스케어 플랫폼임베디드 개발자	['HW', 'FW', 'Analog', 'Embedded', 'RTOS']	HW/임베디드
+1126	USB Device SDK 개발_3년이상	['Windows', 'Linux', 'C++', 'SW', 'C#', 'Java']	SW/솔루션
+1127	프론트엔드 개발자 (경력 6년~9년)	['React', 'Node.js', 'HTML5', 'CSS 3', 'JavaScript', 'jQuery', 'TypeScript', 'PHP', 'Shopify', 'Figma']	프론트엔드 개발자
+1128	전산팀 서버 구축 기획 경력 채용[5~7년]	['MSSQL', 'ERP']	서버/백엔드 개발자,SW/솔루션
+1129	S/W Engineer [전문연구요원가능]	['C', 'C++', 'CUDA']	devops/시스템 엔지니어,SW/솔루션
+1130	향수 커머스 웹개발자(미들급) 채용	['React', 'Node.js', 'HTML5', 'CSS 3', 'JavaScript', 'jQuery', 'TypeScript', 'PHP', 'Shopify', 'Figma']	프론트엔드 개발자
+1131	이기종 방화벽 정책관리 솔루션 개발자	['Git', 'MongoDB', 'Docker', 'Linux']	SW/솔루션
+1132	데이터 사이언티스트	['MachineLearning', 'SQL', 'Python', 'DeepLearning', 'Tableau', 'PowerBI']	빅데이터 엔지니어
+1133	클라이언트 프로그래머 채용	['C++', 'DirectX', 'Redis', 'Unreal Engine']	게임 클라이언트 개발자
+1134	서비스개발 총괄매니저 채용	['Python', 'Flutter']	개발 PM
+1135	Simulation S/W Engineer [전문연구요원가능]	['C', 'C++', 'CUDA']	인공지능/머신러닝,devops/시스템 엔지니어
+1136	인증업무 담당자 채용 건	['ISMS', 'Linux', 'Network', 'AWS Certificate Manager']	정보보안 담당자
+1137	시니어 테크니컬 아티스트	['Unreal Engine', 'Python']	게임 클라이언트 개발자,게임 서버 개발자
+1138	영상처리,비전(Vision) S/W채용(3~5년)	['SW']	SW/솔루션
+1139	Digital Logic 개발/대구	['Verilog', 'C', 'C++', 'C#', 'Python', 'VHDL', 'FPGA', 'TCP/IP', 'ASIC', 'Perl']	HW/임베디드,SW/솔루션
+1140	Verification Engineer/대구	['Verilog', 'ASIC', 'Perl', 'TCP/IP', 'FPGA', 'VHDL', 'C#', 'C++', 'Python']	QA 엔지니어,HW/임베디드
+1141	전산팀 서버 구축 기획 경력 채용[8~11년]	['MSSQL', 'ERP']	서버/백엔드 개발자,SW/솔루션
+1142	Sr. Backend Engineer (Go)	['Golang', 'gRPC', 'PostgreSQL', 'Redis', 'Git', 'Docker', 'Jira', 'Confluence']	서버/백엔드 개발자
+1143	영상처리,비전(Vision) S/W채용(9년↑)	['SW']	SW/솔루션
+1144	임베디드 소프트웨어 개발자(5~8년차)	['C', 'C++', 'SW', 'Embedded']	SW/솔루션
+1145	iOS 개발 (5년 이상)	['iOS', 'Xcode', 'Flutter', 'Swift', 'Rxswift']	iOS 개발자
+1146	Senior S/W Engineer-Embedded AI [전문연구요원가능]	['C', 'C++', 'CUDA']	인공지능/머신러닝,devops/시스템 엔지니어
+1147	리눅스 네트워크 프로그래머	['Linux', 'Utm', 'C', 'TCP/IP', 'Git', 'C++']	SW/솔루션
+1148	AI 개발자 연구원 경력	['AI/인공지능']	인공지능/머신러닝
+1149	네트워크엔지니어(SDN/ACI)[경력11~15]	['Cisco', 'Network']	기술지원,devops/시스템 엔지니어
+1150	연구개발(H/W) 경력 8년~10년	['HW']	HW/임베디드
+1151	알고리즘 개발자 경력 채용(3~5년)	['TensorFlow', 'Keras', 'Slim']	빅데이터 엔지니어,인공지능/머신러닝
+1152	자율주행 개발자(7~10년차)	['MATLAB', 'C', 'C++', 'SW', 'Python']	SW/솔루션
+1153	FPGA - HW Engineer (대리~과장급)	['FPGA', 'MCU', 'VHDL']	HW/임베디드
+1154	영상처리,비전(Vision) S/W채용(6~8년)	['SW']	SW/솔루션
+1155	[DRAM PHY] Analog Engineer	['Verilog', 'C', 'Python']	HW/임베디드
+1156	[DRAM PHY] Digital Engineer	['Verilog', 'C', 'Python']	HW/임베디드
+1157	시니어 소프트엔지니어 [전문연구요원가능]	['C', 'C++', 'CUDA']	devops/시스템 엔지니어
+1158	네트워크엔지니어(SDN/ACI)[경력16~20]	['Cisco', 'Network']	기술지원,devops/시스템 엔지니어
+1159	전자제어 H/W [경력10~14년]	['HW', 'MCU', 'PCB']	HW/임베디드
+1160	SAS사업부 글로벌프로젝트 SW(PLC)채용	['PLC', 'SW']	SW/솔루션
+1161	알고리즘 개발자 경력 채용(6~8년)	['TensorFlow', 'Keras', 'Slim']	빅데이터 엔지니어,인공지능/머신러닝
+1162	연구개발(S/W) 경력 8년~10년	['SW', 'Embedded']	SW/솔루션
+1163	연구개발(S/W) 경력 5년~7년	['SW', 'Embedded']	SW/솔루션
+1164	Infra/시스템 아키텍처 (8~10년)	['Python', 'MSA', 'Kafka', 'MariaDB']	개발 PM
+1165	연구개발(H/W) 경력 5년~7년	['HW']	HW/임베디드
+1166	보안/인프라/서버 담당자	['HW', 'Linux', 'Windows', 'vmware', 'NGINX', 'Apache Tomcat']	devops/시스템 엔지니어
+1167	백엔드 개발자	['Django', 'Backendless']	서버/백엔드 개발자
+1168	RTL 설계 엔지니어 (경력)	['ASIC', 'FPGA', 'Verilog', 'C', 'C++', 'Python', 'Perl', 'HW']	HW/임베디드
+1169	MLOps 개발자 경력 채용	['Python', 'PyTorch', 'TensorFlow', 'Keras', 'Dockerized', 'SQL']	DBA,인공지능/머신러닝
+1170	AI 컴파일러 엔지니어 채용	['C++', 'Haskell', 'DeepLearning', 'F#', 'TensorFlow', 'Scala', 'PyTorch', 'C']	인공지능/머신러닝,SW/솔루션
+1171	iOS APP 개발자 채용	['iOS', 'Swift', 'Flutter', 'Objective-C', 'Kotlin']	iOS 개발자
+1172	Verification Engineer/분당R&D	['Verilog', 'ASIC', 'Perl', 'TCP/IP', 'Python', 'C++', 'C#', 'VHDL', 'FPGA']	QA 엔지니어,HW/임베디드
+1173	클라우드 Java 백엔드 개발자 채용	['Java', 'Spring Boot', 'NoSql', 'REST API']	서버/백엔드 개발자
+1174	[MemoryController]RTLDesign Engineer	['Verilog', 'C', 'Python', 'C++']	HW/임베디드
+1175	Window Application 개발자 채용	['C++', 'C#', '.NET', 'Python', 'C']	SW/솔루션
+1176	메인넷 개발자	['Go', 'Rust', 'C++', 'Blockchain', 'Smartcontract', 'Docker', 'Solidity']	블록체인
+1177	시니어 파이썬 백엔드 엔지니어 채용	['AWS', 'Django', 'Python', 'MongoDB', 'Kubernetes', 'FastAPI', 'Flask', 'Amazon DynamoDB', 'Redis', 'Docker']	서버/백엔드 개발자
+1178	Android OS 개발 병역특례	['Android OS', 'iOS']	안드로이드 개발자
+1179	시니어 클라우드 인프라 엔지니어 채용	['Terraform', 'MongoDB', 'Amazon DynamoDB', 'Kafka', 'Ansible', 'AWS', 'Kubernetes', 'Redis', 'Python']	devops/시스템 엔지니어
+1180	SOC/IP Verificiation 엔지니어	['Python', 'XML', 'Verilog']	HW/임베디드
+1181	영상관제 응용프로그램 개발(8년↑)	['C#', 'WPF', 'SW', 'OpenCV', 'FFMPEG', 'Git', 'AI/인공지능', 'TensorFlow', 'PyTorch', 'Keras']	SW/솔루션
+1182	Android 개발자	['Android OS', 'React Native', 'Blockchain']	안드로이드 개발자,블록체인
+1183	시니어 프론트엔드 SW Engineer	['JavaScript', 'MSA', 'TypeScript', 'React', 'Sass', 'JSX', 'GitHub Actions']	프론트엔드 개발자
+1184	풀스택 개발자 채용	['Java', 'Spring Boot', 'PostgreSQL', 'Redis', 'Elasticsearch', 'Mybatis', 'Spring Data JPA', 'React', 'Next.js', 'TypeScript', 'React Query']	웹 풀스택 개발자
+1185	Digital Logic 개발/분당R&D	['Verilog', 'C', 'C++', 'C#', 'Python', 'VHDL', 'FPGA', 'TCP/IP', 'ASIC', 'Perl']	HW/임베디드,SW/솔루션
+1186	Runtime 소프트웨어 엔지니어 채용	['AI/인공지능', 'C++', 'MachineLearning', 'Python', 'C']	인공지능/머신러닝,SW/솔루션
+1187	프론트엔드 개발자	['Vue.js', 'Bootstrap', 'Nuxt.js', 'Vuetify']	프론트엔드 개발자
+1188	Frontend 개발자 (7~10년)	['React', 'React Native', 'JavaScript']	프론트엔드 개발자
+1189	프론트엔드 엔지니어(경력12년 이상)	['React', 'TypeScript', 'GraphQL', 'Apollo', 'React Native']	프론트엔드 개발자
+1190	영상처리(Vision) S/W 개발 (2~4년)	['C++', 'C#', 'OpenCV', 'SW', 'HALCON']	SW/솔루션
+1191	서버 개발자 (공동 및 사설 CA/RA)	['Linux', 'C++', 'C', 'Java', 'AWS', 'Oracle', 'MariaDB', 'Visual Studio', 'Eclipse']	devops/시스템 엔지니어
+1192	[기술본부] 인프라팀 팀장급(11~15년)	['Linux', 'Python', 'GNU Bash', 'Docker', 'Java']	기술지원,devops/시스템 엔지니어
+1193	로봇용 센서 및 회로 설계 연구원 (경력)	['PCB']	devops/시스템 엔지니어,HW/임베디드
+1194	[기술본부] 인프라팀 팀장급(5~10년)	['Linux', 'Python', 'GNU Bash', 'Docker', 'Java']	기술지원,devops/시스템 엔지니어
+1195	LG에너지솔루션 개발프로젝트[15~20년]	['C#', 'MSSQL', 'Oracle', 'DB', 'Java']	SW/솔루션
+1196	영상처리(Vision) S/W 개발 (7~10년)	['C++', 'C#', 'OpenCV', 'SW', 'HALCON']	SW/솔루션
+1197	CA/RA 개발자 경력 모집	['Linux', 'C++', 'C', 'Java', 'AWS', 'Eclipse', 'Python', 'AWS Certificate Manager', 'Oracle', 'MariaDB']	devops/시스템 엔지니어
+1198	PLC (Mitsubishi) 제어 (2년이상)	['PLC', 'HW']	devops/시스템 엔지니어,HW/임베디드
+1199	LG에너지솔루션 개발프로젝트[8~14년]	['C#', 'MSSQL', 'Oracle', 'DB', 'Java']	SW/솔루션
+1200	Data Engineer	['Python', 'SQL', 'Google BigQuery', 'Airflow', 'Kafka', 'MySQL']	빅데이터 엔지니어,DBA
+1201	Hardware Product Manager	['HW', 'PCB']	HW/임베디드
+1202	AI 연구개발자 (박사)	['AI/인공지능', 'PyTorch', 'TestNG', 'DeepLearning']	블록체인,인공지능/머신러닝,SW/솔루션
+1203	Mobile App Engineer_React Native	['React', 'React Native', 'TypeScript', 'CircleCI', 'GitHub', 'GitHub Actions', 'Jest']	iOS 개발자,크로스플랫폼 앱개발자
+1204	AI 연구개발자 (석사)	['AI/인공지능', 'scikit-learn', 'PyTorch', 'TensorFlow', 'Python', 'AWS']	블록체인,인공지능/머신러닝,SW/솔루션
+1205	안드로이드(AOS) 개발자 채용(5~7년)	['Kotlin', 'Docker Compose', 'Android OS', 'Android Studio', 'Android SDK', 'TypeScript', 'Vue.js', 'Google Cloud Platform', 'Swagger UI', 'Git']	안드로이드 개발자
+1206	로우코드 웹 기반 시스템 개발/설계	['Java', 'NoCodeAPI', 'LowCodeEngine']	서버/백엔드 개발자
+1207	웹 시스템 설계	['Java', 'MSA']	서버/백엔드 개발자,devops/시스템 엔지니어
+1208	JAVA 기반 인사관리 솔루션 개발	['Java', 'Spring', 'JSP', 'jQuery', 'MariaDB', 'Oracle', 'jQuery UI', 'MySQL', 'Mybatis']	웹 풀스택 개발자
+1209	Google Cloud엔지니어/MSP 엔지니어	['AWS', 'GCP', 'Google Cloud SQL', 'Azure DevOps', 'Azure DevOps Server']	devops/시스템 엔지니어
+1210	RPA(업무자동화) Developer	['RPA', 'Microsoft Power Automate', 'Network', 'Linux']	SW/솔루션
+1211	백엔드 개발자 채용	['Node.js', 'ExpressJS', 'MySQL', 'MariaDB', 'PostgreSQL', 'NoSql', 'MongoDB', 'TypeScript', 'Next.js', 'React Native']	서버/백엔드 개발자
+1212	ERP 개발(.NET, C#, VB.NET)	['ERP', 'SAP', '.NET', 'Vb.net', 'C#']	SW/솔루션
+1213	클라우드 모니터링 솔루션운영 및 유지보수	['Java', 'Kubernetes', 'JSP']	기술지원,SW/솔루션
+1214	AI개발자 채용	['Java', 'AI/인공지능', 'SQL', 'Python', 'R', 'DeepLearning']	인공지능/머신러닝
+1215	포탈 웹사이트 Front-End 개발자 경력	['Java', 'Spring Framework', 'React', 'Next.js', 'TypeScript', 'HTML5', 'CSS 3', 'JavaScript', 'React.js Boilerplate', 'Vue.js']	프론트엔드 개발자
+1216	[바이오로직스IS담당] 네트워크 운영 경력	['Azure Security Center', 'ESET Endpoint Security', 'Network', 'Infra']	서버/백엔드 개발자,정보보안 담당자
+1217	프론트엔드 개발자 채용	['HTML5', 'CSS 3', 'PostCSS', 'JavaScript', 'React', 'React Native', 'Flutter', 'Vue.js', 'Next.js', 'Nuxt.js']	프론트엔드 개발자
+1218	[GRS IS팀] 회계시스템 경력사원 채용	['SAP', 'ABAP', 'MySQL', 'Java', 'JSP', 'JavaScript', 'Spring']	DBA,SW/솔루션
+1219	데이터 엔지니어 경력직 모집	['PowerBI', 'Microsoft PowerApps', 'Microsoft Power Automate', 'Python', 'QlikView', 'Java']	빅데이터 엔지니어,인공지능/머신러닝
+1220	블록체인 기술 개발 (시니어)	['Blockchain', 'Java', 'Jira', 'Confluence', 'Git']	서버/백엔드 개발자,블록체인
+1221	RF 트랜시버 칩 설계 엔지니어	['C', 'FPGA', 'Verilog', 'Orcad', 'RF']	devops/시스템 엔지니어
+1222	기술개발 총괄 및 리딩(8~11년)	['RDB', 'REST API', 'C++', 'Java', 'AWS', 'React', 'SQL']	개발 PM,SW/솔루션
+1223	DevOps 프로젝트 매니저(PM)	['GitLab', 'K8S', 'Kubernetes', 'Google Docs', 'Google Sheets', 'Jira', 'Slack', 'Confluence', 'Markdown']	devops/시스템 엔지니어,개발 PM
+1224	자율주행 ACS 소프트웨어 개발자(1~7년)	['jQuery', 'JavaScript', 'GitHub', 'Docker Compose', 'Go', 'Google Analytics', 'Golang', 'C++', 'C#', 'Rust']	서버/백엔드 개발자
+1225	F/W개발(MCU) (경력 11~15년)	['C', 'FW', 'MCU']	HW/임베디드
+1226	Kubernetes 개발자	['AWS', 'Git', 'Java', 'Kubernetes', 'Python', 'Spring', 'Ansible', 'GitHub', 'Prometheus', 'K8S']	서버/백엔드 개발자,SW/솔루션
+1227	Platform/SRE 엔지니어	['GitLab', 'K8S', 'Kubernetes', 'Helm', 'Docker', 'Argo', 'AWS', 'Grafana', 'Amazon EKS', 'Git']	devops/시스템 엔지니어
+1228	[Miso] Salesforce Developer	['Apex', 'Salesforce Sales Cloud', 'Salesforce', 'Salesforce Marketing Cloud']	SW/솔루션
+1229	시스템 엔지니어 채용_4년이상	['Windows Server', 'VMware vSphere', 'Linux', 'Microsoft SQL Server', 'Oracle', 'WordPress', 'vmware']	devops/시스템 엔지니어
+1230	AI DevOps 엔지니어	['GitLab', 'K8S', 'Kubernetes', 'TypeScript', 'Go', 'Node.js', 'Git', 'Docker']	devops/시스템 엔지니어
+1231	Fullstack 개발리더 (10년이상)	['Python', 'JavaScript', 'MySQL', 'PyTorch', 'Git', 'Microsoft Teams']	웹 풀스택 개발자
+1232	Perception Engineer(Tech Lead)	['C', 'C++', 'Python', 'DeepLearning']	인공지능/머신러닝,SW/솔루션
+1233	RF ICs  Design 경력채용	['RF', 'PCB', 'HW', 'Switch']	HW/임베디드
+1234	회로개발 (경력 8~10년)	['HW', 'SW', 'Embedded', 'FW']	HW/임베디드
+1235	5G/6G 코어망 소프트웨어 개발자	['C', 'C++', 'Linux', 'TCP/IP', 'Socket.IO']	서버/백엔드 개발자,SW/솔루션
+1236	S/W 경력 채용(3~5년)	['Embedded', 'Analog', 'ARM', 'C', 'C++']	HW/임베디드,SW/솔루션
+1237	[강남/선릉] RF하드웨어 개발 경력	['MCU']	HW/임베디드
+1238	머신 비전 SW개발자 (C#, C++) 경력	['C#', 'C++', 'SW', 'MachineLearning']	SW/솔루션
+1239	보안솔루션(MDM) 개발자(선임급 이상)	['JSP', 'Java', 'C#', 'SW', 'Spring Boot', 'JavaScript', 'Spring Data JPA', 'AWS']	웹 풀스택 개발자,SW/솔루션
+1240	AI 엔지니어 (소프트웨어 엔지니어)	['Python', 'GitLab']	웹 풀스택 개발자
+1241	2차전지 검사기 개발자 (경력5~7년)	['OpenCV', 'C++', 'Mfc']	SW/솔루션
+1242	H/W개발(9~13년,생활가전 모터/인버터)	['PCB', 'Orcad', 'Analog', 'Pads', 'PMD', 'SMPS']	HW/임베디드
+1243	Senior Data Engineer - LLM	['DeepLearning', 'AI/인공지능']	빅데이터 엔지니어
+1244	HW/RF 설계 경력(13~15년)	['HW', 'RF', 'Pads']	HW/임베디드
+1245	로봇설계/개발자 과장급 채용	['PLC', 'HW', 'Solidworks', 'Autocad']	HW/임베디드
+1246	ISO26262 기능안전 엔지니어	['Git']	QA 엔지니어,HW/임베디드
+1247	HW/전장 설계 경력(7~9년)	['HW', 'RF', 'Pads']	HW/임베디드
+1248	HW/RF 설계 경력(7~9년)	['HW', 'RF', 'Pads']	HW/임베디드
+1249	HW/전장 설계 경력(13~15년)	['HW', 'RF', 'Pads']	HW/임베디드
+1250	H/W개발(9~13년, 생활가전용 인버터)	['PCB', 'Orcad', 'Analog', 'Pads', 'PMD', 'SMPS']	HW/임베디드
+1251	GUI S/W 설계,개발 채용(5년↑)	['Visual C++', 'C#', 'JavaScript', 'Linux', 'REST API']	SW/솔루션
+1252	기술콘텐츠크리에이터(정규/계약/프리)	['Figma', 'Adobe Photoshop', 'Workgroups DaVinci']	VR/AR/3D
+1253	선행개발 경력 (3~5년)	['HW', 'FW', 'MCU', 'FPGA', 'Linux', 'C', 'C++', 'C#', 'Orcad', 'Pads']	HW/임베디드
+1254	아틀라시안&데브옵스 솔루션 엔지니어	['Linux', 'Windows', 'MySQL', 'Oracle', 'Jira', 'MSSQL', 'Bamboo', 'Confluence', 'Git', 'Jenkins']	기술지원,devops/시스템 엔지니어
+1255	HW/RF 설계 경력(10~12년)	['HW', 'RF', 'Pads']	HW/임베디드
+1256	UI/UX 테스트 자동화 솔루션 엔지니어	['SAP', 'Azure DevOps']	SW/솔루션
+1257	Computer Vision Engineer(CV엔지니어)	['MachineLearning', 'AI/인공지능']	인공지능/머신러닝
+1258	프론트엔드 개발자 (대리급)	['Next.js', 'HTML5', 'JavaScript', 'React', 'Git', 'Jira', 'Zustand']	프론트엔드 개발자
+1259	ITSM 구축 PM&PL 엔지니어	['Azure DevOps', 'Python']	개발 PM,SW/솔루션
+1260	[ECS사업부문] 어플리케이션 아키텍트	['AWS', 'AZURE', 'Azure DevOps', 'Python', 'JavaScript', 'Spring', 'GitLab', 'QueryDSL']	서버/백엔드 개발자,프론트엔드 개발자,devops/시스템 엔지니어
+1261	기구설계 엔지니어 모집	['Embedded Linux', 'C', 'C++', 'SW', 'TCP/IP', 'Embedded', 'GUI', 'Appium', 'Selenium']	HW/임베디드
+1262	5G-NR V2X Protocol Stack 개발자	['Stack', 'SW']	SW/솔루션
+1263	Embedded Middleware 개발자	['Embedded Linux', 'C', 'C++', 'SW', 'TCP/IP', 'Embedded']	HW/임베디드
+1264	DevOps 솔루션 아키텍트	['GitLab', 'K8S', 'Kubernetes', 'Grafana', 'Git']	devops/시스템 엔지니어
+1265	인공지능 SW개발 (5~7)	['Python', 'NLP', 'Git', 'Airflow', 'Java', 'Microsoft Teams']	인공지능/머신러닝
+1266	형상관리(Perforce) 솔루션 엔지니어	['Linux', 'Windows', 'MySQL', 'Oracle', 'Jira', 'MSSQL', 'Bamboo', 'Confluence']	기술지원
+1267	AI 기반 업무 자동화 엔지니어 (4~6년)	['RPA', 'Zapier']	인공지능/머신러닝
+1268	GitLab 솔루션 엔지니어	['Jira', 'Confluence', 'Kubernetes', 'CloudBees', 'Docker', 'GitLab', 'AZURE', 'AWS', 'GCP', 'Helm', 'Istio']	기술지원
+1269	프론트엔드 개발자 (과장급)	['Next.js', 'HTML5', 'JavaScript', 'React', 'Git', 'Jira', 'Zustand']	프론트엔드 개발자
+1270	Microsoft M365 보안/규정 준수 엔지니어	['microsoft office 365', 'microsoft teams', 'microsoft outlook', 'microsoft sharepoint', 'Microsoft Office 365']	기술지원,정보보안 담당자
+1271	ML Engineer (ML 엔지니어)	['FastAPI', 'Django', 'PostgreSQL', 'Airflow', 'Docker', 'Kubernetes', 'AWS', 'Amazon SageMaker']	인공지능/머신러닝
+1272	LTE/NR-V2X Physical Layer 개발자	['Stack', 'SW']	SW/솔루션
+1273	[ECS사업부문] SI 프로젝트 PM	['JavaScript', 'Spring Boot', 'React', 'Next.js', 'Jira', 'Confluence']	웹 풀스택 개발자
+1274	HW/전장 설계 경력(10~12년)	['HW', 'RF', 'Pads']	HW/임베디드
+1275	Fullstack 개발 (5년이상)	['Python', 'JavaScript', 'MySQL', 'PyTorch', 'Git', 'Microsoft Teams']	웹 풀스택 개발자
+1276	M365 개발 리더(PL)채용	['Spring Boot', 'AZURE', 'MSSQL', 'Active Directory']	서버/백엔드 개발자
+1277	SW 개발자 신입 [Android, C, C++, QT]	['C++', 'C', 'SW', 'MCU', 'Embedded Linux', 'GitHub', 'Qt']	SW/솔루션
+1278	[석사]영상처리/rPPG 연구개발	['OpenCV', 'DeepLearning', 'Python', 'Visual C++']	인공지능/머신러닝
+1279	앱개발(앱프로그래머, JAVA) 6~9년	['Java', 'Android OS', 'JavaScript', 'Kotlin', 'React', 'iOS', 'Jetpack']	iOS 개발자,안드로이드 개발자
+1280	대외 SAP ERP 모듈 유지보수	['ABAP', 'SAP']	SW/솔루션
+1281	CTO 신규채용	['OpenCV', 'TensorFlow', 'TensorFlow.js', 'Keras', 'Flutter', 'React', 'C', 'C++', 'Dart', 'JavaScript']	인공지능/머신러닝
+1282	AI 테스트 도구 UI 개발	['AI/인공지능', 'React', 'FastAPI', 'Flask']	인공지능/머신러닝
+1283	AI개발 개발자(서울/경력5~9)	['Python', 'Java', 'REST API']	인공지능/머신러닝
+1284	차량용 임베디드 소프트웨어 개발/검증	['C', 'SW', 'MCU', 'GitHub']	HW/임베디드,SW/솔루션
+1285	모빌리티 Embedded SW 경력 개발자	['Linux', 'SW', 'C++', 'Python', 'Embedded', 'C', 'C#', 'Jira', 'RTOS']	SW/솔루션
+1286	RF HW	['HW', 'PCB', 'Verilog', 'C', 'C++', 'FPGA', 'MATLAB', 'RF']	개발 PM,HW/임베디드,SW/솔루션
+1287	콜 시스템 유지보수 매니저	['Infra', 'AWS', 'DC/OS', 'MSSQL', 'Google BigQuery']	기술지원,devops/시스템 엔지니어
+1288	[대구] 소프트웨어 개발자 채용[경력]	['C', 'C++', 'SW', 'Python', 'Embedded Linux', 'AI/인공지능']	SW/솔루션
+1289	풀스텍개발자(서울/경력5~9)	['JSP', 'Spring', 'Oracle']	웹 풀스택 개발자
+1290	SAP SD개발/운영 경력	['SAP', 'SQL', 'Fiori', 'ABAP']	SW/솔루션
+1291	솔루션개발 및 구축 경력 채용 공고	['Elasticsearch', 'Node.js', 'React', 'Java', 'Spring']	SW/솔루션
+1292	앱개발(앱프로그래머, JAVA) 10년~	['Jetpack', 'Java', 'JavaScript', 'Android OS', 'Kotlin', 'React', 'iOS']	iOS 개발자,안드로이드 개발자
+1293	3차원 머신비전 알고리즘 개발자(5~7)	['Python', 'C', 'C++', 'PyTorch', 'CUDA', 'OpenCV', 'OpenGL', 'TensorFlow']	인공지능/머신러닝
+1294	SW 개발자 경력 [Android, C, C++, QT]	['C++', 'C', 'SW', 'MCU', 'Embedded Linux', 'GitHub', 'Qt']	SW/솔루션
+1295	ERP컨설턴트(SAP B1/MS D365) 채용	['SAP', 'ERP', 'SW']	개발 PM,SW/솔루션
+1296	와이파이 H/W제품 개발 10~20년	['Pads', 'HW', 'RF']	HW/임베디드
+1297	SAP FCM/SCM/EWM 모듈개발자	['SAP', 'ABAP']	SW/솔루션
+1298	ABAP 개발	['SAP', 'ABAP', 'SQL']	SW/솔루션
+1299	AI 소프트웨어 엔지니어 (경력4~6년)	['C', 'C++']	안드로이드 개발자
+1300	SAP LE/MM/PP모듈 유지보수 경력	['SAP', 'ABAP']	SW/솔루션
+1301	에뮬레이터/Application개발 채용	['HW', 'C++', 'Docker', 'JavaScript', 'Java', 'ethernet', 'Kubernetes', 'React', 'C#', 'C']	SW/솔루션
+1302	SAP Public Cloud 컨설턴트	['SAP', 'ERP']	개발 PM,SW/솔루션
+1303	[DOF] Algorithm SW Engineer	['CUDA', 'C++']	SW/솔루션
+1304	Microsoft Power Platform Developer	['Microsoft Azure', 'Microsoft PowerApps', 'LowCodeEngine', 'Microsoft Power Automate', 'RPA', 'Azure App Service', 'BI']	devops/시스템 엔지니어
+1305	SAP ERP(S/4HANA컨설턴트)	['SAP', 'ERP', 'SW']	SW/솔루션
+1306	C# 기반 통신 플랫폼 및 서버 어플리케이션 개발	['C#', 'AI/인공지능', 'RDB', 'BigData', 'TCP/IP', 'Network', 'MachineLearning']	서버/백엔드 개발자,SW/솔루션
+1307	앱개발(앱프로그래머, JAVA) 2~5년	['Android OS', 'Java', 'JavaScript', 'Kotlin', 'React', 'iOS', 'Jetpack']	iOS 개발자,안드로이드 개발자
+1308	3D Vision Algorithm Engineer	['Milanote', 'OpenCV', 'C++', 'Git']	인공지능/머신러닝
+1309	LLM 어플리케이션 개발자 채용	['Python', 'JavaScript', 'TypeScript', 'React', 'Node.js', 'REST API', 'Azure DevOps', 'Git', 'AWS', 'Docker']	인공지능/머신러닝,devops/시스템 엔지니어
+1310	[보안컨설팅팀] 모의해킹 전문인력 (화이트해커)	['AWS Mobile Hub', 'WebGL', 'C', 'C++', 'Python', 'Java']	정보보안 담당자
+1311	Application SW Engineer 경력 채용	['SW', 'C++', 'Qt', 'Mfc', 'OpenGL']	SW/솔루션
+1312	MS Power Platform Project Leader	['Microsoft Azure', 'Microsoft PowerApps', 'LowCodeEngine', 'Microsoft Power Automate', 'RPA', 'Azure App Service', 'BI']	devops/시스템 엔지니어
+1313	백엔드 서버 개발자 [경력 3년 이상]	['Java', 'JSP', 'SQL', 'MySQL', 'MariaDB']	서버/백엔드 개발자
+1314	Digital HW 개발자	['HW', 'FPGA']	HW/임베디드
+1315	임베디드 소프트웨어 개발자 (Junior)	['Spring Framework', 'AI/인공지능', 'C++', 'Linux', 'SW', 'Embedded Linux', 'Embedded', 'Python', 'C', 'RTOS']	HW/임베디드,SW/솔루션
+1316	프론트엔드 개발자	['JavaScript', 'PHP']	프론트엔드 개발자
+1317	기술연구소 기구설계 엔지니어 (신입)	['Solidworks', '3D Rendering', 'MATLAB', 'STUDIO', 'Python', 'C++', 'Blender', 'SketchUp', 'Fusion 360']	HW/임베디드
+1318	SW개발_Platform파트 선임~책임급 채용	['Visual C++', 'C', 'C++', 'WPF', 'JavaScript', 'Windows', 'C#', 'SW']	SW/솔루션
+1319	AOP 엔지니어링_UE파트 연구원 채용	['MATLAB', 'Python', 'labview', 'SW']	SW/솔루션
+1320	백엔드 서버 개발자 [경력 7년 이상]	['Java', 'JSP', 'SQL', 'MySQL', 'MariaDB']	서버/백엔드 개발자
+1321	Spring 개발자 IT 경력 모집	['Spring Framework', 'Spring Boot', 'Git', 'Java', 'DB', 'MySQL', 'CSS 3', 'HTML5', 'jQuery']	서버/백엔드 개발자,웹 풀스택 개발자
+1322	백엔드 개발자	['Node.js', 'Spring', 'AWS', 'REST API', 'RDB', 'Git', '.NET', 'Jira', 'Notion']	서버/백엔드 개발자
+1323	AI연관 백엔드 개발자 (경력 5년이상)	['Java', 'Spring', 'MySQL', 'MariaDB', 'Hibernate', 'AWS']	서버/백엔드 개발자
+1324	백엔드 경력 채용 (2~5년)	['Git', 'Spring Boot', 'DB']	서버/백엔드 개발자
+1325	SW/임베디드 정규직 채용[신입]	['C', 'C++', 'HW', 'Embedded', 'SW']	HW/임베디드,SW/솔루션
+1326	프론트엔드개발자 모집(3년~5년)	['Flutter', 'React', 'REST API', 'Git', 'Redux', 'Next.js', 'React Native', 'Supabase', 'Figma', 'Zeplin']	프론트엔드 개발자
+1327	프론트엔드개발자 채용	['React', 'Git', 'JavaScript', 'HTML5', 'CSS 3']	프론트엔드 개발자
+1328	[자사플랫폼] 풀스택 개발자(3~5년차)	['Python', 'PHP', 'JavaScript', 'MariaDB', 'REST API', 'React', 'SQL', 'Swift', 'Kotlin', 'AWS']	웹 풀스택 개발자
+1329	플랫폼 개발자 채용공고	['Python', 'Solidity', 'AWS', 'AZURE']	웹 풀스택 개발자
+1330	프론트엔드 엔지니어(경력 6~8년)	['React', 'TypeScript', 'GraphQL', 'Apollo', 'React Native']	프론트엔드 개발자
+1331	GPON 개발자 경력 채용(3~10년)	['C', 'Linux', 'C++', 'Embedded Linux', 'SW', 'TCP/IP', 'Network']	SW/솔루션
+1332	PLC (SIEMENS) 제어 (2~4년)	['C++', 'Mfc', 'SW', 'C']	SW/솔루션
+1333	PC 제어(시스템제어팀) (8~10년)	['C++', 'Mfc', 'SW', 'Embedded', 'C']	SW/솔루션
+1334	IoT Specialist (경력 13~15년)	['PLC', 'Analog', 'Linux', 'C', 'C++', 'Embedded', 'TCP/IP']	SW/솔루션
+1335	PLC (SIEMENS) 제어 (5~7년)	['C++', 'Mfc', 'SW', 'C']	SW/솔루션
+1336	PC 제어(시스템제어팀) (5~7년)	['C++', 'Mfc', 'SW', 'Embedded', 'C']	SW/솔루션
+1337	PC 제어(시스템제어팀) (2~4년)	['C++', 'Mfc', 'SW', 'Embedded', 'C']	SW/솔루션
+1338	소프트웨어 개발(경력7~10년)	['C#', 'Java', 'MachineLearning']	인공지능/머신러닝
+1339	프론트엔드 엔지니어(경력 9~11년)	['React', 'TypeScript', 'GraphQL', 'Apollo', 'React Native']	프론트엔드 개발자
+1340	WiFi Router개발 경력 6~10년	['C', 'Linux', 'C++', 'Embedded', 'Router', 'Network', 'Embedded Linux']	SW/솔루션
+1341	안드로이드(AOS) 개발자 채용(8년↑)	['Kotlin', 'Docker Compose', 'Android OS', 'Android Studio', 'Android SDK', 'TypeScript', 'Vue.js', 'Google Cloud Platform', 'Swagger UI', 'Git']	안드로이드 개발자
+1342	모바일 앱 개발 경력 채용(6~8년)	['Flutter', 'GraphQL', 'iOS', 'Android OS']	iOS 개발자,안드로이드 개발자
+1343	Field Application Engineer (HIL) 신입	['MATLAB', 'Python', 'SW', 'HW', 'ethernet', 'C', 'C++', 'C#']	기술지원,SW/솔루션
+1344	Field Application Engineer (HIL) 경력	['MATLAB', 'Python', 'SW', 'HW', 'ethernet', 'C', 'C++', 'C#']	기술지원,SW/솔루션
+1345	빅데이터 백엔드 Spark 개발자	['Hadoop', 'Spark', 'BigData', 'K8S']	서버/백엔드 개발자
+1346	영상처리(Vision) S/W 개발 (5~7년)	['C++', 'C#', 'OpenCV', 'SW', 'HALCON']	SW/솔루션
+1347	Hadoop 클러스터 시스템 엔지니어	['Hadoop', 'Shell', 'Python', 'Scala', 'Java', 'Kafka', 'Spark']	devops/시스템 엔지니어
+1348	클라우드 엔지니어 경력 채용(3년~5년)	['CentOS', 'Linux', 'Apache HTTP Server', 'NGINX', 'Oracle']	서버/백엔드 개발자
+1349	펌웨어/플랫폼 개발(경력16~20년)	['FW', 'C', 'HW']	HW/임베디드
+1350	로봇 시스템 개발 엔지니어	['MCU']	HW/임베디드
+1351	SW/임베디드 정규직 채용[경력]	['C', 'C++', 'HW', 'Embedded', 'SW']	HW/임베디드,SW/솔루션
+1352	QA 테스터 모집(6년~10년/계약직)	['QA']	QA 엔지니어
+1353	전기,전자 소프트웨어 설계(10~14)	['C', 'C++', 'SW', 'FPGA']	SW/솔루션
+1354	앱개발 프로그래머 경력 (6~10년)채용	['OpenCV', 'Flutter', 'React', 'Swift', 'Android Studio', 'Xcode', 'Objective-C']	SW/솔루션
+1355	QA 테스터 모집(3년~5년/계약직)	['QA']	QA 엔지니어
+1356	[자사플랫폼] 풀스택 개발자(6~8년차)	['Python', 'PHP', 'JavaScript', 'MariaDB', 'REST API', 'React', 'SQL', 'Swift', 'Kotlin', 'AWS']	웹 풀스택 개발자
+1357	백엔드 경력 채용 (10년 이상)	['Git', 'Spring Boot', 'DB']	서버/백엔드 개발자
+1358	프론트엔드 개발(7~9년)	['JavaScript', 'PHP', 'Figma', 'HTML5', 'jQuery', 'CSS 3']	프론트엔드 개발자
+1359	IT 시스템 엔지니어 인재 모집	['Linux', 'Windows', 'DC/OS', 'Utm', 'VPN', 'Spring Cloud', 'FW', 'DB', 'Google Cloud VPC', 'Infra']	웹 풀스택 개발자,devops/시스템 엔지니어
+1360	임베디드 개발자 채용 (경력)	['Arduino', 'Embedded', 'GNU Bash', 'C', 'C++']	HW/임베디드
+1361	임베디드 개발자 채용 (신입)	['Arduino', 'Embedded', 'GNU Bash', 'C', 'C++']	HW/임베디드
+1362	백엔드 경력 채용 (6~9년)	['Git', 'Spring Boot', 'DB']	서버/백엔드 개발자
+1363	프론트엔드 개발 경력 (2~5년)	['JavaScript', 'HTML5']	프론트엔드 개발자
+1364	의료영상 3차원 개발자 채용(4~6)	['C', 'C#', 'C++', 'DeepLearning']	인공지능/머신러닝
+1365	풀스택 개발자 중급 0명 채용	['Java', 'JSP', 'REST API', 'Apache Tomcat', 'Oracle Weblogic Server', 'Git', 'Docker', 'AWS']	웹 풀스택 개발자
+1366	개발 팀장 모집(경력5~7년)	['Java', 'JavaScript']	서버/백엔드 개발자,개발 PM
+1367	IT 기술지원 담당자 경력 채용	['vmware', 'Windows', 'HW', 'Infra', 'Network']	기술지원,DBA
+1368	백앤드 개발 리더 [5~7년]	['Python', 'Django', 'PostgreSQL', 'Docker', 'Kubernetes', 'MSA', 'AWS', 'JavaScript']	서버/백엔드 개발자
+1369	소프트웨어개발자 경력자 채용	['C', 'C++', 'C#', 'Windows', 'SW', 'Embedded', 'Embedded Linux', 'AI/인공지능']	HW/임베디드,SW/솔루션
+1370	프론트엔드개발자 모집(11년~15년)	['Flutter', 'React', 'REST API', 'Git', 'Redux', 'Next.js', 'React Native', 'Supabase', 'Figma', 'Zeplin']	프론트엔드 개발자
+1371	백엔드 개발자 경력직 (Back end)	['Python', 'Django', 'MySQL', 'PostgreSQL', 'AWS']	서버/백엔드 개발자
+1372	Python/Java 개발(경력5~7)	['Linux', 'MSA', 'Python', 'Java']	서버/백엔드 개발자
+1373	SW개발_Measurement파트 채용	['Windows', 'C++', 'C', 'Visual C++', 'C#', 'WPF', 'SW']	SW/솔루션
+1374	쇼핑몰 어드민 PHP개발자 경력(2~5년)	['Git', 'AWS', 'PHP']	서버/백엔드 개발자
+1375	전기,전자 소프트웨어 설계(1년~4년)	['C', 'C++', 'SW', 'MCU', 'RTOS', 'FPGA']	SW/솔루션
+1376	의료기기 SW 개발자 채용(5년이상)	['C', 'C#', 'C++', 'SW', 'Embedded', 'GUI']	SW/솔루션
+1377	의료기기 SW 개발자 채용(11년이상)	['C', 'C#', 'C++', 'SW', 'Embedded', 'GUI']	SW/솔루션
+1378	풀스택 초급 개발자	['Linux', 'React Router', 'SW', 'Embedded']	웹 풀스택 개발자
+1379	TA 모집(경력7~10년)	['Linux', 'MSA', 'Python']	서버/백엔드 개발자
+1380	쇼핑몰 어드민 PHP개발자 경력(6~9년)	['Git', 'AWS', 'PHP']	서버/백엔드 개발자
+1381	소프트웨어 개발자 경력직 채용	['C', 'C++', 'Visual Studio', 'Embedded', 'FW']	HW/임베디드,SW/솔루션
+1382	클라우드 엔지니어 경력 채용(6년~8년)	['CentOS', 'Linux', 'Apache HTTP Server', 'NGINX', 'Oracle']	서버/백엔드 개발자
+1383	펌웨어/플랫폼 개발(경력3~9년)	['FW', 'C', 'HW']	HW/임베디드
+1384	프론트엔드 개발자	['Git', 'REST API', 'React', 'vuex', 'Vue.js', 'AngularJS']	프론트엔드 개발자
+1385	프론트엔드 개발 경력 (6~9년)	['JavaScript', 'HTML5']	프론트엔드 개발자
+1386	Navigation Test Engineer 경력(2~4년)	['SW', 'HW', 'DB']	DBA
+1387	데이터분석가 경력(5~7년) 채용	['Python', 'SQL', 'MySQL']	빅데이터 엔지니어
+1388	펌웨어/플랫폼 개발(경력10~15년)	['FW', 'C', 'HW']	HW/임베디드
+1389	데이터분석가 경력(8~10년) 채용	['Python', 'SQL', 'MySQL']	빅데이터 엔지니어
+1390	프론트엔드 개발(10~12년)	['JavaScript', 'PHP', 'Figma', 'HTML5', 'jQuery', 'CSS 3']	프론트엔드 개발자
+1391	풀스택 고급 개발자	['Linux', 'React Router', 'SW', 'Embedded']	웹 풀스택 개발자
+1392	C# 3D 처리 소프트웨어 개발자(7~10년)	['C#', '3D Rendering', 'OpenGL', 'Git']	SW/솔루션
+1393	TA 모집(경력1~3년)	['Linux', 'MSA', 'Python']	devops/시스템 엔지니어
+1394	SOC 보안분석 경력 채용 (2~6년)	['Windows', 'Linux', 'Firewall', 'Python', 'PowerShell', 'Shell']	정보보안 담당자
+1395	React Native 앱 개발자	['Jira', 'Notion', 'React Native', 'iOS', 'Android OS', 'REST API', 'TypeScript', 'HTML5', 'CSS 3', 'JavaScript']	iOS 개발자,안드로이드 개발자
+1396	프론트엔드 개발(13~15년)	['JavaScript', 'PHP', 'Figma', 'HTML5', 'jQuery', 'CSS 3']	프론트엔드 개발자
+1397	기술연구소 광학설계 엔지니어 (신입)	['Visual Studio Code', 'Python', 'MATLAB', 'C++', 'Visual C++']	SW/솔루션
+1398	인프라(시스템엔지니어) 개발자_6~10년	['Kubernetes', 'GitHub', 'Jira', 'MongoDB', 'Grafana', 'Amazon EC2', 'Argo', 'Minio']	devops/시스템 엔지니어
+1399	기술연구소 광학설계 엔지니어 (1~4년)	['Visual Studio Code', 'Python', 'MATLAB', 'C++', 'Visual C++']	SW/솔루션
+1400	TA 모집(경력4~6년)	['Linux', 'MSA', 'Python']	devops/시스템 엔지니어
+1401	기술연구소 광학설계 엔지니어 (5년~)	['Visual Studio Code', 'Python', 'MATLAB', 'C++', 'Visual C++']	SW/솔루션
+1402	FPGA 시니어급 채용	['FPGA', 'Verilog']	HW/임베디드
+1403	데이터분석가 경력(11~13년) 채용	['Python', 'SQL', 'MySQL']	빅데이터 엔지니어
+1404	FW개발 경력 채용	['HW', 'FW', 'C', 'MCU', 'MATLAB', 'FPGA']	HW/임베디드
+1405	HW개발_아날로그/파워 책임급 채용	['HW', 'PCB']	HW/임베디드
+1406	기술연구소 기구설계 엔지니어 (1~4년)	['Solidworks', '3D Rendering', 'MATLAB', 'STUDIO', 'Python', 'C++', 'Blender', 'SketchUp', 'Fusion 360']	HW/임베디드
+1407	Navigation Test Engineer 경력(5~7년)	['SW', 'HW', 'DB']	DBA
+1408	전기,전자 소프트웨어 설계(5년~9년)	['C', 'C++', 'SW', 'MCU', 'RTOS', 'FPGA']	SW/솔루션
+1409	DBA  경력 직원 채용 (16~19년)	['SQL', 'Azure SQL Database', 'DB']	DBA
+1410	기술연구소 기구설계 엔지니어 (5년~)	['Solidworks', '3D Rendering', 'MATLAB', 'STUDIO', 'Python', 'C++', 'Blender', 'SketchUp', 'Fusion 360']	HW/임베디드
+1411	전기,전자 하드웨어 설계(10년~14년)	['HW', 'Embedded Linux', 'MCU', 'SW', 'RTOS', 'FPGA', 'Embedded']	HW/임베디드,SW/솔루션
+1412	HW개발_FW설계 책임급 채용	['HW', 'FPGA', 'MCU', 'ARM']	HW/임베디드
+1413	Citrix NetScaler 엔지니어	['Citrix Gateway', 'VPN', 'L7']	기술지원,devops/시스템 엔지니어
+1414	백엔드개발자 모집(3년~5년)	['PHP', 'Git', 'Python', 'REST API', 'AI/인공지능']	서버/백엔드 개발자
+1415	개발PM	['React', 'Java', 'PHP', 'Docker', 'Redis Cloud']	개발 PM
+1416	백엔드개발자 모집(6년~10년)	['PHP', 'Git', 'Python', 'REST API', 'AI/인공지능']	서버/백엔드 개발자
+1417	ai engineer 채용	['Wit.ai', 'WebGL']	웹 풀스택 개발자
+1418	산업용 3D프린터 PC제어/SW 개발(과장)	['C#', 'AI/인공지능', 'Linux', 'Embedded Linux', 'MES', '3D Rendering', 'Embedded']	인공지능/머신러닝,SW/솔루션
+1419	백엔드개발자 모집(11년~15년)	['PHP', 'Git', 'Python', 'REST API', 'AI/인공지능']	서버/백엔드 개발자
+1420	프론트엔드 개발자 경력(11~13년) 채용	['HTML5', 'C', 'C#', 'JavaScript', 'Node.js']	프론트엔드 개발자
+1421	백앤드 개발 리더 [11년 이상]	['Python', 'Django', 'PostgreSQL', 'Docker', 'Kubernetes', 'MSA', 'AWS', 'JavaScript']	서버/백엔드 개발자
+1422	개발 팀장 모집(경력8~10년)	['Java', 'JavaScript']	서버/백엔드 개발자,개발 PM
+1423	DBA  경력 직원 채용 (13~15년)	['SQL', 'Azure SQL Database', 'DB']	DBA
+1424	프론트엔드개발자 모집(6년~10년)	['Flutter', 'React', 'REST API', 'Git', 'Redux', 'Next.js', 'React Native', 'Supabase', 'Figma', 'Zeplin']	프론트엔드 개발자
+1425	[펀픽] AI 기반 백엔드 개발자 채용	['Python', 'MySQL', 'Microsoft Cognitive Services', 'AI/인공지능', 'Docker', 'AWS', 'Azure DevOps', 'TypeScript', 'Npl']	서버/백엔드 개발자,인공지능/머신러닝
+1426	쇼핑몰어드민PHP개발자 경력(10년이상)	['Git', 'AWS', 'PHP']	서버/백엔드 개발자
+1427	[펀픽] 플러터(Flutter) 개발자 채용	['Flutter', 'MariaDB', 'MySQL', 'Python', 'Android OS', 'Swift', 'Kotlin']	iOS 개발자,프론트엔드 개발자,안드로이드 개발자
+1428	백엔드 개발자 채용	['Django REST framework', 'Git', 'AWS', 'PostgreSQL', 'Python', 'Django', 'GitLab', 'Jira', 'Confluence']	서버/백엔드 개발자
+1429	개발 팀장 모집(경력2~4년)	['Java', 'JavaScript']	서버/백엔드 개발자,개발 PM
+1430	[자사플랫폼] 풀스택 개발자(9년이상)	['Python', 'PHP', 'JavaScript', 'MariaDB', 'REST API', 'React', 'SQL', 'Swift', 'Kotlin', 'AWS']	웹 풀스택 개발자
+1431	Back-end 개발자 추가 모집	['RDB', 'MySQL', 'RabbitMQ', 'PHP', 'Laravel', 'Elasticsearch']	서버/백엔드 개발자
+1432	AI개발 개발자(서울/경력16~20)	['Python', 'Java', 'REST API']	인공지능/머신러닝
+1433	풀스텍개발자(서울/경력16~20)	['JSP', 'Spring', 'Oracle']	웹 풀스택 개발자
+1434	RADAR 알고리즘SW	['SW', 'C++', 'C', 'Embedded', 'Linux', 'MCU', 'RTOS', 'Verilog']	개발 PM,HW/임베디드,SW/솔루션
+1435	App(React Native) 개발자(전문연구요원가능)	['Python', 'Spring Framework', 'AWS', 'React', 'Git', 'GitHub', 'Linux', 'PHP', 'Swift', 'Kotlin']	프론트엔드 개발자
+1436	AI개발 개발자(서울/경력10~15)	['Python', 'Java', 'REST API']	인공지능/머신러닝
+1437	풀스텍개발자(서울/경력10~15)	['JSP', 'Spring', 'Oracle']	웹 풀스택 개발자
+1438	프론트엔드 개발자 (경력 15년 이상)	['HTML5', 'CSS 3', 'JavaScript', 'TypeScript', 'React', 'Vue.js', 'Angular 2', 'jQuery', 'Ajax']	프론트엔드 개발자
+1439	와이파이 H/W제품 개발 5~10년	['Pads', 'HW', 'RF']	HW/임베디드
+1440	PMO 채용	['Microsoft Office 365']	개발 PM
+1441	공급망보안관리솔루션설계/개발(11~15)	['Linux', 'Windows Server', 'Golang', 'Docker', 'Kubernetes', 'React.js Boilerplate', 'Python']	기술지원,SW/솔루션
+1442	보안솔루션/네트워크개발( 5~7년)	['C', 'Rust', 'Python', 'Shell', 'NoSql', 'Network']	SW/솔루션
+1443	공급망보안관리솔루션 설계/개발(7~10)	['Linux', 'Windows Server', 'Golang', 'Docker', 'Kubernetes', 'React.js Boilerplate', 'Python']	기술지원,SW/솔루션
+1444	RADAR 신호처리 SW	['SW', 'C++', 'C', 'Embedded', 'Linux', 'MCU', 'RTOS', 'Verilog']	개발 PM,HW/임베디드,SW/솔루션
+1445	3차원 카메라 하드웨어 개발자(5~7)	['PCB', 'Orcad']	HW/임베디드
+1446	RADAR 시험장비 SW	['SW', 'C++', 'C', 'Embedded', 'Linux', 'MCU', 'RTOS', 'Verilog']	개발 PM,HW/임베디드,SW/솔루션
+1447	AI 소프트웨어 엔지니어 (경력7~10년)	['C', 'C++']	안드로이드 개발자
+1448	기술개발 경력(SolutionEngineer)	['C++', 'C', 'Embedded', 'SW', 'Solidworks', 'HW']	기술지원,SW/솔루션
+1449	Wi-Fi 소프트웨어 개발자 11~13년	['Embedded Linux', 'C', 'L2']	SW/솔루션
+1450	[대전 서구]네트워크 엔지니어/PM 모집	['Cisco', 'Network', 'Ccna', 'Ccnp']	기술지원,devops/시스템 엔지니어
+1451	Technical Project Manager (TPM)	['DeepLearning', 'AI/인공지능', 'SW']	인공지능/머신러닝
+1452	LBS 관제시스템 기술지원 (경력)	['Linux', 'Ubuntu', 'MySQL', 'Oracle', 'DB']	기술지원,QA 엔지니어
+1453	공급망보안관리솔루션설계/개발(16~20)	['Linux', 'Windows Server', 'Golang', 'Docker', 'Kubernetes', 'React.js Boilerplate', 'Python']	기술지원,SW/솔루션
+1454	Wi-Fi 소프트웨어 개발 15년이하	['Embedded Linux', 'C', 'L2']	SW/솔루션
+1455	가상화 솔루션 개발자(경력9~11)	['C', 'Rust', 'Python', 'Shell', 'NoSql', 'Network', 'C++', 'Embedded Linux']	SW/솔루션
+1456	3D Geometry SW Engineer 경력 채용	['SW', 'C++', '3D Rendering']	SW/솔루션
+1457	Spring 개발자(경력3~5년)	['REST API', 'WebGL', 'WebRTC', 'Spring', 'Oracle']	인공지능/머신러닝
+1458	3D Scan Engineer 경력 채용	['SW', 'C++', 'MachineLearning', 'OpenCV', 'PyTorch']	SW/솔루션
+1459	LLM Researcher	['Python', 'TensorFlow', 'PyTorch', 'Transformers', 'Docker', 'Git', 'Linux', 'DeepLearning']	인공지능/머신러닝
+1460	장비제어 프로그램 개발자	['C#']	SW/솔루션
+1461	보안솔루션/네트워크개발(7~10년)	['C', 'Rust', 'Python', 'Shell', 'NoSql', 'Network']	SW/솔루션
+1462	백앤드 개발 리더 [8~10년]	['Python', 'Django', 'PostgreSQL', 'Docker', 'Kubernetes', 'MSA', 'AWS', 'JavaScript']	서버/백엔드 개발자
+1463	통신장비 연구개발 채용 - 팀장급	['Ccna', 'Ccnp', 'Embedded', 'Network']	HW/임베디드
+1464	[로보틱스] H/W 펌웨어 개발	['Orcad', 'Pads', 'HW', 'MCU', 'Analog', 'C', 'ethernet']	HW/임베디드
+1465	S/W 고급 개발자	['Linux', 'React Router', 'SW', 'Embedded']	SW/솔루션
+1466	제어장치 엔지니어 채용(5년↑)	['HW', 'Windows']	HW/임베디드
+1467	네트워크 장비 구축 엔지니어 채용	['Ccna', 'Cisco', 'Network', 'Ccie', 'TCP/IP', 'AWS', 'VPN', 'AZURE', 'Ccnp', 'ethernet']	기술지원,devops/시스템 엔지니어
+1468	알고리즘 개발자 경력직 채용	['Slim', 'Keras', 'TensorFlow', 'Java', 'Node.js']	빅데이터 엔지니어,인공지능/머신러닝
+1469	보안 솔루션 엔지니어 경력직 채용	['Java', 'Oracle', 'SQL', 'MariaDB', 'C++', 'Linux', 'Windows']	정보보안 담당자
+1470	SAP CO 모듈 담당자 채용	['SAP', 'Microsoft Excel']	SW/솔루션
+1471	S/W 초급 개발자	['Linux', 'React Router', 'SW', 'Embedded']	SW/솔루션
+1472	연구소 소프트웨어 개발자 채용(7~10년)	['C', 'C++', 'Linux', 'MCU', 'Libraries.io', 'Embedded']	SW/솔루션
+1473	PIA자격 필수/개인정보보호컨설팅(1~5)	['ISMS', 'CPPG']	정보보안 담당자
+1474	FPGA개발 경력직 채용	['FPGA', 'C', 'C++', 'Cisco ISE', 'Embedded Linux', 'HW', 'Verilog', 'VHDL']	HW/임베디드
+1475	CMP(cloud management platform) 개발	['Python', 'Vue.js']	서버/백엔드 개발자,프론트엔드 개발자,웹 풀스택 개발자
+1476	임베디드 개발자 경력직 채용	['RTOS', 'Python', 'C++', 'C', 'HW', 'FW']	HW/임베디드
+1477	프론트엔드 개발자 경력(5~7년) 채용	['HTML5', 'C', 'C#', 'JavaScript', 'Node.js']	프론트엔드 개발자
+1478	제어장치 엔지니어 채용(11년↑)	['HW', 'Windows']	HW/임베디드
+1479	전기,전자 하드웨어 설계(1년~4년)	['HW', 'Embedded Linux', 'MCU', 'SW', 'RTOS', 'FPGA', 'Embedded']	HW/임베디드,SW/솔루션
+1480	Navigation Test Engineer경력(8~10년)	['SW', 'HW', 'DB']	DBA
+1481	프론트엔드 개발 경력 (10년 이상)	['JavaScript', 'HTML5']	프론트엔드 개발자
+1482	웹 진단 모의해킹 (7~10년)	['Hack', 'Azure Security Center', 'ISMS', 'CISA', 'CISSP']	정보보안 담당자
+1483	전력전자 H/W 개발(1년~4년)	['HW', 'Orcad']	HW/임베디드
+1484	프론트엔드 개발자 경력(8~10년) 채용	['HTML5', 'C', 'C#', 'JavaScript', 'Node.js']	프론트엔드 개발자
+1485	ERP운영/유지보수 개발자_8년 이상	['Delphi', 'C#', 'Oracle', 'MSSQL', 'MySQL']	SW/솔루션
+1486	통신장비 연구개발 채용 - 주임/대리급	['Ccna', 'Ccnp', 'Embedded', 'Network']	HW/임베디드
+1487	전력전자 H/W 개발(10년~14년)	['HW', 'Orcad']	HW/임베디드
+1488	통신장비 연구개발 채용 - 과장급	['Ccna', 'Ccnp', 'Embedded', 'Network']	HW/임베디드
+1489	Navigation Test Engineer경력(14년~)	['SW', 'HW', 'DB']	DBA
+1490	Python/Java 개발(경력8~10)	['Linux', 'MSA', 'Python', 'Java']	서버/백엔드 개발자
+1491	전력전자 H/W 개발(5년~9년)	['HW', 'Orcad']	HW/임베디드
+1492	S/W 중급 개발자	['Linux', 'React Router', 'SW', 'Embedded']	SW/솔루션
+1493	Navigation Test Engineer경력(11~13)	['SW', 'HW', 'DB']	DBA
+1494	전기,전자 하드웨어 설계(5년~9년)	['HW', 'Embedded Linux', 'MCU', 'SW', 'RTOS', 'FPGA', 'Embedded']	HW/임베디드,SW/솔루션
+1495	정보보안 담당자 경력 채용	['SecureCRT']	정보보안 담당자
+1496	펌웨어 개발자 경력직 채용	['C++', 'VHDL', 'Python', 'MATLAB', 'Git', 'FW']	SW/솔루션
+1497	반도체 자동화시스템개발(RMS/FDC)경력	['C', 'Vb.net', 'Oracle', 'MSSQL', 'C#']	devops/시스템 엔지니어,SW/솔루션
+1498	의료기기 GUI S/W 경력 채용	['SW', 'C#', 'Visual Studio', 'Embedded', 'Windows', '.NET', 'GUI']	SW/솔루션
+1499	해외 가상자산 거래소 Back-End 팀장	['Python', 'REST API', 'Git', 'AWS']	서버/백엔드 개발자
+1500	서버 개발자 경력직 채용	['GitHub', 'GraphQL', 'Docker', 'AZURE', 'Golang', 'Kubernetes', 'AWS']	서버/백엔드 개발자
+1501	하드웨어 개발자 경력직 채용	['Autocad', 'Orcad', 'Pads', 'PCB']	HW/임베디드,SW/솔루션
+1502	인프라 엔지니어 경력직 채용	['Docker', 'TypeScript', 'AWS', 'AZURE', 'GCP', 'Solidity', 'Hyperledger Indy', 'Golang']	블록체인,devops/시스템 엔지니어
