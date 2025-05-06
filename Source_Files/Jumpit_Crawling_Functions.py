@@ -203,9 +203,8 @@ def getBlindInfo(body):
 def crawlingDetailPage():
     positions = getJumpitPositions()
     ids = getIDs(positions)
-
+    data = []
     for i in range(0,3):
-        data = []
         url = DETAIL_URL + str(ids[i])
         print(f"상세 페이지 {i+1} : {url}")
         time.sleep(0.3)
