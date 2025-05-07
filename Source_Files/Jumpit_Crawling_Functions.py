@@ -113,11 +113,21 @@ def getClosedAt(positions):
 # 날짜 입력 후 실행하면 'Crawling_DataFile_MainPage_20250503' 형식의 파일이 저장됨
 # 저장 폴더는 Data_Files
 # 해당 폴더는 gitignore에 추가되어있으니 올라가지 않을것임
-def toCsvFile(dataFrame, date):
-    dataFrame.to_csv(f"../Data_Files/Crawling_DataFile_MainPage_Csv_{date}.txt", header=False, sep='\t')
+def toCsvFile(dataFrame, date, type):
+    if type == 'Main':
+        dataFrame.to_csv(f"../Data_Files/Crawling_DataFile_MainPage_Csv_{date}.txt",
+                         sep='\t')
+    elif type == 'Detail':
+        dataFrame.to_csv(f"../Data_Files/Crawling_DataFile_DetailPage_Csv_{date}.txt",
+                         sep='\t')
 
-def toJsonFile(dataFrame, date):
-    dataFrame.to_json(f"../Data_Files/Crawling_DataFile_MainPage_json_{date}.txt",force_ascii=False)
+def toJsonFile(dataFrame, date, type):
+    if type == 'Main':
+        dataFrame.to_json(f"../Data_Files/Crawling_DataFile_MainPage_json_{date}.txt",
+                        force_ascii=False)
+    elif type == 'Detail':
+        dataFrame.to_json(f"../Data_Files/Crawling_DataFile_DetailPage_json_{date}.txt",
+                        force_ascii=False)
 
 '''
 점핏 상세 페이지를 가져오는 함수입니다
@@ -204,9 +214,9 @@ def crawlingDetailPage():
     positions = getJumpitPositions()
     ids = getIDs(positions)
     data = []
-    for i in range(0,3):
-        url = DETAIL_URL + str(ids[i])
-        print(f"상세 페이지 {i+1} : {url}")
+    for id in ids:
+        url = DETAIL_URL + str(id)
+        print(f"상세 페이지 {id+1} : {url}")
         time.sleep(0.3)
 
         body = getDetailPage(url)
