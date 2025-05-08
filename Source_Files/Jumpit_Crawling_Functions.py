@@ -133,8 +133,8 @@ def toJsonFile(dataFrame, date, type):
 점핏 상세 페이지를 가져오는 함수입니다
 각각의 상세 페이지 정보를 가져옵니다
 '''
-def improveText(text):
-    text = text.replace('\n', ' ')  # 줄바꿈 문자 제거
+def improveText(text, isList = False):
+    
     text = text.replace('\r', '')  # 캐리지 리턴 문자 제거
     text = text.replace('\t', '')  # 탭 문자 제거
     re.sub(r'[^a-zA-Z0-9가-힣\s]', '', text)  # 특수문자 제거
@@ -149,17 +149,17 @@ def getDetailPage(url):
 
 def getTitleInfo(body):
     titleInfo = body.find_all('div', class_ = TITLE_CLASS)
-    titles = []
-    company = []
+    titles = ''
+    company = ''
     pride = []
     for info in titleInfo:
         h1_tag = info.find('h1')
         company_tag = info.find('a')
         if h1_tag:  # <h1> 태그가 존재하는 경우에만 추가
-            titles.append(h1_tag.text)
+            titles = h1_tag.text
 
         if company_tag:
-            company.append(company_tag.text)
+            company = company_tag.text
 
     for info in titleInfo:
         pride_tags = info.find_all('li')
@@ -193,20 +193,21 @@ def getMainInfo(body):
             welfare = allPre[i]
         elif i == 5:
             procedures = allPre[i]
-
+            
+    mainWork = mainWork.split('\n')
+    requirements = requirements.split('\n')
+    preferential = preferential.split('\n')
+    welfare = welfare.split('\n')
+    procedures = procedures.split('\n')
 
     return techStack, mainWork, requirements, preferential, welfare, procedures
 
 def getBlindInfo(body):
     blindInfo = body.find_all('dl', class_ = "sc-b12ae455-1 hvXrQd")
-    career = blindInfo[0].find('dd')
-    career = [i.text for i in career]  # 경력
-    education = blindInfo[1].find('dd')
-    education = [i.text for i in education]  # 학력
-    closedAt = blindInfo[2].find('dd')
-    closedAt = [i.text for i in closedAt]  # 마감일
-    jobLocation = blindInfo[3].find('li')
-    jobLocation = [i.text for i in jobLocation]  # 근무지
+    career = blindInfo[0].find('dd').text
+    education = blindInfo[1].find('dd').text
+    closedAt = blindInfo[2].find('dd').text
+    jobLocation = blindInfo[3].find('li').text
 
     return career, education, closedAt, jobLocation
 
@@ -217,7 +218,7 @@ def crawlingDetailPage():
     for id in ids:
         url = DETAIL_URL + str(id)
         print(f"상세 페이지 {id+1} : {url}")
-        time.sleep(0.3)
+        time.sleep(0.2)
 
         body = getDetailPage(url)
         title, company, pride = getTitleInfo(body)
