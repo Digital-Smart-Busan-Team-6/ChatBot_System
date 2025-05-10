@@ -253,6 +253,7 @@ def crawlingDetailPage():
         career, education, closedAt, jobLocation = getBlindInfo(body)
 
         data.append({
+            'id' : id,
             'title': title,
             'company': company,
             'pride': pride,
