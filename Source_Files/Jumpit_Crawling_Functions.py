@@ -115,11 +115,15 @@ def getClosedAt(positions):
 def toCsvFile(dataFrame, date, type):
     dataFrame['date'] = pd.to_datetime(dataFrame['date'], format='%Y%m%d')
     dataFrame['date'] = dataFrame['date'].dt.strftime('%Y년-%m월-%d일')
+
     if type == 'Main':
         dataFrame.T.to_csv(f"../Data_Files/Crawling_DataFile_MainPage_Csv_{date}.txt",
                          sep='\t')
     elif type == 'Detail':
         dataFrame.T.to_csv(f"../Data_Files/Crawling_DataFile_DetailPage_Csv_{date}.txt",
+                         sep='\t')
+    elif type == 'Merge':
+        dataFrame.T.to_csv(f"../Data_Files/Crawling_DataFile_MergePage_Csv_{date}.txt",
                          sep='\t')
 
 def toJsonFile(dataFrame, date, type):
@@ -131,6 +135,9 @@ def toJsonFile(dataFrame, date, type):
                         force_ascii=False)
     elif type == 'Detail':
         dataFrame.T.to_json(f"../Data_Files/Crawling_DataFile_DetailPage_json_{date}.txt",
+                        force_ascii=False)
+    elif type == 'Merge':
+        dataFrame.T.to_json(f"../Data_Files/Crawling_DataFile_MergePage_json_{date}.txt",
                         force_ascii=False)
 
 '''
@@ -146,12 +153,15 @@ def toImproveText(text):
         cleaned_list = []
         for item in text:
             cleaned_item = item.replace('\r', '').replace('\t', '')
-            cleaned_item = re.sub(r'[^a-zA-Z0-9가-힣\s]', '', cleaned_item).strip()
+            # +, #, ,는 유지하면서 나머지 특수문자 제거
+            cleaned_item = re.sub(r'[^a-zA-Z0-9가-힣\s+#,]', '', cleaned_item).strip()
             cleaned_list.append(cleaned_item)
         return cleaned_list
+    elif isinstance(text, int):
+        return text
     else:
         cleaned_text = text.replace('\r', '').replace('\t', '')
-        cleaned_text = re.sub(r'[^a-zA-Z0-9가-힣\s]', '', cleaned_text).strip()
+        cleaned_text = re.sub(r'[^a-zA-Z0-9가-힣\s+#,]', '', cleaned_text).strip()
         return cleaned_text
 
 def toImproveDataFrame(data):
