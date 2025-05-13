@@ -115,11 +115,15 @@ def getClosedAt(positions):
 def toCsvFile(dataFrame, date, type):
     dataFrame['date'] = pd.to_datetime(dataFrame['date'], format='%Y%m%d')
     dataFrame['date'] = dataFrame['date'].dt.strftime('%Y년-%m월-%d일')
+
     if type == 'Main':
-        dataFrame.to_csv(f"../Data_Files/Crawling_DataFile_MainPage_Csv_{date}.txt",
+        dataFrame.T.to_csv(f"../Data_Files/Crawling_DataFile_MainPage_Csv_{date}.txt",
                          sep='\t')
     elif type == 'Detail':
-        dataFrame.to_csv(f"../Data_Files/Crawling_DataFile_DetailPage_Csv_{date}.txt",
+        dataFrame.T.to_csv(f"../Data_Files/Crawling_DataFile_DetailPage_Csv_{date}.txt",
+                         sep='\t')
+    elif type == 'Merge':
+        dataFrame.T.to_csv(f"../Data_Files/Crawling_DataFile_MergePage_Csv_{date}.txt",
                          sep='\t')
 
 def toJsonFile(dataFrame, date, type):
@@ -127,10 +131,13 @@ def toJsonFile(dataFrame, date, type):
     dataFrame['date'] = pd.to_datetime(dataFrame['date'], format='%Y%m%d')
     dataFrame['date'] = dataFrame['date'].dt.strftime('%Y년%m월%d일')
     if type == 'Main':
-        dataFrame.to_json(f"../Data_Files/Crawling_DataFile_MainPage_json_{date}.txt",
+        dataFrame.T.to_json(f"../Data_Files/Crawling_DataFile_MainPage_json_{date}.txt",
                         force_ascii=False)
     elif type == 'Detail':
-        dataFrame.to_json(f"../Data_Files/Crawling_DataFile_DetailPage_json_{date}.txt",
+        dataFrame.T.to_json(f"../Data_Files/Crawling_DataFile_DetailPage_json_{date}.txt",
+                        force_ascii=False)
+    elif type == 'Merge':
+        dataFrame.T.to_json(f"../Data_Files/Crawling_DataFile_MergePage_json_{date}.txt",
                         force_ascii=False)
 
 '''
@@ -141,13 +148,27 @@ def toJsonFile(dataFrame, date, type):
 '''
 텍스트 전처리 함수
 '''
-def improveText(text, isList = False):
-    
-    text = text.replace('\r', '')  # 캐리지 리턴 문자 제거
-    text = text.replace('\t', '')  # 탭 문자 제거
-    re.sub(r'[^a-zA-Z0-9가-힣\s]', '', text)  # 특수문자 제거
+def toImproveText(text):
+    if isinstance(text, list):  # 입력이 리스트인지 확인
+        cleaned_list = []
+        for item in text:
+            cleaned_item = item.replace('\r', '').replace('\t', '')
+            # +, #, ,는 유지하면서 나머지 특수문자 제거
+            cleaned_item = re.sub(r'[^a-zA-Z0-9가-힣\s+#,]', '', cleaned_item).strip()
+            cleaned_list.append(cleaned_item)
+        return cleaned_list
+    elif isinstance(text, int):
+        return text
+    else:
+        cleaned_text = text.replace('\r', '').replace('\t', '')
+        cleaned_text = re.sub(r'[^a-zA-Z0-9가-힣\s+#,]', '', cleaned_text).strip()
+        return cleaned_text
 
-    return text.strip()  # 양쪽 공백 제거
+def toImproveDataFrame(data):
+    columns = data.columns
+    for column in columns:
+        data[column] = data[column].apply(toImproveText)
+    return data
 
 # 상세 페이지 body 부분만 추출하는 함수
 def getDetailPage(url):
