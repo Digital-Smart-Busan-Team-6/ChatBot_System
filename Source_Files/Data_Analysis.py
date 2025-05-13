@@ -90,10 +90,9 @@ def generate_plain_text(entry):
 
 def checkFormat(data):
     """주어진 문자열이 JSON 형식인지 텍스트 형식인지 확인합니다."""
-    try:
-        json.loads(data)
+    if isinstance(data,dict):
         return "JSON"
-    except json.JSONDecodeError:
+    elif isinstance(data, str):
         return "Text"
 
 def getOriginalJson(file_path):
