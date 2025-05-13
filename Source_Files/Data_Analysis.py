@@ -32,7 +32,7 @@ def combineDataFrames(mainDataFrame, detailDataFrame):
 #    data = json.load(f)
 
 # 평문 생성 함수 정의
-def generate_plain_text(entry):
+def generatePlainText(entry):
     title = entry.get("title", "")
     company = entry.get("company", "")
     location = ", ".join(entry.get("jobLocation", []))
@@ -123,19 +123,19 @@ def saveData(data, file_path):
     mode = 'w'
     encoding = 'utf-8'
 
-    def save_json():
+    def saveJson():
         with open(file_path, mode, encoding=encoding) as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
-    def save_text():
+    def saveText():
         with open(file_path, mode, encoding=encoding) as f:
             f.write(data)
 
     if dataType == "JSON":
-        save_json()
+        saveJson()
         msg = "기존 파일에 JSON을 덮어쓰기 성공했습니다." if file_exists else "새로운 JSON 파일을 생성했습니다."
     elif dataType == "Text":
-        save_text()
+        saveText()
         msg = "기존 파일에 텍스트를 덮어쓰기 성공했습니다." if file_exists else "새로운 텍스트 파일을 생성했습니다."
     else:
         msg = f"지원되지 않는 데이터 타입입니다: {dataType}"
