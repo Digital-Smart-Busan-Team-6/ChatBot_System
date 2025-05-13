@@ -127,6 +127,7 @@ def saveData(data, file_path):
         with open(file_path, mode, encoding=encoding) as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
+
     def saveText():
         with open(file_path, mode, encoding=encoding) as f:
             f.write(data)
