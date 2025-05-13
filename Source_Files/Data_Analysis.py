@@ -24,12 +24,7 @@ def combineDataFrames(mainDataFrame, detailDataFrame):
     return combinedDataFrame
 
 
-# 파일 경로
-#file_path = "/mnt/data/Crawling_DataFile_MergePage_json_20250512_test.txt"
 
-# 파일 열기 및 로드
-#with open(file_path, "r", encoding="utf-8") as f:
-#    data = json.load(f)
 
 # 평문 생성 함수 정의
 def generatePlainText(entry):
@@ -83,10 +78,7 @@ def generatePlainText(entry):
         text += f"특이사항으로는 {pride} 등이 있습니다. "
     return text.strip()
 
-# 전체 평문 리스트 생성
-#plain_texts = [generate_plain_text(entry) for entry in data.values()]
 
-#plain_texts[:2]  # 상위 2개 예시 출력
 
 def checkFormat(data):
     """주어진 문자열이 JSON 형식인지 텍스트 형식인지 확인합니다."""
