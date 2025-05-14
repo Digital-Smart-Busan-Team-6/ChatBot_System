@@ -101,12 +101,15 @@ def getOriginalJson(file_path):
     return existingData
 
 def mergeJsonDicts(originalJson, newJson):
-    """
-    기존 JSON과 새로운 JSON을 병합합니다.
-    동일한 키가 있으면 new_json의 값으로 덮어씁니다.
-    """
-    merged = originalJson.copy()  # 원본 보호
-    merged.update(newJson)       # 병합 (덮어쓰기 방식)
+    merged = originalJson.copy()
+    for key, value in newJson.items():
+        if key in merged:
+            if isinstance(value, list) and isinstance(merged[key], list):
+                merged[key].extend(value)  # 리스트면 누적
+            else:
+                merged[key] = value  # 그 외는 덮어씀
+        else:
+            merged[key] = value
     return merged
 
 def saveData(data, file_path):
