@@ -16,7 +16,7 @@ def getClosedPost(DataFrameBefore, DataFrameNew):
     return closedPost
 
 # main, detail DataFrame을 합치는 함수입니다
-def combineDataFrames(mainDataFrame, detailDataFrame):
+def mergeDataFrame(mainDataFrame, detailDataFrame):
     combinedDataFrame = pd.merge(detailDataFrame, mainDataFrame,
                                  left_index=True,
                                  right_index=True)
@@ -24,12 +24,7 @@ def combineDataFrames(mainDataFrame, detailDataFrame):
     return combinedDataFrame
 
 
-# 파일 경로
-#file_path = "/mnt/data/Crawling_DataFile_MergePage_json_20250512_test.txt"
 
-# 파일 열기 및 로드
-#with open(file_path, "r", encoding="utf-8") as f:
-#    data = json.load(f)
 
 # 평문 생성 함수 정의
 def generatePlainText(entry):
@@ -83,10 +78,7 @@ def generatePlainText(entry):
         text += f"특이사항으로는 {pride} 등이 있습니다. "
     return text.strip()
 
-# 전체 평문 리스트 생성
-#plain_texts = [generate_plain_text(entry) for entry in data.values()]
 
-#plain_texts[:2]  # 상위 2개 예시 출력
 
 def checkFormat(data):
     """주어진 문자열이 JSON 형식인지 텍스트 형식인지 확인합니다."""
@@ -109,12 +101,15 @@ def getOriginalJson(file_path):
     return existingData
 
 def mergeJsonDicts(originalJson, newJson):
-    """
-    기존 JSON과 새로운 JSON을 병합합니다.
-    동일한 키가 있으면 new_json의 값으로 덮어씁니다.
-    """
-    merged = originalJson.copy()  # 원본 보호
-    merged.update(newJson)       # 병합 (덮어쓰기 방식)
+    merged = originalJson.copy()
+    for key, value in newJson.items():
+        if key in merged:
+            if isinstance(value, list) and isinstance(merged[key], list):
+                merged[key].extend(value)  # 리스트면 누적
+            else:
+                merged[key] = value  # 그 외는 덮어씀
+        else:
+            merged[key] = value
     return merged
 
 def saveData(data, file_path):
@@ -126,6 +121,7 @@ def saveData(data, file_path):
     def saveJson():
         with open(file_path, mode, encoding=encoding) as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
+
 
     def saveText():
         with open(file_path, mode, encoding=encoding) as f:
