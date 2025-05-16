@@ -10,3 +10,10 @@ pip3 install beautifulsoup4
 pip3 install lxml
 pip3 install matplotlib
 ```
+### 모델 실행 위해 설치 ( 로컬 )
+```
+pip install langchain langchain_community langchain-openai langchain_chroma
+pip install unstructured
+python3 -m pip install konlpy
+pip install rank_bm25
+```
