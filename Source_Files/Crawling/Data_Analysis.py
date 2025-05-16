@@ -16,7 +16,7 @@ def getClosedPost(DataFrameBefore, DataFrameNew):
     return closedPost
 
 # main, detail DataFrame을 합치는 함수입니다
-def combineDataFrames(mainDataFrame, detailDataFrame):
+def mergeDataFrame(mainDataFrame, detailDataFrame):
     combinedDataFrame = pd.merge(detailDataFrame, mainDataFrame,
                                  left_index=True,
                                  right_index=True)
