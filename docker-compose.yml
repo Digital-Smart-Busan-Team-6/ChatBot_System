@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  webui:
+    image: ghcr.io/open-webui/open-webui:main
+    ports: ["3000:8080"]
+    environment:
+      # 내 FastAPI 서버가 8000 포트일 때
+      - OPENAI_API_BASE_URL=http://host.docker.internal:8000/v1
+      - OPENAI_API_KEY=dummy-key
+    volumes:
+      - webui_data:/app/backend/data
+
+  backend:
+    build: .
+    # Dockerfile 안에서:  `uvicorn serve:app --host 0.0.0.0 --port 8000`
+    volumes: ["./Source_Files:/app"]
+    environment:
+      - PYTHONUNBUFFERED=1
+volumes:
+  webui_data:
