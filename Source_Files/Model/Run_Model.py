@@ -1,7 +1,6 @@
 # -------- import & helpers ------------------------------------
 from pathlib import Path
 import json, os
-
 from dotenv import load_dotenv
 from langchain.schema import Document
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
@@ -16,7 +15,6 @@ from langchain.retrievers import EnsembleRetriever
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
-
 from konlpy.tag import Okt
 
 
@@ -112,18 +110,32 @@ from langchain_chroma import Chroma
 from pathlib import Path
 
 
-def get_db(texts, embed, persist_dir: str):
-    persist_dir = Path(persist_dir)
-    if persist_dir.exists():
-        print("기존 Chroma DB 로드")
-        return Chroma(persist_directory=str(persist_dir), embedding_function=embed)
+from pathlib import Path
+from langchain_chroma import Chroma
 
-    print("새 Chroma DB 생성")
-    return Chroma.from_documents(
-        texts,
-        embed,
-        persist_directory=str(persist_dir)
-    )
+def get_db(texts, embed, persist_dir: str):
+    persist_path = Path(persist_dir)
+    persist_path.mkdir(parents=True, exist_ok=True)
+
+    if any(persist_path.iterdir()):
+        print("기존 Chroma DB 로드")
+        db = Chroma(persist_directory=str(persist_path), embedding_function=embed)
+    else:
+        print("새 Chroma DB 생성")
+        db = Chroma.from_documents(
+            texts,
+            embed,
+            persist_directory=str(persist_path)
+        )
+
+    return db
+
+# 사용 예
+# db = get_db(documents, embedding_fn, "my_chroma_db")
+# 이후 추가 삽입 등 변경이 있으면:
+# db.add_documents(new_docs)
+# db.persist()
+
 
 
 # ---------- 4. Retriever --------------------------------------
@@ -147,16 +159,19 @@ def load_llm(engine: int, backend: int):
         name = "quen3:4b"
     else:
         raise ValueError("engine_num 은 1~3")
+
     if backend == 1:
         return ChatOpenAI(model=name, temperature=0,
                           streaming=True,
                           callbacks=[StreamingStdOutCallbackHandler()],
                           )
-    return ChatOllama(model=name, temperature=0,
-                      streaming=True,
-                      callbacks=[StreamingStdOutCallbackHandler()],
-                      )
-
+    elif backend == 2:
+        return ChatOllama(model=name, temperature=0,
+                          streaming=True,
+                          callbacks=[StreamingStdOutCallbackHandler()],
+                          )
+    else:
+        raise ValueError("1,2번 중 선택해 주세요.")
 
 # ---------- 6. Chain ------------------------------------------
 prompt_content = """
