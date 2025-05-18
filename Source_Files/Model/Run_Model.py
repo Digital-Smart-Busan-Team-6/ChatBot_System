@@ -17,6 +17,27 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 from konlpy.tag import Okt
 
+# -------- import & helpers ------------------------------------
+from pathlib import Path
+import json, os
+from dotenv import load_dotenv
+from langchain.schema import Document
+from langchain_community.document_loaders import DirectoryLoader, TextLoader
+from langchain_core.callbacks import StreamingStdOutCallbackHandler
+from langchain_text_splitters import RecursiveCharacterTextSplitter, RecursiveJsonSplitter
+from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+from langchain_community.retrievers import BM25Retriever
+from langchain.retrievers import EnsembleRetriever
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnableLambda, RunnablePassthrough
+from konlpy.tag import Okt
+import pandas as pd
+from setting_metadata import *
+
 
 def load_env_variables_for_Local():
     """
@@ -75,16 +96,67 @@ def load_files(folder: str, kind: str) -> list[Document]:
     return docs
 
 
-# ---------- 2. 스플리터 ---------------------------------------
-def split_docs(docs: list[Document], kind: str,
-               chunk: int = 1000, overlap: int = 100):
-    if kind == "json":
-        splitter = RecursiveCharacterTextSplitter(
-            chunk_size=chunk, chunk_overlap=overlap, length_function=len_okt
-        )
-        flat = [d.page_content for d in docs]
-        return splitter.create_documents(flat)
+import os, json
+from langchain.schema import Document
+from langchain_community.document_loaders import DirectoryLoader
 
+
+def load_files(file_path: str, kind: str) -> list[Document]:
+    docs = []
+
+    # 1) JSON 처리
+    if kind in ("json", "all"):
+        json_files = [f for f in os.listdir(file_path) if f.endswith(".json")]
+        analysis_files = [f for f in json_files if "Analysis" in f]
+        post_files = [f for f in json_files if "improve" in f]
+
+        if analysis_files:
+            with open(os.path.join(file_path, analysis_files[0]), encoding="utf-8") as f:
+                data_analysis = json.load(f)
+            docs += make_analysis_docs(data_analysis)
+
+        if post_files:
+            with open(os.path.join(file_path, post_files[0]), encoding="utf-8") as f:
+                raw = json.load(f)
+
+            # ◀ 리스트면 dict로 변환 ▶
+            if isinstance(raw, list):
+                # 리스트 요소에 'id' 키가 있다면 그걸, 없다면 인덱스를 key로
+                post_dict = {}
+                for idx, item in enumerate(raw):
+                    pid = item.get("id")
+                    if pid is None:
+                        pid = str(idx)
+                    post_dict[str(pid)] = item
+            elif isinstance(raw, dict):
+                post_dict = raw
+            else:
+                raise ValueError("Post JSON은 list 또는 dict 이어야 합니다.")
+
+            docs += make_post_docs(post_dict)
+
+    # 2) TXT 처리
+    if kind in ("txt", "all"):
+        loader = DirectoryLoader(
+            file_path,
+            glob="**/*.txt",
+            show_progress=True
+        )
+        docs += loader.load()
+
+    if not docs:
+        raise ValueError(f"'{kind}'에 해당하는 문서를 찾지 못했습니다.")
+
+    return docs
+
+
+# ---------- 2. 스플리터 ---------------------------------------
+from langchain_text_splitters import RecursiveJsonSplitter
+
+
+def split_docs(docs: list[Document],
+               chunk: int = 1000, overlap: int = 100):
+    # txt 분기: 기존 Character splitter
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk, chunk_overlap=overlap, length_function=len_okt
     )
@@ -109,11 +181,11 @@ def load_embed(device: str, model_name: str):
 from langchain_chroma import Chroma
 from pathlib import Path
 
-
 from pathlib import Path
 from langchain_chroma import Chroma
 
-def get_db(texts, embed, persist_dir: str):
+
+def get_db(docs, embed, persist_dir: str):
     persist_path = Path(persist_dir)
     persist_path.mkdir(parents=True, exist_ok=True)
 
@@ -123,19 +195,19 @@ def get_db(texts, embed, persist_dir: str):
     else:
         print("새 Chroma DB 생성")
         db = Chroma.from_documents(
-            texts,
+            docs,
             embed,
             persist_directory=str(persist_path)
         )
 
     return db
 
+
 # 사용 예
 # db = get_db(documents, embedding_fn, "my_chroma_db")
 # 이후 추가 삽입 등 변경이 있으면:
 # db.add_documents(new_docs)
 # db.persist()
-
 
 
 # ---------- 4. Retriever --------------------------------------
@@ -172,6 +244,7 @@ def load_llm(engine: int, backend: int):
                           )
     else:
         raise ValueError("1,2번 중 선택해 주세요.")
+
 
 # ---------- 6. Chain ------------------------------------------
 prompt_content = """
@@ -212,20 +285,21 @@ def main(return_chain_only=False):
     else:
         load_env_variables_for_Colab()  # Colab 실행
 
-    kind = input("파일 형식(json/txt): ").strip()
-    folder = "../../Data_Files"
-    docs = load_files(folder, kind)
+    # ----- ② 파일 로드 -------------------------------------
+    FILE_PATH = "../../Data_Files"
+    docs = load_files(FILE_PATH, kind := input("파일 종류(json/txt/all): "))
 
-    chunk = int(input("chunk: "))
-    texts = split_docs(docs, kind, chunk)
+    chunk_size = int(input("청크 사이즈(기본 1000): "))
+    overlap_size = int(input("오버랩 사이즈(기본 50): "))
+    docs = split_docs(docs, chunk=chunk_size, overlap=overlap_size)
 
     device = {1: "mps", 2: "cuda", 3: "cpu"}[int(input("디바이스(1:mps/2:cuda/3:cpu): "))]
     embed = load_embed(device, "nlpai-lab/KURE-v1")
-    db = get_db(texts, embed, f"./{kind}_{chunk}")
+    db = get_db(docs, embed, f"./{kind}_{chunk_size}")
 
     mode = int(input("retriever (1 vec / 2 bm25 /3 ensemble): "))
     k = int(input("k 개수를 입력해 주세요: "))
-    retr = build_retriever(mode, k=k, db=db, docs=texts)
+    retr = build_retriever(mode, k=k, db=db, docs=docs)
 
     llm_model = int(input("LLM 모델 번호(1: gpt-4o-mini / 2: gemma3:4b / 3: quen3:4b): "))
     llm = load_llm(llm_model_num := llm_model, backend=int(input("LLM (1 openai / 2 ollama): ")))
