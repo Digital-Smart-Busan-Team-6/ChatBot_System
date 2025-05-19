@@ -5,7 +5,7 @@ BASE = pathlib.Path(__file__).resolve().parent.parent   # .../Source_Files
 sys.path.append(str(BASE))                              # PYTHONPATH에 추가
 # --------------------------------------------------------
 
-from Model.Run_Model import main as build_pipeline      # ❌ Source_Files. 안 붙임
+from ..Model.Run_Model import main as build_pipeline      # ❌ Source_Files. 안 붙임
 # 이제 정상 import
 
 

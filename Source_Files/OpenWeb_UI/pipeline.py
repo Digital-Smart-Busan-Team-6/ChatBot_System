@@ -21,7 +21,7 @@ FILE_KIND          = "json"               # 또는 "txt"
 CHUNK, OVERLAP     = 1000, 100
 DEVICE, EMB_MODEL  = "mps", "nlpai-lab/KURE-v1"
 RETRIEVER_MODE, K  = 3, 5                 # 1 vec / 2 bm25 / 3 ensemble
-LLM_ENGINE, BACKEND = 1, 2                # 1 gpt-4o , 2 gemma3 … / backend 1 OpenAI 2 Ollama
+LLM_ENGINE, BACKEND = 1, 1               # 1 gpt-4o , 2 gemma3 … / backend 1 OpenAI 2 Ollama
 # --------------------------------------------------------------
 
 okt = Okt()
