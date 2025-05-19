@@ -16,25 +16,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 from konlpy.tag import Okt
-
-# -------- import & helpers ------------------------------------
-from pathlib import Path
-import json, os
-from dotenv import load_dotenv
-from langchain.schema import Document
-from langchain_community.document_loaders import DirectoryLoader, TextLoader
-from langchain_core.callbacks import StreamingStdOutCallbackHandler
-from langchain_text_splitters import RecursiveCharacterTextSplitter, RecursiveJsonSplitter
-from langchain_openai import ChatOpenAI
-from langchain_ollama import ChatOllama
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_chroma import Chroma
-from langchain_community.retrievers import BM25Retriever
-from langchain.retrievers import EnsembleRetriever
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnableLambda, RunnablePassthrough
-from konlpy.tag import Okt
 import pandas as pd
 from setting_metadata import *
 
@@ -76,24 +57,6 @@ def okt_tokenize(t): return okt.morphs(t)
 
 
 # ---------- 1. 로더 -------------------------------------------
-def load_files(folder: str, kind: str) -> list[Document]:
-    docs: list[Document] = []
-
-    if kind in ("json", "all"):
-        for p in Path(folder).rglob("*.json"):
-            with p.open(encoding="utf-8") as f:
-                txt = json.dumps(json.load(f), ensure_ascii=False, indent=2)
-            docs.append(Document(page_content=txt, metadata={"source": p.as_posix()}))
-
-    if kind in ("txt", "all"):
-        docs.extend(DirectoryLoader(folder, glob="**/*.txt").load())
-
-    if not docs:
-        raise ValueError("파일을 찾지 못했습니다.")
-
-    print(f"파일 {len(docs)}개 로드 완료")
-    print(f"파일 종류: {kind}")
-    return docs
 
 
 import os, json
@@ -153,14 +116,34 @@ def load_files(file_path: str, kind: str) -> list[Document]:
 # ---------- 2. 스플리터 ---------------------------------------
 from langchain_text_splitters import RecursiveJsonSplitter
 
+from tqdm.auto import tqdm
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain.schema import Document
 
-def split_docs(docs: list[Document],
-               chunk: int = 1000, overlap: int = 100):
-    # txt 분기: 기존 Character splitter
+
+def split_docs_with_progress(
+        docs: list[Document],
+        chunk: int = 1000,
+        overlap: int = 100,
+) -> list[Document]:
+    """
+    각 Document를 순회하며 TextSplitter를 적용하고,
+    tqdm으로 진행률을 표시합니다.
+    """
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk, chunk_overlap=overlap, length_function=len_okt
+        chunk_size=chunk,
+        chunk_overlap=overlap,
+        length_function=len_okt
     )
-    return splitter.split_documents(docs)
+    all_chunks: list[Document] = []
+
+    for doc in tqdm(docs, desc="문서 분할 중....", unit="doc"):
+        # 각 Document마다 split_documents를 호출해도 되고,
+        # 더 세밀하게는 splitter.split_text(doc.page_content)
+        chunks = splitter.split_documents([doc])
+        all_chunks.extend(chunks)
+
+    return all_chunks
 
 
 # ---------- 3. 임베딩 & DB ------------------------------------
@@ -184,21 +167,37 @@ from pathlib import Path
 from pathlib import Path
 from langchain_chroma import Chroma
 
+from pathlib import Path
+from tqdm.auto import tqdm
+from langchain_chroma import Chroma
+
 
 def get_db(docs, embed, persist_dir: str):
+    """
+    ▶ docs: list[Document]
+    ▶ embed: embedding function
+    ▶ persist_dir: 저장할 폴더 경로
+    """
     persist_path = Path(persist_dir)
     persist_path.mkdir(parents=True, exist_ok=True)
 
+    # 1) 기존 DB 로드
     if any(persist_path.iterdir()):
-        print("기존 Chroma DB 로드")
+        print("▶ 기존 Chroma DB 로드")
         db = Chroma(persist_directory=str(persist_path), embedding_function=embed)
+
+    # 2) 새 DB 생성
     else:
-        print("새 Chroma DB 생성")
-        db = Chroma.from_documents(
-            docs,
-            embed,
-            persist_directory=str(persist_path)
-        )
+        print("▶ 새 Chroma DB 생성 (임베딩 + 저장)")
+        db = Chroma(persist_directory=str(persist_path), embedding_function=embed)
+
+        # tqdm 으로 프로그레스 바 표시하며 문서 추가
+        for doc in tqdm(docs, desc="문서 추가 중", unit="doc"):
+            db.add_documents([doc])
+
+        # langchain_chroma 에서는 db.persist() 가 없으므로
+        # 내부 클라이언트에 persist() 를 호출합니다.
+        db._client.persist()
 
     return db
 
@@ -228,7 +227,7 @@ def load_llm(engine: int, backend: int):
     elif engine == 2:
         name = "gemma3:4b"
     elif engine == 3:
-        name = "quen3:4b"
+        name = "qwen3:4b"
     else:
         raise ValueError("engine_num 은 1~3")
 
@@ -277,6 +276,7 @@ def build_chain(retriever, llm):
     return chain
 
 
+
 # --------------- main -----------------------------------------
 def main(return_chain_only=False):
     # ----- ① 환경 변수 로드 ---------------------------------
@@ -291,7 +291,7 @@ def main(return_chain_only=False):
 
     chunk_size = int(input("청크 사이즈(기본 1000): "))
     overlap_size = int(input("오버랩 사이즈(기본 50): "))
-    docs = split_docs(docs, chunk=chunk_size, overlap=overlap_size)
+    docs = split_docs_with_progress(docs, chunk=chunk_size, overlap=overlap_size)
 
     device = {1: "mps", 2: "cuda", 3: "cpu"}[int(input("디바이스(1:mps/2:cuda/3:cpu): "))]
     embed = load_embed(device, "nlpai-lab/KURE-v1")
@@ -301,9 +301,11 @@ def main(return_chain_only=False):
     k = int(input("k 개수를 입력해 주세요: "))
     retr = build_retriever(mode, k=k, db=db, docs=docs)
 
-    llm_model = int(input("LLM 모델 번호(1: gpt-4o-mini / 2: gemma3:4b / 3: quen3:4b): "))
-    llm = load_llm(llm_model_num := llm_model, backend=int(input("LLM (1 openai / 2 ollama): ")))
+    llm_model = int(input("LLM 모델 번호(1: gpt-4o-mini / 2: gemma3:4b / 3: qwen3:4b): "))
+    llm = load_llm(llm_model, backend=int(input("LLM (1 openai / 2 ollama): ")))
     chain = build_chain(retr, llm)
+
+
     if return_chain_only:
         return chain
 
@@ -312,7 +314,6 @@ def main(return_chain_only=False):
         if q.lower() == "exit":
             break
         print(chain.invoke(q))
-
 
 if __name__ == "__main__":
     main()
