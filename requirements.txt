@@ -26,3 +26,5 @@ rank_bm25
 torch
 torchvision
 torchaudio
+debugpy
+sse_starlette
