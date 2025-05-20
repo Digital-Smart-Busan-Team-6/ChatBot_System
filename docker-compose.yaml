@@ -26,7 +26,7 @@ services:
       - ./Data_Files:/app/Data_Files
       - ./Source_Files/Model/json_1000:/app/chroma_db  # ← 실제 경로
     environment:
-      - PERSIST_DIR=/app/chroma_db
+
       - KIND=json
       - FILE_PATH=/app/Data_Files
       - DATA_FILES_PATH=/app/Data_Files
