@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  webui:
+    image: ghcr.io/open-webui/open-webui:main
+    ports:
+      - "3000:8080"
+    depends_on:
+      - backend
+    environment:
+      - OPENAI_API_BASE_URL=http://backend:8000/v1
+      - OPENAI_API_KEY=dummy-key
+      - DIRECT_CONNECTIONS__0__NAME=local-backend
+      - DIRECT_CONNECTIONS__0__URL=http://backend:8000/v1
+      - DIRECT_CONNECTIONS__0__PROVIDER=openai
+      - DIRECT_CONNECTIONS__0__API_KEY=dummy-key
+    volumes:
+      - webui_data:/app/backend/data
+
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./Source_Files:/app/Source_Files
+      - ./Data_Files:/app/Data_Files
+      - ./Source_Files/Model/json_1000:/app/chroma_db  # ← 실제 경로
+    environment:
+      - PERSIST_DIR=/app/chroma_db
+      - KIND=json
+      - FILE_PATH=/app/Data_Files
+      - DATA_FILES_PATH=/app/Data_Files
+      - CHUNK_SIZE=1000
+      - OVERLAP_SIZE=50
+      - DEVICE=cpu
+      - RETR_MODE=3
+      - RETR_K=3
+      - LLM_MODEL=1
+      - LLM_BACKEND=1
+      - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+    command: >
+      uvicorn Source_Files.OpenWeb_UI.serve:app
+      --host 0.0.0.0
+      --port 8000
+      --reload
+    env_file:
+      - ./.env
+
+volumes:
+  webui_data:

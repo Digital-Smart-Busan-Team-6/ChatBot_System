@@ -17,7 +17,8 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 from konlpy.tag import Okt
 import pandas as pd
-from setting_metadata import *
+from Source_Files.Model.setting_metadata import *
+
 
 
 def load_env_variables_for_Local():
@@ -121,6 +122,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 
 
+
 def split_docs_with_progress(
         docs: list[Document],
         chunk: int = 1000,
@@ -130,19 +132,39 @@ def split_docs_with_progress(
     각 Document를 순회하며 TextSplitter를 적용하고,
     tqdm으로 진행률을 표시합니다.
     """
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk,
-        chunk_overlap=overlap,
-        length_function=len_okt
-    )
-    all_chunks: list[Document] = []
 
-    for doc in tqdm(docs, desc="문서 분할 중....", unit="doc"):
-        # 각 Document마다 split_documents를 호출해도 되고,
-        # 더 세밀하게는 splitter.split_text(doc.page_content)
-        chunks = splitter.split_documents([doc])
-        all_chunks.extend(chunks)
+    # 만약 docs 파일이 존재하면
+    if os.path.exists(f'../../Data_Files/{chunk}_{overlap}_docs'):
+        with open(f'../../Data_Files/{chunk}_{overlap}_docs', 'r', encoding='utf-8') as f:
+            loaded = []
+            for line in f:
+                record = json.loads(line)
+                loaded.append(Document(page_content=record["page_content"], metadata=record["metadata"]))
+        return loaded
 
+    else:
+
+        splitter = RecursiveCharacterTextSplitter(
+            chunk_size=chunk,
+            chunk_overlap=overlap,
+            length_function=len_okt
+        )
+        all_chunks: list[Document] = []
+
+        for doc in tqdm(docs, desc="문서 분할 중....", unit="doc"):
+            # 각 Document마다 split_documents를 호출해도 되고,
+            # 더 세밀하게는 splitter.split_text(doc.page_content)
+            chunks = splitter.split_documents([doc])
+            all_chunks.extend(chunks)
+
+        with open(f'../../Data_Files/{chunk}_{overlap}_docs', 'w', encoding='utf-8') as f:
+            for doc in all_chunks:
+                record = {
+                    "page_content": doc.page_content,
+                    "metadata": doc.metadata
+                }
+                f.write(json.dumps(record, ensure_ascii=False))
+                f.write("\n")
     return all_chunks
 
 
@@ -277,43 +299,114 @@ def build_chain(retriever, llm):
 
 
 
-# --------------- main -----------------------------------------
-def main(return_chain_only=False):
-    # ----- ① 환경 변수 로드 ---------------------------------
+# # --------------- main -----------------------------------------
+# def main(return_chain_only=False):
+#     # ----- ① 환경 변수 로드 ---------------------------------
+#     if os.path.exists("../../.env"):
+#         load_env_variables_for_Local()  # 로컬 실행
+#     else:
+#         load_env_variables_for_Colab()  # Colab 실행
+#
+#     # ----- ② 파일 로드 -------------------------------------
+#     FILE_PATH = "../../Data_Files"
+#     docs = load_files(FILE_PATH, kind := input("파일 종류(json/txt/all): "))
+#
+#     chunk_size = int(input("청크 사이즈(기본 1000): "))
+#     overlap_size = int(input("오버랩 사이즈(기본 50): "))
+#     docs = split_docs_with_progress(docs, chunk=chunk_size, overlap=overlap_size)
+#
+#     device = {1: "mps", 2: "cuda", 3: "cpu"}[int(input("디바이스(1:mps/2:cuda/3:cpu): "))]
+#     embed = load_embed(device, "nlpai-lab/KURE-v1")
+#     db = get_db(docs, embed, f"./{kind}_{chunk_size}")
+#
+#     mode = int(input("retriever (1 vec / 2 bm25 /3 ensemble): "))
+#     k = int(input("k 개수를 입력해 주세요: "))
+#     retr = build_retriever(mode, k=k, db=db, docs=docs)
+#
+#     llm_model = int(input("LLM 모델 번호(1: gpt-4o-mini / 2: gemma3:4b / 3: qwen3:4b): "))
+#     llm = load_llm(llm_model, backend=int(input("LLM (1 openai / 2 ollama): ")))
+#     chain = build_chain(retr, llm)
+#
+#
+#     if return_chain_only:
+#         return chain
+#
+#     while True:
+#         q = input("\n질문(종료 exit): ")
+#         if q.lower() == "exit":
+#             break
+#         print(chain.invoke(q))
+#
+# if __name__ == "__main__":
+#     main()
+
+
+# Source_Files/Model/Run_Model.py
+# (생략: import 문들)
+
+def main(return_chain_only: bool = False):
+    # ① 환경 변수 로드
     if os.path.exists("../../.env"):
-        load_env_variables_for_Local()  # 로컬 실행
+        load_env_variables_for_Local()
+    # else:
+    #     load_env_variables_for_Colab()
+
+    # serve 모드면 input() 건너뛰고, ENV에서 설정을 읽어들임
+    if return_chain_only:
+        kind          = os.getenv("KIND","json")  # json/txt/all
+        file_path     = os.getenv("FILE_PATH","../../Data_Files")
+        chunk_size    = int(os.getenv("CHUNK_SIZE",    "1000"))
+        overlap_size  = int(os.getenv("OVERLAP_SIZE",    "50"))
+        device        = { "mps": "mps", "cuda": "cuda", "cpu": "cpu" }\
+                          [os.getenv("DEVICE", "cpu")]
+        persist_dir   = os.getenv("PERSIST_DIR",f'./{kind}_{chunk_size}')
+        retriever_num = int(os.getenv("RETR_MODE",    "3"))  # 1/2/3
+        k             = int(os.getenv("RETR_K",       "4"))  # top-k
+        llm_model_num = int(os.getenv("LLM_MODEL",    "1"))  # 1:gpt-4o-mini,2:gemma3,3:qwen3
+        llm_backend   = int(os.getenv("LLM_BACKEND",  "1"))  # 1:OpenAI,2:Ollama
+
     else:
-        load_env_variables_for_Colab()  # Colab 실행
+        # 기존 인터랙티브
+        kind          = input("파일 종류(json/txt/all): ").strip().lower()
+        file_path     = "../../Data_Files"
+        chunk_size    = int(input("청크 사이즈(기본 1000): "))
+        overlap_size  = int(input("오버랩 사이즈(기본 50): "))
+        persist_dir   = f'./{kind}_{chunk_size}'
+        device        = {1:"mps",2:"cuda",3:"cpu"}[int(input("디바이스(1:mps/2:cuda/3:cpu): "))]
+        retriever_num = int(input("retriever (1 vec /2 bm25 /3 ensemble): "))
+        k             = int(input("k 개수를 입력해 주세요: "))
+        llm_model_num = int(input("LLM 모델 번호(1: gpt-4o-mini /2: gemma3:4b /3:qwen3:4b): "))
+        llm_backend   = int(input("LLM (1:OpenAI /2:Ollama): "))
 
-    # ----- ② 파일 로드 -------------------------------------
-    FILE_PATH = "../../Data_Files"
-    docs = load_files(FILE_PATH, kind := input("파일 종류(json/txt/all): "))
+    # ② 파일 로드 → docs
+    files = load_files(file_path, kind)
 
-    chunk_size = int(input("청크 사이즈(기본 1000): "))
-    overlap_size = int(input("오버랩 사이즈(기본 50): "))
-    docs = split_docs_with_progress(docs, chunk=chunk_size, overlap=overlap_size)
+    # ③ 분할
+    docs = split_docs_with_progress(files, chunk=chunk_size, overlap=overlap_size)
 
-    device = {1: "mps", 2: "cuda", 3: "cpu"}[int(input("디바이스(1:mps/2:cuda/3:cpu): "))]
+    # ④ 임베딩 & DB
     embed = load_embed(device, "nlpai-lab/KURE-v1")
-    db = get_db(docs, embed, f"./{kind}_{chunk_size}")
+    db    = get_db(docs, embed, persist_dir)
 
-    mode = int(input("retriever (1 vec / 2 bm25 /3 ensemble): "))
-    k = int(input("k 개수를 입력해 주세요: "))
-    retr = build_retriever(mode, k=k, db=db, docs=docs)
+    # ⑤ retriever
+    retr = build_retriever(retriever_num, k=k, db=db, docs=docs)
 
-    llm_model = int(input("LLM 모델 번호(1: gpt-4o-mini / 2: gemma3:4b / 3: qwen3:4b): "))
-    llm = load_llm(llm_model, backend=int(input("LLM (1 openai / 2 ollama): ")))
+    # ⑥ LLM
+    llm  = load_llm(llm_model_num, backend=llm_backend)
+
+    # ⑦ Chain 생성
     chain = build_chain(retr, llm)
-
 
     if return_chain_only:
         return chain
 
+    # ── 인터랙티브 질의 루프 ──────────────────
     while True:
         q = input("\n질문(종료 exit): ")
-        if q.lower() == "exit":
+        if q.lower()=="exit":
             break
         print(chain.invoke(q))
+
 
 if __name__ == "__main__":
     main()
