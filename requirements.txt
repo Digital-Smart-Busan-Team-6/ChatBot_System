@@ -28,3 +28,4 @@ torchvision
 torchaudio
 debugpy
 sse_starlette
+peft
