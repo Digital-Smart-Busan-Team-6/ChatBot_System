@@ -337,8 +337,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 model = AutoModelForCausalLM.from_pretrained(
     "SiniDSBA/chatbot_test",
     use_auth_token=True,
-    #device_map="auto",  # GPU 자동 분산
-    #torch_dtype="auto"  # FP16/BF16 자동 선택
+    # device_map="auto",  # GPU 자동 분산
+    # torch_dtype="auto"  # FP16/BF16 자동 선택
 )  # :contentReference[oaicite:2]{index=2}
 tokenizer = AutoTokenizer.from_pretrained(
     "SiniDSBA/chatbot_test"
@@ -496,8 +496,8 @@ def main(return_chain_only: bool = False):
     # ① 환경 변수 로드
     if os.path.exists("../../.env"):
         load_env_variables_for_Local()
-    # else:
-    #     load_env_variables_for_Colab()
+    else:
+        load_env_variables_for_Colab()
     BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
     # serve 모드면 input() 건너뛰고, ENV에서 설정을 읽어들임
