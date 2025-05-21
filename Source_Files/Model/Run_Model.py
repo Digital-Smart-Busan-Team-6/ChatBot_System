@@ -20,7 +20,6 @@ import pandas as pd
 from Source_Files.Model.setting_metadata import *
 
 
-
 def load_env_variables_for_Local():
     """
     .env 파일에서 환경 변수를 로드합니다.
@@ -59,6 +58,7 @@ def load_env_variables_for_Colab():
 # konlpy Okt 를 지연 초기화하기 위한 래퍼
 _okt = None
 
+
 def get_okt():
     global _okt
     if _okt is None:
@@ -66,13 +66,14 @@ def get_okt():
         _okt = Okt()
     return _okt
 
+
 # 토크나이저 함수들
 def len_okt(t):
     return len(get_okt().morphs(t))
 
+
 def okt_tokenize(t):
     return get_okt().morphs(t)
-
 
 
 # ---------- 1. 로더 -------------------------------------------
@@ -140,7 +141,6 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 
 
-
 # def split_docs_with_progress(
 #         docs: list[Document],
 #         filepath : str,
@@ -187,10 +187,10 @@ from langchain.schema import Document
 #     return all_chunks
 
 def split_docs_with_progress(
-    docs: list[Document],
-    filepath: str | Path,
-    chunk: int = 1000,
-    overlap: int = 100,
+        docs: list[Document],
+        filepath: str | Path,
+        chunk: int = 1000,
+        overlap: int = 100,
 ) -> list[Document]:
     """
     각 Document를 순회하며 TextSplitter를 적용하고,
@@ -199,7 +199,7 @@ def split_docs_with_progress(
     """
     # 1) Path 객체로 통일
     base = Path(filepath)
-    cache_file = base / f"{chunk}_{overlap}_docs"
+    cache_file = base / f"{chunk}_{overlap}_docs_chunk"
 
     # 2) 캐시가 있으면 로드
     if cache_file.exists():
@@ -217,7 +217,7 @@ def split_docs_with_progress(
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk,
         chunk_overlap=overlap,
-        length_function=len_okt,   # 기존 토크나이저 함수 사용
+        length_function=len_okt,  # 기존 토크나이저 함수 사용
     )
     all_chunks: list[Document] = []
     for doc in tqdm(docs, desc="문서 분할 중....", unit="doc"):
@@ -289,7 +289,7 @@ def get_db(docs, embed, persist_dir: str):
 
         # langchain_chroma 에서는 db.persist() 가 없으므로
         # 내부 클라이언트에 persist() 를 호출합니다.
-        #db._client.persist()
+        # db._client.persist()
         print('▶ 새 DB 저장 완료')
     return db
 
@@ -330,28 +330,76 @@ def build_retriever(mode: int, k: int, db, docs):
 
 
 # ---------- 5. LLM --------------------------------------------
-def load_llm(engine: int, backend: int):
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# 1) 모델과 토크나이저 다운로드 및 캐시
+model = AutoModelForCausalLM.from_pretrained(
+    "SiniDSBA/chatbot_test",
+    use_auth_token=True,
+    #device_map="auto",  # GPU 자동 분산
+    #torch_dtype="auto"  # FP16/BF16 자동 선택
+)  # :contentReference[oaicite:2]{index=2}
+tokenizer = AutoTokenizer.from_pretrained(
+    "SiniDSBA/chatbot_test"
+)  # :contentReference[oaicite:3]{index=3}
+
+from transformers import pipeline
+from langchain_huggingface.llms import HuggingFacePipeline
+
+# 2) 파이프라인 생성
+pipeline_model = pipeline(
+    "text-generation",
+    model="SiniDSBA/chatbot_test",
+    device=0,  # CUDA:0
+    max_new_tokens=256,
+    temperature=0.0
+)  # :contentReference[oaicite:5]{index=5}
+
+# 3) LangChain 래퍼
+hf_llm = HuggingFacePipeline(pipeline=pipeline_model)  # :contentReference[oaicite:6]{index=6}
+
+
+def load_llm(engine: int, backend: int, device: str = "cuda"):
+    # 1) engine 번호에 따른 모델 ID 결정
     if engine == 1:
         name = "gpt-4o-mini"
     elif engine == 2:
         name = "gemma3:4b"
     elif engine == 3:
         name = "qwen3:4b"
+    elif engine == 4:
+        name = "SiniDSBA/chatbot_test"
     else:
-        raise ValueError("engine_num 은 1~3")
+        raise ValueError("engine_num 은 1~4")
 
+    # 2) backend별 LLM 반환
     if backend == 1:
-        return ChatOpenAI(model=name, temperature=0,
-                          streaming=True,
-                          callbacks=[StreamingStdOutCallbackHandler()],
-                          )
+        return ChatOpenAI(
+            model=name,
+            temperature=0,
+            streaming=True,
+            callbacks=[StreamingStdOutCallbackHandler()],
+        )
     elif backend == 2:
-        return ChatOllama(model=name, temperature=0,
-                          streaming=True,
-                          callbacks=[StreamingStdOutCallbackHandler()],
-                          )
+        return ChatOllama(
+            model=name,
+            temperature=0,
+            streaming=True,
+            callbacks=[StreamingStdOutCallbackHandler()],
+        )
+    elif backend == 3:
+        # HuggingFacePipeline을 통한 로딩
+        pipe = pipeline(
+            "text-generation",
+            model=name,
+            device=device,  # GPU 사용
+            max_new_tokens=256,
+            temperature=0.0
+        )  # :contentReference[oaicite:7]{index=7}
+        return HuggingFacePipeline(pipeline=pipe)  # :contentReference[oaicite:8]{index=8}
     else:
-        raise ValueError("1,2번 중 선택해 주세요.")
+        raise ValueError("backend는 1, 2, 또는 3 중 하나여야 합니다.")
 
 
 # ---------- 6. Chain ------------------------------------------
@@ -384,6 +432,19 @@ def build_chain(retriever, llm):
             } | PROMPT | llm | StrOutputParser()
     return chain
 
+
+from langchain.chains import RetrievalQA
+
+
+# def build_chain(retriever, llm):
+#     # llm: ChatOpenAI or ChatOllama
+#     # retriever: db.as_retriever(...)
+#     return RetrievalQA.from_chain_type(
+#         llm=llm,
+#         chain_type="stuff",     # 혹은 "map_reduce", "refine" 중 선택
+#         retriever=retriever,
+#         return_source_documents=False,
+#     )
 
 
 # # --------------- main -----------------------------------------
@@ -457,7 +518,7 @@ def main(return_chain_only: bool = False):
         file_path = BASE_DIR / os.getenv("DATA_PATH")
         chunk_size = 1000
         overlap_size = 50
-        device = 'cuda'
+        device = 'mps'
         persist_dir = BASE_DIR / os.getenv("DATA_PATH") / f"{kind}_{chunk_size}"
         retriever_num = 1  # 1/2/3
         k = 3  # top-k
@@ -466,16 +527,16 @@ def main(return_chain_only: bool = False):
 
     else:
         # 기존 인터랙티브
-        kind          = input("파일 종류(json/txt/all): ").strip().lower()
-        file_path     = "../../Data_Files"
-        chunk_size    = int(input("청크 사이즈(기본 1000): "))
-        overlap_size  = int(input("오버랩 사이즈(기본 50): "))
-        persist_dir   = f'../../Data_Files/{kind}_{chunk_size}'
-        device        = {1:"mps",2:"cuda",3:"cpu"}[int(input("디바이스(1:mps/2:cuda/3:cpu): "))]
+        kind = input("파일 종류(json/txt/all): ").strip().lower()
+        file_path = "../../Data_Files"
+        chunk_size = int(input("청크 사이즈(기본 1000): "))
+        overlap_size = int(input("오버랩 사이즈(기본 50): "))
+        persist_dir = f'../../Data_Files/{kind}_{chunk_size}'
+        device = {1: "mps", 2: "cuda", 3: "cpu"}[int(input("디바이스(1:mps/2:cuda/3:cpu): "))]
         retriever_num = int(input("retriever (1 vec /2 bm25 /3 ensemble): "))
-        k             = int(input("k 개수를 입력해 주세요: "))
-        llm_model_num = int(input("LLM 모델 번호(1: gpt-4o-mini /2: gemma3:4b /3:qwen3:4b): "))
-        llm_backend   = int(input("LLM (1:OpenAI /2:Ollama): "))
+        k = int(input("k 개수를 입력해 주세요: "))
+        llm_model_num = int(input("LLM 모델 번호(1: gpt-4o-mini / 2: gemma3:4b / 3:qwen3:4b / 4:Private Model): "))
+        llm_backend = int(input("LLM (1:OpenAI / 2:Ollama / 3: HuggingFace): "))
 
     # ② 파일 로드 → docs
     docs = load_files(file_path, kind)
@@ -485,13 +546,13 @@ def main(return_chain_only: bool = False):
 
     # ④ 임베딩 & DB
     embed = load_embed(device, "nlpai-lab/KURE-v1")
-    db    = get_db(chunks, embed, persist_dir)
+    db = get_db(chunks, embed, persist_dir)
 
     # ⑤ retriever
     retr = build_retriever(retriever_num, k=k, db=db, docs=chunks)
 
     # ⑥ LLM
-    llm  = load_llm(llm_model_num, backend=llm_backend)
+    llm = load_llm(llm_model_num, backend=llm_backend, device=device)
 
     # ⑦ Chain 생성
     chain = build_chain(retr, llm)
@@ -502,7 +563,7 @@ def main(return_chain_only: bool = False):
     # ── 인터랙티브 질의 루프 ──────────────────
     while True:
         q = input("\n질문(종료 exit): ")
-        if q.lower()=="exit":
+        if q.lower() == "exit":
             break
         print(chain.invoke(q))
 

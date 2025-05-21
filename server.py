@@ -1,31 +1,40 @@
 import os
+import time
 from pathlib import Path
 from dotenv import load_dotenv
 
+from fastapi import FastAPI, Request
+from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
+from starlette.concurrency import run_in_threadpool
 
-# 프로젝트 루트 디렉토리
-BASE_DIR = Path(__file__).resolve().parent
-
-# .env 파일 로드
-load_dotenv(BASE_DIR / '.env')
-
-# OpenAI 및 LangSmith 환경변수 설정
-os.environ['OPENAI_API_KEY']   = os.getenv('OPENAI_API_KEY')
-os.environ['LANGSMITH_ENDPOINT'] = os.getenv('LANGSMITH_ENDPOINT')
-os.environ['LANGSMITH_PROJECT']  = os.getenv('LANGSMITH_PROJECT')
-os.environ['LANGSMITH_TRACING']  = os.getenv('LANGSMITH_TRACING')
-os.environ['LANGSMITH_API_KEY']  = os.getenv('LANGSMITH_API_KEY')
-
-from fastapi import FastAPI
+from openai import AsyncOpenAI
 from langserve import add_routes
-from app import get_chain
-# 원본 문서가 저장된 폴더
-DATA_DIR    = BASE_DIR / 'Data_Files'
-# 벡터 DB가 저장된 폴더
-chunk_size = int(os.getenv("CHUNK_SIZE","1000"))
-kind       = os.getenv("KIND","json")
-model_db_dir = BASE_DIR / os.getenv("DATA_PATH") / f'{kind}_{chunk_size}'
+from app import get_chain  # 자신의 get_chain() 경로에 맞게 조정
 
-# FastAPI 앱 생성 및 라우트 추가
+# ── 1. 환경 변수 로드 ──────────────────────────────────────────────
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "")
+
+# ── 3. FastAPI 앱 생성 ────────────────────────────────────────────
 app = FastAPI()
+
+# ── 6. LangServe Playground 등록 (→ /playground/) ─────────────────
+chain = get_chain()
+
+from fastapi.staticfiles import StaticFiles
+
+# 1) custom_playground 디렉토리를 "/playground" 경로에 먼저 마운트
+# app.mount(
+#     "/playground",
+#     StaticFiles(directory="Custom_Playground/dist", html=True),
+#     name="Custom_Playground",
+# )
+
+# 2) 그 다음에 LangServe 기본 라우트 마운트
+add_routes(app, chain, path="/playground")
+
+
 add_routes(app, get_chain())
