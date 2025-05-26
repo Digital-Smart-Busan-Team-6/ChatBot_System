@@ -333,32 +333,43 @@ def build_retriever(mode: int, k: int, db, docs):
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# 1) 모델과 토크나이저 다운로드 및 캐시
-model = AutoModelForCausalLM.from_pretrained(
-    "SiniDSBA/chatbot_test",
-    use_auth_token=True,
-    #device_map="auto",  # GPU 자동 분산
-    #torch_dtype="auto"  # FP16/BF16 자동 선택
-)  # :contentReference[oaicite:2]{index=2}
-tokenizer = AutoTokenizer.from_pretrained(
-    "SiniDSBA/chatbot_test"
-)  # :contentReference[oaicite:3]{index=3}
 
 from transformers import pipeline
 from langchain_huggingface.llms import HuggingFacePipeline
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, GenerationConfig
+from langchain_huggingface.llms import HuggingFacePipeline
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnableLambda, RunnablePassthrough
+from langchain_core.output_parsers import StrOutputParser
+import torch
+from pathlib import Path
+import os
+from dotenv import load_dotenv
 
-# 2) 파이프라인 생성
-pipeline_model = pipeline(
-    "text-generation",
-    model="SiniDSBA/chatbot_test",
-    device=0,  # CUDA:0
-    max_new_tokens=256,
-    temperature=0.0
-)  # :contentReference[oaicite:5]{index=5}
+def load_peft_model(model_name: str, device: str):
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype=torch.float16,
+        device_map=device
+    )
 
-# 3) LangChain 래퍼
-hf_llm = HuggingFacePipeline(pipeline=pipeline_model)  # :contentReference[oaicite:6]{index=6}
+    gen_config = GenerationConfig(
+        max_new_tokens=256,
+        do_sample=True,
+        eos_token_id=tokenizer.eos_token_id or 2,
+    )
 
+    pipe = pipeline(
+        "text-generation",
+        model=model,
+        tokenizer=tokenizer,
+        device=device,
+        generation_config=gen_config
+    )
+
+    llm = HuggingFacePipeline(pipeline=pipe)
+    return llm
 
 def load_llm(engine: int, backend: int, device: str = "cuda"):
     # 1) engine 번호에 따른 모델 ID 결정
@@ -369,7 +380,7 @@ def load_llm(engine: int, backend: int, device: str = "cuda"):
     elif engine == 3:
         name = "qwen3:4b"
     elif engine == 4:
-        name = "SiniDSBA/chatbot_test"
+        name = "SiniDSBA/8800QA_SET"
     else:
         raise ValueError("engine_num 은 1~4")
 
@@ -422,7 +433,21 @@ PROMPT = ChatPromptTemplate.from_messages([
     ), ("human", "{text}"),
 
 ])
+def build_peft_chain(retriever, llm):
 
+    format_docs = lambda ds: "\n\n".join(d.page_content for d in ds)
+
+    def generate_answer(prompt):
+        result = llm.invoke(prompt)
+        answer = result.split("### 답변:")[-1].strip()
+        return answer
+
+    chain = {
+        "context": retriever | RunnableLambda(format_docs),
+        "question": RunnablePassthrough(),
+    } | PROMPT | RunnableLambda(generate_answer)
+
+    return chain
 
 def build_chain(retriever, llm):
     format_docs = lambda ds: "\n\n".join(d.page_content for d in ds)
@@ -436,61 +461,6 @@ def build_chain(retriever, llm):
 from langchain.chains import RetrievalQA
 
 
-# def build_chain(retriever, llm):
-#     # llm: ChatOpenAI or ChatOllama
-#     # retriever: db.as_retriever(...)
-#     return RetrievalQA.from_chain_type(
-#         llm=llm,
-#         chain_type="stuff",     # 혹은 "map_reduce", "refine" 중 선택
-#         retriever=retriever,
-#         return_source_documents=False,
-#     )
-
-
-# # --------------- main -----------------------------------------
-# def main(return_chain_only=False):
-#     # ----- ① 환경 변수 로드 ---------------------------------
-#     if os.path.exists("../../.env"):
-#         load_env_variables_for_Local()  # 로컬 실행
-#     else:
-#         load_env_variables_for_Colab()  # Colab 실행
-#
-#     # ----- ② 파일 로드 -------------------------------------
-#     FILE_PATH = "../../Data_Files"
-#     docs = load_files(FILE_PATH, kind := input("파일 종류(json/txt/all): "))
-#
-#     chunk_size = int(input("청크 사이즈(기본 1000): "))
-#     overlap_size = int(input("오버랩 사이즈(기본 50): "))
-#     docs = split_docs_with_progress(docs, chunk=chunk_size, overlap=overlap_size)
-#
-#     device = {1: "mps", 2: "cuda", 3: "cpu"}[int(input("디바이스(1:mps/2:cuda/3:cpu): "))]
-#     embed = load_embed(device, "nlpai-lab/KURE-v1")
-#     db = get_db(docs, embed, f"./{kind}_{chunk_size}")
-#
-#     mode = int(input("retriever (1 vec / 2 bm25 /3 ensemble): "))
-#     k = int(input("k 개수를 입력해 주세요: "))
-#     retr = build_retriever(mode, k=k, db=db, docs=docs)
-#
-#     llm_model = int(input("LLM 모델 번호(1: gpt-4o-mini / 2: gemma3:4b / 3: qwen3:4b): "))
-#     llm = load_llm(llm_model, backend=int(input("LLM (1 openai / 2 ollama): ")))
-#     chain = build_chain(retr, llm)
-#
-#
-#     if return_chain_only:
-#         return chain
-#
-#     while True:
-#         q = input("\n질문(종료 exit): ")
-#         if q.lower() == "exit":
-#             break
-#         print(chain.invoke(q))
-#
-# if __name__ == "__main__":
-#     main()
-
-
-# Source_Files/Model/Run_Model.py
-# (생략: import 문들)
 
 def main(return_chain_only: bool = False):
     # ① 환경 변수 로드
@@ -551,11 +521,16 @@ def main(return_chain_only: bool = False):
     # ⑤ retriever
     retr = build_retriever(retriever_num, k=k, db=db, docs=chunks)
 
-    # ⑥ LLM
-    llm = load_llm(llm_model_num, backend=llm_backend, device=device)
-
     # ⑦ Chain 생성
-    chain = build_chain(retr, llm)
+    if llm_backend == 3:
+        # PEFT 모델일 경우
+        llm = load_peft_model('SiniDSBA/8800QA_SET', device=device)
+
+        chain = build_peft_chain(retr, llm)
+    else:
+        # 일반 LLM일 경우
+        llm = load_llm(llm_model_num, backend=llm_backend, device=device)
+        chain = build_chain(retr, llm)
 
     if return_chain_only:
         return chain
